@@ -1,0 +1,45 @@
+body {
+  font-family: "Courier";
+  font-size: 12px;
+  margin: 0;
+}
+
+.enterwidget {
+  position: relative;
+  width: 345px;
+  height: 225px;
+  margin: 40px auto;
+  border: 1px solid #ccc;
+  background-color: #f7f7f7;
+  padding: 5px;
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  margin: 0;
+}
+
+.login {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 10px;
+}
+
+.login p {
+  text-align: right;
+}
+
+.signup {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  padding: 10px;
+}
+
+.separator {
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 25px;
+}

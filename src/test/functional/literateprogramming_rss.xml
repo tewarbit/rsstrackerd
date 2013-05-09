@@ -1,0 +1,1223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/atom10full.xsl"?>
+<?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0">
+  <author>
+    <name>Steve Klabnik</name>
+  </author>
+  <id>http://blog.steveklabnik.com/</id>
+  <title>Literate Programming</title>
+  <updated>2013-04-06T17:00:00-07:00</updated>
+  <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/atom+xml" href="http://feeds.feedburner.com/SteveKlabnik" /><feedburner:info uri="steveklabnik" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><geo:lat>40.454018</geo:lat><geo:long>-79.9325</geo:long><link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/2.0/" /><feedburner:emailServiceId>SteveKlabnik</feedburner:emailServiceId><feedburner:feedburnerHostname>http://feedburner.google.com</feedburner:feedburnerHostname>
+
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2013-04-07-upgrading-from-rust-0-5-to-0-6</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/WTmGWkqAR8c/2013-04-07-upgrading-from-rust-0-5-to-0-6" />
+    <title>Upgrading from Rust 0.5 to 0.6</title>
+    <updated>2013-04-06T17:00:00-07:00</updated>
+    <dc:date>2013-04-06T17:00:00-07:00</dc:date>
+    <content type="html">Here are some error messages that I got when updating Rust for
+      Rubyists from Rust 0.5 to the new 0.6, and
+      how to fix those errors.Error:rust.rs:1:4: 1:16 error: unresolved name
+      rust.rs:1 use task::spa...&lt;div class="feedflare"&gt;
+      &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=WTmGWkqAR8c:A6tyCKneYuM:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=WTmGWkqAR8c:A6tyCKneYuM:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=WTmGWkqAR8c:A6tyCKneYuM:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=WTmGWkqAR8c:A6tyCKneYuM:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=WTmGWkqAR8c:A6tyCKneYuM:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+      &lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/WTmGWkqAR8c" height="1" width="1"/&gt;
+    </content>
+    <feedburner:origLink>http://blog.steveklabnik.com/posts/2013-04-07-upgrading-from-rust-0-5-to-0-6</feedburner:origLink>
+  </entry>
+  
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2013-03-10-travis-build-matrix-for-rails</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/IN6Ovf_OCXA/2013-03-10-travis-build-matrix-for-rails" />
+    
+    <title>Travis build matrix for Rails</title>
+    <updated>2013-03-09T16:00:00-08:00</updated>
+    <dc:date>2013-03-09T16:00:00-08:00</dc:date>
+  <content type="html">Do you have a gem that needs to test against multiple versions of Rails? Doing
+it all can be complex, and while I have lots to say about this topic, but
+here\'s one of the pieces: Travis build matrix.H...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=IN6Ovf_OCXA:HGsKKgLCz6g:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=IN6Ovf_OCXA:HGsKKgLCz6g:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=IN6Ovf_OCXA:HGsKKgLCz6g:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=IN6Ovf_OCXA:HGsKKgLCz6g:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=IN6Ovf_OCXA:HGsKKgLCz6g:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/IN6Ovf_OCXA" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2013-03-10-travis-build-matrix-for-rails</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2013-02-24-using-puma-on-heroku</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/IVwrzWx7v98/2013-02-24-using-puma-on-heroku" />
+    
+    <title>Using Puma on Heroku</title>
+    <updated>2013-02-23T16:00:00-08:00</updated>
+    <dc:date>2013-02-23T16:00:00-08:00</dc:date>
+  <content type="html">I\'m a big fan of Puma these days. Today, I converted my blog
+over to use Puma, and I figured I\'d share how I did it. This blog uses Sinatra.If you want to look ahead,
+here is the commit.GemfileInstall...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=IVwrzWx7v98:WHTwF-5K58A:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=IVwrzWx7v98:WHTwF-5K58A:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=IVwrzWx7v98:WHTwF-5K58A:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=IVwrzWx7v98:WHTwF-5K58A:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=IVwrzWx7v98:WHTwF-5K58A:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/IVwrzWx7v98" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2013-02-24-using-puma-on-heroku</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2013-02-13-i-m-writing--rails-4-in-action--</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/WcJ9H_B2wJE/2013-02-13-i-m-writing--rails-4-in-action--" />
+    
+    <title>I\'m writing \'Rails 4 in Action.\'</title>
+    <updated>2013-02-12T16:00:00-08:00</updated>
+    <dc:date>2013-02-12T16:00:00-08:00</dc:date>
+  <content type="html">Last night, I took a big step forward in my writing career: I\'ll be building
+upon the work Ryan Bigg was doing to take "Rails 3 in Action" and move it to
+Rails 4. I signed the contract a few weeks ago...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=WcJ9H_B2wJE:8Rw3VR6hILI:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=WcJ9H_B2wJE:8Rw3VR6hILI:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=WcJ9H_B2wJE:8Rw3VR6hILI:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=WcJ9H_B2wJE:8Rw3VR6hILI:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=WcJ9H_B2wJE:8Rw3VR6hILI:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/WcJ9H_B2wJE" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2013-02-13-i-m-writing--rails-4-in-action--</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2013-02-12-the-next-iteration-of-designing-hypermedia-apis</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/QXXZomrrpMY/2013-02-12-the-next-iteration-of-designing-hypermedia-apis" />
+    
+    <title>The next iteration of Designing Hypermedia APIs</title>
+    <updated>2013-02-11T16:00:00-08:00</updated>
+    <dc:date>2013-02-11T16:00:00-08:00</dc:date>
+  <content type="html">I sent out an email today to everyone who\'d previously purchased Designing Hypermedia APIs. Here\'s
+the text:Hey there,
+
+First of all, I want to apologize for sending you an email. I try to
+keep these ...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=QXXZomrrpMY:nDZOG0nvkNo:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=QXXZomrrpMY:nDZOG0nvkNo:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=QXXZomrrpMY:nDZOG0nvkNo:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=QXXZomrrpMY:nDZOG0nvkNo:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=QXXZomrrpMY:nDZOG0nvkNo:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/QXXZomrrpMY" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2013-02-12-the-next-iteration-of-designing-hypermedia-apis</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2013-02-11-ruby-on-rails-maintenance-policy</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/zICqavj_iJE/2013-02-11-ruby-on-rails-maintenance-policy" />
+    
+    <title>Ruby on Rails maintenance policy</title>
+    <updated>2013-02-10T16:00:00-08:00</updated>
+    <dc:date>2013-02-10T16:00:00-08:00</dc:date>
+  <content type="html">Recently, the Rails team has committed to a specific policy related to release
+maintenance. Due to the rapid pace of recent releases, it\'s good to understand
+how your apps relate to this policy.The po...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=zICqavj_iJE:0Z6HkrRdTB8:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=zICqavj_iJE:0Z6HkrRdTB8:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=zICqavj_iJE:0Z6HkrRdTB8:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=zICqavj_iJE:0Z6HkrRdTB8:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=zICqavj_iJE:0Z6HkrRdTB8:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/zICqavj_iJE" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2013-02-11-ruby-on-rails-maintenance-policy</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2013-01-23-node</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/kukX1qN-YFw/2013-01-23-node" />
+    
+    <title>Node, Twitter, and Apologies</title>
+    <updated>2013-01-22T16:00:00-08:00</updated>
+    <dc:date>2013-01-22T16:00:00-08:00</dc:date>
+  <content type="html">Soooo there\'s this thing:
+http://harthur.wordpress.com/2013/01/24/771/First of all, unequivocally, I said it before, and I\'ll say it again: I\'m
+sorry, and feel terrible that I made someone feel terrib...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=kukX1qN-YFw:juDXgrXt02o:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=kukX1qN-YFw:juDXgrXt02o:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=kukX1qN-YFw:juDXgrXt02o:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=kukX1qN-YFw:juDXgrXt02o:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=kukX1qN-YFw:juDXgrXt02o:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/kukX1qN-YFw" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2013-01-23-node</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2013-01-14-draper-1-0-0-released</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/dVUt7xmvBAE/2013-01-14-draper-1-0-0-released" />
+    
+    <title>Draper 1.0.0 released</title>
+    <updated>2013-01-13T16:00:00-08:00</updated>
+    <dc:date>2013-01-13T16:00:00-08:00</dc:date>
+  <content type="html">Today, I released Draper 1.0.0! Draper is a gem that gives you decorators/view
+models for Rails.Rubygems: https://rubygems.org/gems/draper
+GitHub: https://github.com/drapergem/draper
+README: https://g...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=dVUt7xmvBAE:uzq9Ke4dork:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=dVUt7xmvBAE:uzq9Ke4dork:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=dVUt7xmvBAE:uzq9Ke4dork:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=dVUt7xmvBAE:uzq9Ke4dork:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=dVUt7xmvBAE:uzq9Ke4dork:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/dVUt7xmvBAE" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2013-01-14-draper-1-0-0-released</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2012-12-29-2012--year-in-review</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/G2IM3FILEbQ/2012-12-29-2012--year-in-review" />
+    
+    <title>2012: Year in Review</title>
+    <updated>2012-12-28T16:00:00-08:00</updated>
+    <dc:date>2012-12-28T16:00:00-08:00</dc:date>
+  <content type="html">I always enjoy reading patio11\'s year in review
+posts,
+and while I didn\'t take enough notes for this year to do a GOOD one, I figure
+that I should at least leave some notes so that when I do one next ...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=G2IM3FILEbQ:AMhxOdgMkgY:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=G2IM3FILEbQ:AMhxOdgMkgY:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=G2IM3FILEbQ:AMhxOdgMkgY:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=G2IM3FILEbQ:AMhxOdgMkgY:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=G2IM3FILEbQ:AMhxOdgMkgY:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/G2IM3FILEbQ" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2012-12-29-2012--year-in-review</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2012-12-19-an-early-christmas-present-for-you</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/9ZM_eZY6NRs/2012-12-19-an-early-christmas-present-for-you" />
+    
+    <title>An early Christmas present for you!</title>
+    <updated>2012-12-18T16:00:00-08:00</updated>
+    <dc:date>2012-12-18T16:00:00-08:00</dc:date>
+  <content type="html">Normally, I\'m a bit of a grinch. I\'ll admit it, I really hate Christmas. It
+reminds me of all of the worst parts of America: You know, how the baby Jesus
+commands us to literally shop until we kill ea...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=9ZM_eZY6NRs:Gmx-6kvZXhg:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=9ZM_eZY6NRs:Gmx-6kvZXhg:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=9ZM_eZY6NRs:Gmx-6kvZXhg:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=9ZM_eZY6NRs:Gmx-6kvZXhg:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=9ZM_eZY6NRs:Gmx-6kvZXhg:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/9ZM_eZY6NRs" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2012-12-19-an-early-christmas-present-for-you</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2012-12-17-announcing-requeststore</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/aHxuuBYBIRU/2012-12-17-announcing-requeststore" />
+    
+    <title>Announcing RequestStore</title>
+    <updated>2012-12-16T16:00:00-08:00</updated>
+    <dc:date>2012-12-16T16:00:00-08:00</dc:date>
+  <content type="html">Last night I had some insomnia, so I wrote a gem.Here it is: https://github.com/steveklabnik/request_store.TL;DR:If you\'re using Thread.current in your Rails app to store global-ish data,
+don\'t do it!...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=aHxuuBYBIRU:pBqKpYJlDjM:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=aHxuuBYBIRU:pBqKpYJlDjM:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=aHxuuBYBIRU:pBqKpYJlDjM:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=aHxuuBYBIRU:pBqKpYJlDjM:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=aHxuuBYBIRU:pBqKpYJlDjM:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/aHxuuBYBIRU" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2012-12-17-announcing-requeststore</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2012-12-13-getting-started-with-chruby</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/504hYKZK4lE/2012-12-13-getting-started-with-chruby" />
+    
+    <title>Getting started with chruby</title>
+    <updated>2012-12-12T16:00:00-08:00</updated>
+    <dc:date>2012-12-12T16:00:00-08:00</dc:date>
+  <content type="html">If you\'re looking for crazy simplicity in your \'switch between multiple Rubies\'
+life, you may want to check out chruby.
+Written by Postmodern, it\'s basically the simplest possible thing that can
+work....&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=504hYKZK4lE:3mi1z9gd-W0:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=504hYKZK4lE:3mi1z9gd-W0:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=504hYKZK4lE:3mi1z9gd-W0:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=504hYKZK4lE:3mi1z9gd-W0:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=504hYKZK4lE:3mi1z9gd-W0:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/504hYKZK4lE" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2012-12-13-getting-started-with-chruby</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2012-12-03-draper-1-0-0-beta2-release</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/dgq5pdEfiCE/2012-12-03-draper-1-0-0-beta2-release" />
+    
+    <title>Draper 1.0.0.beta2 release</title>
+    <updated>2012-12-02T16:00:00-08:00</updated>
+    <dc:date>2012-12-02T16:00:00-08:00</dc:date>
+  <content type="html">I\'ve relased the second beta for Draper 1.0.0! Many thanks to all of you who
+gave the first beta a shot. We\'ve fixed some issues, and I\'d apprecaite you
+giving this one a try. This solves all known is...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=dgq5pdEfiCE:VBNnkRz7kHw:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=dgq5pdEfiCE:VBNnkRz7kHw:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=dgq5pdEfiCE:VBNnkRz7kHw:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=dgq5pdEfiCE:VBNnkRz7kHw:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=dgq5pdEfiCE:VBNnkRz7kHw:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/dgq5pdEfiCE" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2012-12-03-draper-1-0-0-beta2-release</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2012-11-30-draper-1-0-0-beta1-release</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/yBHeybX1VOk/2012-11-30-draper-1-0-0-beta1-release" />
+    
+    <title>Draper 1.0.0.beta1 release</title>
+    <updated>2012-11-29T16:00:00-08:00</updated>
+    <dc:date>2012-11-29T16:00:00-08:00</dc:date>
+  <content type="html">I\'m happy to announce the release of Draper 1.0.0.beta1 today. If you use
+Draper, I\'d appreciate you checking out the beta release in your app, kicking
+the tires, and letting me know what\'s up.You can...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=yBHeybX1VOk:9rUzaUng4Nk:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=yBHeybX1VOk:9rUzaUng4Nk:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=yBHeybX1VOk:9rUzaUng4Nk:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=yBHeybX1VOk:9rUzaUng4Nk:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=yBHeybX1VOk:9rUzaUng4Nk:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/yBHeybX1VOk" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2012-11-30-draper-1-0-0-beta1-release</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2012-11-22-introducing-the-rails-api-project</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/l9m2OfMcgzc/2012-11-22-introducing-the-rails-api-project" />
+    
+    <title>Introducing the Rails API Project</title>
+    <updated>2012-11-21T16:00:00-08:00</updated>
+    <dc:date>2012-11-21T16:00:00-08:00</dc:date>
+  <content type="html">Ruby on Rails is a great tool to build websites incredibly quickly and easily.
+But what about applications that aren\'t websites? Rails is still a first-class
+choice for this use-case, but why settle f...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=l9m2OfMcgzc:fTHDk4f2yak:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=l9m2OfMcgzc:fTHDk4f2yak:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=l9m2OfMcgzc:fTHDk4f2yak:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=l9m2OfMcgzc:fTHDk4f2yak:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=l9m2OfMcgzc:fTHDk4f2yak:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/l9m2OfMcgzc" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2012-11-22-introducing-the-rails-api-project</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2012-11-08-how-to-squash-commits-in-a-github-pull-request</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/6hlvapUPeYU/2012-11-08-how-to-squash-commits-in-a-github-pull-request" />
+    
+    <title>How to squash commits in a GitHub pull request</title>
+    <updated>2012-11-07T16:00:00-08:00</updated>
+    <dc:date>2012-11-07T16:00:00-08:00</dc:date>
+  <content type="html">So you\'ve contributed some code to an open source project, say, Rails. And
+they\'d like you to squash all of the commits in your pull request. But you\'re
+not a git wizard; how do you make this happen?N...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=6hlvapUPeYU:mxYJfjNmrV8:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=6hlvapUPeYU:mxYJfjNmrV8:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=6hlvapUPeYU:mxYJfjNmrV8:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=6hlvapUPeYU:mxYJfjNmrV8:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=6hlvapUPeYU:mxYJfjNmrV8:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/6hlvapUPeYU" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2012-11-08-how-to-squash-commits-in-a-github-pull-request</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2012-10-04-run-rails-with-custom-patches</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/E85_UHseOws/2012-10-04-run-rails-with-custom-patches" />
+    
+    <title>Run Rails with custom patches</title>
+    <updated>2012-10-03T17:00:00-07:00</updated>
+    <dc:date>2012-10-03T17:00:00-07:00</dc:date>
+  <content type="html">I often see comments like this
+in the Rails bugtracker. Generally, someone is running an older version of
+Rails, and some bug they face has been fixed on edge. But they may be running
+a version that\'s...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=E85_UHseOws:a8HYE_fyyFQ:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=E85_UHseOws:a8HYE_fyyFQ:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=E85_UHseOws:a8HYE_fyyFQ:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=E85_UHseOws:a8HYE_fyyFQ:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=E85_UHseOws:a8HYE_fyyFQ:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/E85_UHseOws" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2012-10-04-run-rails-with-custom-patches</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2012-09-27-seriously--numbers--use-them-</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/o84g3lB6ToI/2012-09-27-seriously--numbers--use-them-" />
+    
+    <title>Seriously. Numbers. Use them.</title>
+    <updated>2012-09-26T17:00:00-07:00</updated>
+    <dc:date>2012-09-26T17:00:00-07:00</dc:date>
+  <content type="html">&amp;lt;iframe src="http://player.vimeo.com/video/50340416" width="500" height="313" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen&amp;gt;&amp;lt;/iframe&amp;gt; &amp;lt;p&amp;gt;&amp;lt;a href="http://vimeo.com/50340416"&amp;gt;...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=o84g3lB6ToI:JikPkV3LeRQ:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=o84g3lB6ToI:JikPkV3LeRQ:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=o84g3lB6ToI:JikPkV3LeRQ:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=o84g3lB6ToI:JikPkV3LeRQ:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=o84g3lB6ToI:JikPkV3LeRQ:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/o84g3lB6ToI" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2012-09-27-seriously--numbers--use-them-</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2012-09-22-resque--let-s-do-this</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/luzoXlcYb54/2012-09-22-resque--let-s-do-this" />
+    
+    <title>Rescuing Resque: Let\'s do this</title>
+    <updated>2012-09-21T17:00:00-07:00</updated>
+    <dc:date>2012-09-21T17:00:00-07:00</dc:date>
+  <content type="html">If you\'ve ever done background job stuff with Rails, you\'ve probably used
+Resque. Resque is "Yet Another GitHub
+Project They\'ve Open Sourced and Then Abandoned." But Resque is super awesome:
+it builds...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=luzoXlcYb54:cyJ4Az_Jk9k:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=luzoXlcYb54:cyJ4Az_Jk9k:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=luzoXlcYb54:cyJ4Az_Jk9k:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=luzoXlcYb54:cyJ4Az_Jk9k:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=luzoXlcYb54:cyJ4Az_Jk9k:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/luzoXlcYb54" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2012-09-22-resque--let-s-do-this</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2012-09-09-random-ruby-tricks--class-new</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/Y4sT1pa9Gfc/2012-09-09-random-ruby-tricks--class-new" />
+    
+    <title>Random Ruby Tricks: Class.new</title>
+    <updated>2012-09-08T17:00:00-07:00</updated>
+    <dc:date>2012-09-08T17:00:00-07:00</dc:date>
+  <content type="html">If you didn\'t know, classes are first-class objects in Ruby:1.9.3p194 :001 &amp;gt; String.class
+ =&amp;gt; Class 
+1.9.3p194 :002 &amp;gt; Class.class
+ =&amp;gt; Class 
+How is this useful, though?InheritanceYou may create very s...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=Y4sT1pa9Gfc:vdxn-_mh0gk:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=Y4sT1pa9Gfc:vdxn-_mh0gk:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=Y4sT1pa9Gfc:vdxn-_mh0gk:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=Y4sT1pa9Gfc:vdxn-_mh0gk:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=Y4sT1pa9Gfc:vdxn-_mh0gk:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/Y4sT1pa9Gfc" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2012-09-09-random-ruby-tricks--class-new</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2012-09-01-random-ruby-tricks--struct-new</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/g-eOr8GsQQw/2012-09-01-random-ruby-tricks--struct-new" />
+    
+    <title>Random Ruby Tricks: Struct.new</title>
+    <updated>2012-08-31T17:00:00-07:00</updated>
+    <dc:date>2012-08-31T17:00:00-07:00</dc:date>
+  <content type="html">One of my favorite classes in Ruby is Struct, but I feel like many Rubyists
+don\'t know when to take advantage of it. The standard library has a lot of
+junk in it, but Struct and OStruct are super awes...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=g-eOr8GsQQw:wQ5IWt9-dAU:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=g-eOr8GsQQw:wQ5IWt9-dAU:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=g-eOr8GsQQw:wQ5IWt9-dAU:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=g-eOr8GsQQw:wQ5IWt9-dAU:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=g-eOr8GsQQw:wQ5IWt9-dAU:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/g-eOr8GsQQw" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2012-09-01-random-ruby-tricks--struct-new</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2012-08-31-new-blog--words</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/ThpgovJ-xE0/2012-08-31-new-blog--words" />
+    
+    <title>New Blog: Words</title>
+    <updated>2012-08-30T17:00:00-07:00</updated>
+    <dc:date>2012-08-30T17:00:00-07:00</dc:date>
+  <content type="html">I\'ve started a new blog: Words.You may have noticed that it\'s a part of the Svbtle blogging network.
+I\'m super excited about this, but you may be confused. Let me explain.My relationship with writingI...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=ThpgovJ-xE0:N0JvTfPk5nA:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=ThpgovJ-xE0:N0JvTfPk5nA:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=ThpgovJ-xE0:N0JvTfPk5nA:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=ThpgovJ-xE0:N0JvTfPk5nA:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=ThpgovJ-xE0:N0JvTfPk5nA:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/ThpgovJ-xE0" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2012-08-31-new-blog--words</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2012-07-25-dayz</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/TcRpJA3CYd0/2012-07-25-dayz" />
+    
+    <title>DayZ: Worse is Better</title>
+    <updated>2012-07-24T17:00:00-07:00</updated>
+    <dc:date>2012-07-24T17:00:00-07:00</dc:date>
+  <content type="html">I\'ve recently come across one of the most addicting, interesting experiences
+I\'ve ever had online: DayZ. I hesitate to call it a
+\'video game,\' because while it is a mod for a first person shooter game...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=TcRpJA3CYd0:vZY2kOlj_Vg:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=TcRpJA3CYd0:vZY2kOlj_Vg:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=TcRpJA3CYd0:vZY2kOlj_Vg:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=TcRpJA3CYd0:vZY2kOlj_Vg:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=TcRpJA3CYd0:vZY2kOlj_Vg:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/TcRpJA3CYd0" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2012-07-25-dayz</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2012-07-21-sparrow</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/E0BTMpKum6g/2012-07-21-sparrow" />
+    
+    <title>Sparrow, Part 1</title>
+    <updated>2012-07-20T17:00:00-07:00</updated>
+    <dc:date>2012-07-20T17:00:00-07:00</dc:date>
+  <content type="html">I purchased Sparrow back when it was $9, and didn\'t find it particularly
+amazing. I did like it, but ended up using the web interface more. I certainly
+got my $9 of value out of it, though, even thoug...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=E0BTMpKum6g:ogyZqEtBMoc:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=E0BTMpKum6g:ogyZqEtBMoc:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=E0BTMpKum6g:ogyZqEtBMoc:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=E0BTMpKum6g:ogyZqEtBMoc:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=E0BTMpKum6g:ogyZqEtBMoc:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/E0BTMpKum6g" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2012-07-21-sparrow</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2012-07-14-why-i-don-t-like-factory_girl</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/lWFdG7VIYMg/2012-07-14-why-i-don-t-like-factory_girl" />
+    
+    <title>Why I don\'t like factory_girl</title>
+    <updated>2012-07-13T17:00:00-07:00</updated>
+    <dc:date>2012-07-13T17:00:00-07:00</dc:date>
+  <content type="html">Once upon a time, I was building my First Serious Rails App. I was drawn to
+Rails in the first place because of automated testing and ActiveRecord; I felt
+the pain of not using an ORM and spending abo...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=lWFdG7VIYMg:9dMi9V2EHno:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=lWFdG7VIYMg:9dMi9V2EHno:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=lWFdG7VIYMg:9dMi9V2EHno:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=lWFdG7VIYMg:9dMi9V2EHno:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=lWFdG7VIYMg:9dMi9V2EHno:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/lWFdG7VIYMg" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2012-07-14-why-i-don-t-like-factory_girl</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2012-07-05-how-can-i-contribute-to-ruby-on-rails-</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/CiF0MTScrpE/2012-07-05-how-can-i-contribute-to-ruby-on-rails-" />
+    
+    <title>How can I contribute to Ruby on Rails?</title>
+    <updated>2012-07-04T17:00:00-07:00</updated>
+    <dc:date>2012-07-04T17:00:00-07:00</dc:date>
+  <content type="html">After RailsConf this year, I joined the Rails Issue Team. This means that I
+help triage issues that people have filed, try to reproduce errors, and point
+core team members at ones that are most import...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=CiF0MTScrpE:MRy7tHuueY8:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=CiF0MTScrpE:MRy7tHuueY8:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=CiF0MTScrpE:MRy7tHuueY8:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=CiF0MTScrpE:MRy7tHuueY8:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=CiF0MTScrpE:MRy7tHuueY8:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/CiF0MTScrpE" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2012-07-05-how-can-i-contribute-to-ruby-on-rails-</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2012-06-29-introducing-issue2pr</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/1E0dAlJsYwQ/2012-06-29-introducing-issue2pr" />
+    
+    <title>Introducing issue2pr</title>
+    <updated>2012-06-28T17:00:00-07:00</updated>
+    <dc:date>2012-06-28T17:00:00-07:00</dc:date>
+  <content type="html">Ever had an issue on GitHub, and then you fixed the bug? Opened a brand new 
+pull request, which becomes a new issue, and then you have to remember to link
+the two via a comment, or manually go back a...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=1E0dAlJsYwQ:0AMIB8A8BVw:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=1E0dAlJsYwQ:0AMIB8A8BVw:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=1E0dAlJsYwQ:0AMIB8A8BVw:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=1E0dAlJsYwQ:0AMIB8A8BVw:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=1E0dAlJsYwQ:0AMIB8A8BVw:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/1E0dAlJsYwQ" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2012-06-29-introducing-issue2pr</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2012-05-31-show-solidarity-to-all-who-resist</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/i-o0uvv68xw/2012-05-31-show-solidarity-to-all-who-resist" />
+    
+    <title>Show solidarity to all who resist</title>
+    <updated>2012-05-30T17:00:00-07:00</updated>
+    <dc:date>2012-05-30T17:00:00-07:00</dc:date>
+  <content type="html">I found this on a flyer in my neighborhood.&amp;lt;hr /&amp;gt;
+On may 19th, three people associated with the Occupy movement were arrested in Chicago, just before the anti-NATO protest. Two infiltrators had been w...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=i-o0uvv68xw:jvUN0eL67F4:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=i-o0uvv68xw:jvUN0eL67F4:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=i-o0uvv68xw:jvUN0eL67F4:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=i-o0uvv68xw:jvUN0eL67F4:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=i-o0uvv68xw:jvUN0eL67F4:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/i-o0uvv68xw" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2012-05-31-show-solidarity-to-all-who-resist</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2012-05-30-finale</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/bqz2M3d12oo/2012-05-30-finale" />
+    
+    <title>Finale</title>
+    <updated>2012-05-29T17:00:00-07:00</updated>
+    <dc:date>2012-05-29T17:00:00-07:00</dc:date>
+  <content type="html">This morning, my mother woke up and found that my father had passed away in the
+night.Thanks for all the love and support you all have shown me over the last two
+months. It\'s been hard, but you all ha...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=bqz2M3d12oo:uiwi_clTy_Q:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=bqz2M3d12oo:uiwi_clTy_Q:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=bqz2M3d12oo:uiwi_clTy_Q:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=bqz2M3d12oo:uiwi_clTy_Q:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=bqz2M3d12oo:uiwi_clTy_Q:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/bqz2M3d12oo" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2012-05-30-finale</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2012-05-25-shoes-4-work-is-starting--get-involved</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/B9_uDF0a17Y/2012-05-25-shoes-4-work-is-starting--get-involved" />
+    
+    <title>Shoes 4 work is starting: get involved</title>
+    <updated>2012-05-24T17:00:00-07:00</updated>
+    <dc:date>2012-05-24T17:00:00-07:00</dc:date>
+  <content type="html">As you know, I\'ve been doing a lot of work over the last few years to keep
+_why\'s Shoes project going. A few other intrepid
+individuals have been doing a lot as well. We\'re starting to work on Shoes 4...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=B9_uDF0a17Y:96hvs5cL4V4:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=B9_uDF0a17Y:96hvs5cL4V4:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=B9_uDF0a17Y:96hvs5cL4V4:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=B9_uDF0a17Y:96hvs5cL4V4:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=B9_uDF0a17Y:96hvs5cL4V4:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/B9_uDF0a17Y" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2012-05-25-shoes-4-work-is-starting--get-involved</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2012-05-07-mixins--a-refactoring-anti-pattern</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/S0OBcr3qf3U/2012-05-07-mixins--a-refactoring-anti-pattern" />
+    
+    <title>Mixins: A refactoring anti-pattern</title>
+    <updated>2012-05-06T17:00:00-07:00</updated>
+    <dc:date>2012-05-06T17:00:00-07:00</dc:date>
+  <content type="html">I spend an unusually large amount of time thinking about interactions between
+what I call \'past me\' and \'future me.\' It seems that my life changes
+significantly every few years, and I like to ground m...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=S0OBcr3qf3U:Fmz61XUijbI:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=S0OBcr3qf3U:Fmz61XUijbI:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=S0OBcr3qf3U:Fmz61XUijbI:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=S0OBcr3qf3U:Fmz61XUijbI:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=S0OBcr3qf3U:Fmz61XUijbI:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/S0OBcr3qf3U" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2012-05-07-mixins--a-refactoring-anti-pattern</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2012-04-30-on-the-eve-of--m1gs</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/si1w1OBmAk4/2012-04-30-on-the-eve-of--m1gs" />
+    
+    <title>On the eve of #M1GS</title>
+    <updated>2012-04-29T17:00:00-07:00</updated>
+    <dc:date>2012-04-29T17:00:00-07:00</dc:date>
+  <content type="html">Walking down the street, a woman cries for help. She\'s blind, and the curb is
+large, and she\'s unsure of herself. Knowing it\'s not safe, she seeks the help
+of a stranger to guide her on her way. Three...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=si1w1OBmAk4:VH_GtBF9T1M:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=si1w1OBmAk4:VH_GtBF9T1M:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=si1w1OBmAk4:VH_GtBF9T1M:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=si1w1OBmAk4:VH_GtBF9T1M:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=si1w1OBmAk4:VH_GtBF9T1M:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/si1w1OBmAk4" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2012-04-30-on-the-eve-of--m1gs</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2012-04-22-cards-for-dad--follow-up</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/anEmPouZr6Q/2012-04-22-cards-for-dad--follow-up" />
+    
+    <title>Cards for Dad: Follow-up</title>
+    <updated>2012-04-21T17:00:00-07:00</updated>
+    <dc:date>2012-04-21T17:00:00-07:00</dc:date>
+  <content type="html">Hey everyone! It\'s been a few weeks, and I wanted to update you guys on the
+card situation.First of all, thank you so much. Every single one of you who sent cards, thank
+you! It was truly amazing to s...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=anEmPouZr6Q:E0XZgWJ3WBU:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=anEmPouZr6Q:E0XZgWJ3WBU:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=anEmPouZr6Q:E0XZgWJ3WBU:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=anEmPouZr6Q:E0XZgWJ3WBU:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=anEmPouZr6Q:E0XZgWJ3WBU:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/anEmPouZr6Q" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2012-04-22-cards-for-dad--follow-up</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2012-04-05-building-storeengine</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/IkOH5lbaV-I/2012-04-05-building-storeengine" />
+    
+    <title>Building StoreEngine</title>
+    <updated>2012-04-04T17:00:00-07:00</updated>
+    <dc:date>2012-04-04T17:00:00-07:00</dc:date>
+  <content type="html">So I said I was gonna build antisocialne.ws. But I\'m changing gears instead:
+I\'d rather do this project, which has a better spec and needs a reference
+implementation.&amp;lt;iframe src="http://player.vimeo.c...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=IkOH5lbaV-I:Jv-3PJrFm5Y:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=IkOH5lbaV-I:Jv-3PJrFm5Y:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=IkOH5lbaV-I:Jv-3PJrFm5Y:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=IkOH5lbaV-I:Jv-3PJrFm5Y:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=IkOH5lbaV-I:Jv-3PJrFm5Y:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/IkOH5lbaV-I" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2012-04-05-building-storeengine</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2012-04-03-about-antisocialne-ws</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/yCGAAUntQUU/2012-04-03-about-antisocialne-ws" />
+    
+    <title>About Antisocialne.ws</title>
+    <updated>2012-04-02T17:00:00-07:00</updated>
+    <dc:date>2012-04-02T17:00:00-07:00</dc:date>
+  <content type="html">&amp;lt;iframe src="http://player.vimeo.com/video/39718634?title=0&amp;amp;amp;byline=0&amp;amp;amp;portrait=0" width="400" height="300" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen&amp;gt;&amp;lt;/iframe&amp;gt;&amp;lt;p&amp;gt;&amp;lt;...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=yCGAAUntQUU:X-GZk8a9s5s:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=yCGAAUntQUU:X-GZk8a9s5s:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=yCGAAUntQUU:X-GZk8a9s5s:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=yCGAAUntQUU:X-GZk8a9s5s:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=yCGAAUntQUU:X-GZk8a9s5s:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/yCGAAUntQUU" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2012-04-03-about-antisocialne-ws</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2012-03-31-anti-capitalism-101</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/cuGUdGez70g/2012-03-31-anti-capitalism-101" />
+    
+    <title>Anti-capitalism 101</title>
+    <updated>2012-03-30T17:00:00-07:00</updated>
+    <dc:date>2012-03-30T17:00:00-07:00</dc:date>
+  <content type="html">People are often surprised to find out that I identify as an anti-capitalist.
+At least in America, many people see capitalism as inevitable, or even as the
+way things always were. Unfortunately, there...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=cuGUdGez70g:7WUtpZg8raA:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=cuGUdGez70g:7WUtpZg8raA:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=cuGUdGez70g:7WUtpZg8raA:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=cuGUdGez70g:7WUtpZg8raA:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=cuGUdGez70g:7WUtpZg8raA:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/cuGUdGez70g" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2012-03-31-anti-capitalism-101</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2012-03-26-birthday-cards-for-dad</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/-ExcpcwDitU/2012-03-26-birthday-cards-for-dad" />
+    
+    <title>Birthday Cards for Dad</title>
+    <updated>2012-03-25T17:00:00-07:00</updated>
+    <dc:date>2012-03-25T17:00:00-07:00</dc:date>
+  <content type="html">Hey everyone. If you follow me on Twitter, you\'ll know that I\'ve been a bit
+absent lately. Basically, my dad has
+angiosarcoma. It\'s a really rare
+cancer of the blood vessels. A city the size of Pittsb...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=-ExcpcwDitU:YirG7PdHF_U:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=-ExcpcwDitU:YirG7PdHF_U:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=-ExcpcwDitU:YirG7PdHF_U:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=-ExcpcwDitU:YirG7PdHF_U:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=-ExcpcwDitU:YirG7PdHF_U:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/-ExcpcwDitU" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2012-03-26-birthday-cards-for-dad</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2012-03-08-transmuting-philosophy-into-machinery</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/mBYrxNwn6ZM/2012-03-08-transmuting-philosophy-into-machinery" />
+    
+    <title>Transmuting Philosophy into Machinery</title>
+    <updated>2012-03-07T16:00:00-08:00</updated>
+    <dc:date>2012-03-07T16:00:00-08:00</dc:date>
+  <content type="html">I\'m so very close to releasing the beta of Get Some REST. 
+However, I\'m about to get on a plane to Poland, and that\'s a bad time to launch
+things. ;) wroc_love.rb, here I come!Anyway, I figured I\'d gi...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=mBYrxNwn6ZM:_jrZuESu2Yw:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=mBYrxNwn6ZM:_jrZuESu2Yw:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=mBYrxNwn6ZM:_jrZuESu2Yw:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=mBYrxNwn6ZM:_jrZuESu2Yw:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=mBYrxNwn6ZM:_jrZuESu2Yw:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/mBYrxNwn6ZM" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2012-03-08-transmuting-philosophy-into-machinery</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2012-02-27-hypermedia-api-reading-list</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/1IeaNdGSqTs/2012-02-27-hypermedia-api-reading-list" />
+    
+    <title>A Hypermedia API Reading List</title>
+    <updated>2012-02-26T16:00:00-08:00</updated>
+    <dc:date>2012-02-26T16:00:00-08:00</dc:date>
+  <content type="html">Originally, this post was titled "A RESTful Reading List," but please note that REST is over. Hypermedia API is the new nomenclature.I\'ve been doing an intense amount of research on Hypermedia APIs ov...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=1IeaNdGSqTs:fCQ-OrXSBno:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=1IeaNdGSqTs:fCQ-OrXSBno:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=1IeaNdGSqTs:fCQ-OrXSBno:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=1IeaNdGSqTs:fCQ-OrXSBno:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=1IeaNdGSqTs:fCQ-OrXSBno:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/1IeaNdGSqTs" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2012-02-27-hypermedia-api-reading-list</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2012-02-23-rest-is-over</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/0SFtr14LxPE/2012-02-23-rest-is-over" />
+    
+    <title>REST is OVER!</title>
+    <updated>2012-02-22T16:00:00-08:00</updated>
+    <dc:date>2012-02-22T16:00:00-08:00</dc:date>
+  <content type="html">&amp;lt;div style="text-align: center"&amp;gt;
+&amp;lt;h1 style="
+padding:25px 0;
+margin-left: 40px;
+margin-right: 40px;
+margin-top: 0px;
+margin-bottom: 10px;
+font-size: 800%;
+letter-spacing: -0.04em;
+background-color: #4...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=0SFtr14LxPE:MTO8QsRTeD0:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=0SFtr14LxPE:MTO8QsRTeD0:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=0SFtr14LxPE:MTO8QsRTeD0:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=0SFtr14LxPE:MTO8QsRTeD0:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=0SFtr14LxPE:MTO8QsRTeD0:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/0SFtr14LxPE" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2012-02-23-rest-is-over</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2012-02-22-two-pomodoros</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/h4iP6uKhi7o/2012-02-22-two-pomodoros" />
+    
+    <title>Two Pomodoros</title>
+    <updated>2012-02-21T16:00:00-08:00</updated>
+    <dc:date>2012-02-21T16:00:00-08:00</dc:date>
+  <content type="html">I\'d been thinking about doing this for a while, and yesterday, actually got
+around to it. The basic idea is this: record me during normal development, and
+then post it to the internet.Here\'s the video...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=h4iP6uKhi7o:LTFnSjQEjlg:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=h4iP6uKhi7o:LTFnSjQEjlg:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=h4iP6uKhi7o:LTFnSjQEjlg:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=h4iP6uKhi7o:LTFnSjQEjlg:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=h4iP6uKhi7o:LTFnSjQEjlg:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/h4iP6uKhi7o" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2012-02-22-two-pomodoros</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2012-02-13-an-api-ontology</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/3ckdQlClHEA/2012-02-13-an-api-ontology" />
+    
+    <title>An API Ontology</title>
+    <updated>2012-02-12T16:00:00-08:00</updated>
+    <dc:date>2012-02-12T16:00:00-08:00</dc:date>
+  <content type="html">NOTE: The alpha of my book on APIs is out! Check it out at http://designinghypermediaapis.com.As I\'ve done research on APIs for Designing Hypermedia APIs, I\'ve
+become increasingly interested in differ...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=3ckdQlClHEA:8ofTl9Zuo1k:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=3ckdQlClHEA:8ofTl9Zuo1k:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=3ckdQlClHEA:8ofTl9Zuo1k:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=3ckdQlClHEA:8ofTl9Zuo1k:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=3ckdQlClHEA:8ofTl9Zuo1k:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/3ckdQlClHEA" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2012-02-13-an-api-ontology</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2012-01-23-introducing-metadown</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/x9PONPLKOVc/2012-01-23-introducing-metadown" />
+    
+    <title>Introducing Metadown</title>
+    <updated>2012-01-22T16:00:00-08:00</updated>
+    <dc:date>2012-01-22T16:00:00-08:00</dc:date>
+  <content type="html">Because I don\'t have enough gems made already, I made another one last night:
+metadown.What\'s Metadown do?This blog originally used Jekyll. When I moved it to my own personal blog
+implementation, I no...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=x9PONPLKOVc:vYKxog6HadY:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=x9PONPLKOVc:vYKxog6HadY:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=x9PONPLKOVc:vYKxog6HadY:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=x9PONPLKOVc:vYKxog6HadY:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=x9PONPLKOVc:vYKxog6HadY:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/x9PONPLKOVc" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2012-01-23-introducing-metadown</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2012-01-17-moving-from-sinatra-to-rails</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/TBaxyMO2ndo/2012-01-17-moving-from-sinatra-to-rails" />
+    
+    <title>Moving from Sinatra to Rails</title>
+    <updated>2012-01-16T16:00:00-08:00</updated>
+    <dc:date>2012-01-16T16:00:00-08:00</dc:date>
+  <content type="html">I love both Sinatra and Rails, for different reasons. I\'ve heard a few
+different heuristics for which framework would be better for your application,
+but I\'m not sure the answer is all that simple, re...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=TBaxyMO2ndo:h9SezPtTaVg:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=TBaxyMO2ndo:h9SezPtTaVg:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=TBaxyMO2ndo:h9SezPtTaVg:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=TBaxyMO2ndo:h9SezPtTaVg:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=TBaxyMO2ndo:h9SezPtTaVg:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/TBaxyMO2ndo" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2012-01-17-moving-from-sinatra-to-rails</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2012-01-06-implementing-hateoas-with-presenters</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/tegD0cjxtms/2012-01-06-implementing-hateoas-with-presenters" />
+    
+    <title>Implementing HATEOAS with Presenters</title>
+    <updated>2012-01-05T16:00:00-08:00</updated>
+    <dc:date>2012-01-05T16:00:00-08:00</dc:date>
+  <content type="html">I\'m a big fan of using the presenter pattern to help separate logic from
+presentation. There\'s a great gem named
+Draper that can help facilitate this
+pattern in your Rails apps. When doing research fo...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=tegD0cjxtms:MkB-6prMoiU:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=tegD0cjxtms:MkB-6prMoiU:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=tegD0cjxtms:MkB-6prMoiU:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=tegD0cjxtms:MkB-6prMoiU:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=tegD0cjxtms:MkB-6prMoiU:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/tegD0cjxtms" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2012-01-06-implementing-hateoas-with-presenters</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2011-12-30-active-record-considered-harmful</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/-jC0OKTuWd8/2011-12-30-active-record-considered-harmful" />
+    
+    <title>ActiveRecord (and Rails) Considered Harmful</title>
+    <updated>2011-12-29T16:00:00-08:00</updated>
+    <dc:date>2011-12-29T16:00:00-08:00</dc:date>
+  <content type="html">It is practically impossible to teach OO design to students that have
+had a prior exposure to Rails: as potential programmers they are mentally
+mutilated beyond hope of regeneration.Edsger W. Dijkstra...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=-jC0OKTuWd8:3t_UceAyPjY:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=-jC0OKTuWd8:3t_UceAyPjY:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=-jC0OKTuWd8:3t_UceAyPjY:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=-jC0OKTuWd8:3t_UceAyPjY:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=-jC0OKTuWd8:3t_UceAyPjY:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/-jC0OKTuWd8" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2011-12-30-active-record-considered-harmful</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2011-12-21-redcarpet-is-awesome</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/8DO6pMl35bU/2011-12-21-redcarpet-is-awesome" />
+    
+    <title>Redcarpet Is _awesome_!</title>
+    <updated>2011-12-20T16:00:00-08:00</updated>
+    <dc:date>2011-12-20T16:00:00-08:00</dc:date>
+  <content type="html">It\'s true.If you haven\'t used it yet, Redcarpet is
+the Markdown parser that GitHub uses
+to work all that magic on their site. So of course, it\'s awesome.You can use it and abuse itWhat makes it really...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=8DO6pMl35bU:wQLFT0-MF98:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=8DO6pMl35bU:wQLFT0-MF98:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=8DO6pMl35bU:wQLFT0-MF98:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=8DO6pMl35bU:wQLFT0-MF98:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=8DO6pMl35bU:wQLFT0-MF98:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/8DO6pMl35bU" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2011-12-21-redcarpet-is-awesome</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2011-12-20-write-better-cukes-with-the-rel-attribute</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/HB23Go0cRDU/2011-12-20-write-better-cukes-with-the-rel-attribute" />
+    
+    <title>Write Better Cukes With the Rel Attribute</title>
+    <updated>2011-12-19T16:00:00-08:00</updated>
+    <dc:date>2011-12-19T16:00:00-08:00</dc:date>
+  <content type="html">The other day, I was working on some Cucumber features for a project, and I
+discovered a neat technique that helps you to write better Cucumber steps.Nobody wants to be cuking it wrong,
+but what does ...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=HB23Go0cRDU:wpsTkhMPkyg:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=HB23Go0cRDU:wpsTkhMPkyg:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=HB23Go0cRDU:wpsTkhMPkyg:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=HB23Go0cRDU:wpsTkhMPkyg:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=HB23Go0cRDU:wpsTkhMPkyg:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/HB23Go0cRDU" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2011-12-20-write-better-cukes-with-the-rel-attribute</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2011-12-15-marx-anarchism-and-web-standards</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/0aLgJ7mda-Q/2011-12-15-marx-anarchism-and-web-standards" />
+    
+    <title>Marx, Anarchism, and Web Standards</title>
+    <updated>2011-12-14T16:00:00-08:00</updated>
+    <dc:date>2011-12-14T16:00:00-08:00</dc:date>
+  <content type="html">&amp;lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&amp;gt;&amp;lt;/script&amp;gt;
+
+An aside for software devsYou might not care about anarchism, and I can almost guarantee that you don\'t
+care about Marx, but ...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=0aLgJ7mda-Q:gTslOi9pu1E:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=0aLgJ7mda-Q:gTslOi9pu1E:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=0aLgJ7mda-Q:gTslOi9pu1E:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=0aLgJ7mda-Q:gTslOi9pu1E:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=0aLgJ7mda-Q:gTslOi9pu1E:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/0aLgJ7mda-Q" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2011-12-15-marx-anarchism-and-web-standards</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2011-12-12-fast-rails-tests-with-cancan</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/xDLSMn4-ha4/2011-12-12-fast-rails-tests-with-cancan" />
+    
+    <title>Fast Rails Tests With CanCan.</title>
+    <updated>2011-12-11T16:00:00-08:00</updated>
+    <dc:date>2011-12-11T16:00:00-08:00</dc:date>
+  <content type="html">If you haven\'t used it, CanCan is a great
+library for Rails that handles authorization for you. Its calling card is
+simplicity; just do this:class Ability
+  include CanCan::Ability
+
+  def initialize(u...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=xDLSMn4-ha4:JoO720ttJ7s:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=xDLSMn4-ha4:JoO720ttJ7s:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=xDLSMn4-ha4:JoO720ttJ7s:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=xDLSMn4-ha4:JoO720ttJ7s:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=xDLSMn4-ha4:JoO720ttJ7s:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/xDLSMn4-ha4" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2011-12-12-fast-rails-tests-with-cancan</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2011-12-11-devise-actioncontroller-routingerror-no-route-matches-get-slash-users-slash-sign-out</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/-htCxic-Rd4/2011-12-11-devise-actioncontroller-routingerror-no-route-matches-get-slash-users-slash-sign-out" />
+    
+    <title>Devise: ActionController::RoutingError (No Route Matches [GET] /users/sign_out)</title>
+    <updated>2011-12-10T16:00:00-08:00</updated>
+    <dc:date>2011-12-10T16:00:00-08:00</dc:date>
+  <content type="html">Just a quick note about Devise, and its RESTful implications. I ran across this
+error today, and thought I\'d share.I was trying to log out, so I hit the normal route for such things with my browser. H...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=-htCxic-Rd4:yhlChuoTZKs:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=-htCxic-Rd4:yhlChuoTZKs:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=-htCxic-Rd4:yhlChuoTZKs:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=-htCxic-Rd4:yhlChuoTZKs:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=-htCxic-Rd4:yhlChuoTZKs:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/-htCxic-Rd4" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2011-12-11-devise-actioncontroller-routingerror-no-route-matches-get-slash-users-slash-sign-out</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2011-11-28-book-review-new-programmers-survival-manual</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/o0ZEFWEzAaI/2011-11-28-book-review-new-programmers-survival-manual" />
+    
+    <title>Book Review: New Programmer\'s Survival Manual</title>
+    <updated>2011-11-27T16:00:00-08:00</updated>
+    <dc:date>2011-11-27T16:00:00-08:00</dc:date>
+  <content type="html">Disclaimer: I do have a small credit in this book. A long time ago, the
+author mentioned that he was looking for people to help out, so I stepped up.
+It was only participating in discussions like "Wha...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=o0ZEFWEzAaI:tlTwnUtC1oM:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=o0ZEFWEzAaI:tlTwnUtC1oM:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=o0ZEFWEzAaI:tlTwnUtC1oM:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=o0ZEFWEzAaI:tlTwnUtC1oM:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=o0ZEFWEzAaI:tlTwnUtC1oM:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/o0ZEFWEzAaI" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2011-11-28-book-review-new-programmers-survival-manual</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2011-11-17-burnout</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/gjbMvjrYpcw/2011-11-17-burnout" />
+    
+    <title>Burnout</title>
+    <updated>2011-11-16T16:00:00-08:00</updated>
+    <dc:date>2011-11-16T16:00:00-08:00</dc:date>
+  <content type="html">I have a confession to make: Other than one little stint at RubyC, I
+haven\'t really written code in almost a month. And I haven\'t really written a
+\'real\' blog post in almost six weeks.It happens. I wa...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=gjbMvjrYpcw:MohSSAiWgdg:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=gjbMvjrYpcw:MohSSAiWgdg:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=gjbMvjrYpcw:MohSSAiWgdg:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=gjbMvjrYpcw:MohSSAiWgdg:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=gjbMvjrYpcw:MohSSAiWgdg:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/gjbMvjrYpcw" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2011-11-17-burnout</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2011-10-25-your-startup-is-not-a-platform</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/-OSdJbBznV8/2011-10-25-your-startup-is-not-a-platform" />
+    
+    <title>Your Startup is NOT a Platform</title>
+    <updated>2011-10-24T17:00:00-07:00</updated>
+    <dc:date>2011-10-24T17:00:00-07:00</dc:date>
+  <content type="html">No, seriously. This is a public service announcment to all MBAs who want to do
+startups: \'platform\' does not mean \'web site.\'I know that \'platform\' is a hot thing right now. But seriously, the term ha...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=-OSdJbBznV8:gb1Ao1NhZ9Y:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=-OSdJbBznV8:gb1Ao1NhZ9Y:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=-OSdJbBznV8:gb1Ao1NhZ9Y:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=-OSdJbBznV8:gb1Ao1NhZ9Y:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=-OSdJbBznV8:gb1Ao1NhZ9Y:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/-OSdJbBznV8" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2011-10-25-your-startup-is-not-a-platform</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2011-10-19-for-science-im-killing-my-cell-phone</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/Xzi8Iqe7lCg/2011-10-19-for-science-im-killing-my-cell-phone" />
+    
+    <title>For Science: I\'m Killing My Cell Phone</title>
+    <updated>2011-10-18T17:00:00-07:00</updated>
+    <dc:date>2011-10-18T17:00:00-07:00</dc:date>
+  <content type="html">Yep. Doin\' it. This morning I swung by the Sprint store and picked up a 4G
+hotspot. Gonna transfer my number to Google Voice this evening.lolwhut?Yep. I\'m terribly addicted to my phone right now. This...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=Xzi8Iqe7lCg:BCXgGoTnDFU:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=Xzi8Iqe7lCg:BCXgGoTnDFU:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=Xzi8Iqe7lCg:BCXgGoTnDFU:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=Xzi8Iqe7lCg:BCXgGoTnDFU:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=Xzi8Iqe7lCg:BCXgGoTnDFU:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/Xzi8Iqe7lCg" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2011-10-19-for-science-im-killing-my-cell-phone</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2011-10-04-rubinius-is-awesome</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/oOioDtmTrL4/2011-10-04-rubinius-is-awesome" />
+    
+    <title>Rubinius Is Awesome</title>
+    <updated>2011-10-03T17:00:00-07:00</updated>
+    <dc:date>2011-10-03T17:00:00-07:00</dc:date>
+  <content type="html">You walk into work tomorrow morning, and your boss says this:Boss: Hey, we\'re gonna need to go ahead and have you implement
+require_relative in rubinius. We have some new servers coming in, and we\'ll
+...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=oOioDtmTrL4:KDMQmuF-BPU:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=oOioDtmTrL4:KDMQmuF-BPU:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=oOioDtmTrL4:KDMQmuF-BPU:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=oOioDtmTrL4:KDMQmuF-BPU:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=oOioDtmTrL4:KDMQmuF-BPU:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/oOioDtmTrL4" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2011-10-04-rubinius-is-awesome</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2011-10-01-github-is-anarchy-for-programmers</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/9jS4CSMrzW0/2011-10-01-github-is-anarchy-for-programmers" />
+    
+    <title>GitHub Is Anarchy for Programmers</title>
+    <updated>2011-09-30T17:00:00-07:00</updated>
+    <dc:date>2011-09-30T17:00:00-07:00</dc:date>
+  <content type="html">I finally got to see Zach Holman give his talk, How GitHub Uses GitHub to Build GitHub.
+It was awesome. Zach is a great speaker, and the slides don\'t do it justice. I
+highly recommend catching it on v...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=9jS4CSMrzW0:YbBdMNRroSA:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=9jS4CSMrzW0:YbBdMNRroSA:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=9jS4CSMrzW0:YbBdMNRroSA:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=9jS4CSMrzW0:YbBdMNRroSA:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=9jS4CSMrzW0:YbBdMNRroSA:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/9jS4CSMrzW0" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2011-10-01-github-is-anarchy-for-programmers</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2011-09-28-real-modern-ruby-development</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/ZqAF6cXWVes/2011-09-28-real-modern-ruby-development" />
+    
+    <title>(Real) Modern Ruby Development</title>
+    <updated>2011-09-27T17:00:00-07:00</updated>
+    <dc:date>2011-09-27T17:00:00-07:00</dc:date>
+  <content type="html">I came across a blog post the other day titled Modern Ruby Development.
+While it\'s a perfectly fine blog post (other than the digs at rvm...) it really
+should have been titled something more along the...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=ZqAF6cXWVes:anVP-NhC5qI:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=ZqAF6cXWVes:anVP-NhC5qI:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=ZqAF6cXWVes:anVP-NhC5qI:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=ZqAF6cXWVes:anVP-NhC5qI:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=ZqAF6cXWVes:anVP-NhC5qI:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/ZqAF6cXWVes" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2011-09-28-real-modern-ruby-development</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2011-09-26-im-deleting-my-facebook-tonight</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/rwjYzPuyxc0/2011-09-26-im-deleting-my-facebook-tonight" />
+    
+    <title>I\'m Deleting My Facebook Tonight.</title>
+    <updated>2011-09-25T17:00:00-07:00</updated>
+    <dc:date>2011-09-25T17:00:00-07:00</dc:date>
+  <content type="html">Well, it\'s the end of the web as we know it.
+I\'d already been thinking about this all weekend, and last night, I decided. I
+just can\'t deal with Facebook\'s crazy privacy stuff anymore. I mean, I alrea...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=rwjYzPuyxc0:XJSLBlu3VwY:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=rwjYzPuyxc0:XJSLBlu3VwY:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=rwjYzPuyxc0:XJSLBlu3VwY:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=rwjYzPuyxc0:XJSLBlu3VwY:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=rwjYzPuyxc0:XJSLBlu3VwY:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/rwjYzPuyxc0" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2011-09-26-im-deleting-my-facebook-tonight</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2011-09-23-more-rstat-dot-us-refactoring</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/TR9RjfAySLw/2011-09-23-more-rstat-dot-us-refactoring" />
+    
+    <title>More rstat.us Refactoring</title>
+    <updated>2011-09-22T17:00:00-07:00</updated>
+    <dc:date>2011-09-22T17:00:00-07:00</dc:date>
+  <content type="html">Hey everyone! I just wanted to share One More Thing with you about this rstat.us
+refactoring.The main thrust of the last article I posted was to show you a technique for
+extracting a class, getting it...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=TR9RjfAySLw:TbnwNy9UaFg:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=TR9RjfAySLw:TbnwNy9UaFg:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=TR9RjfAySLw:TbnwNy9UaFg:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=TR9RjfAySLw:TbnwNy9UaFg:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=TR9RjfAySLw:TbnwNy9UaFg:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/TR9RjfAySLw" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2011-09-23-more-rstat-dot-us-refactoring</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2011-09-22-extracting-domain-models-a-practical-example</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/8Exsrf4UWA0/2011-09-22-extracting-domain-models-a-practical-example" />
+    
+    <title>Extracting Domain Models: A Practical Example</title>
+    <updated>2011-09-21T17:00:00-07:00</updated>
+    <dc:date>2011-09-21T17:00:00-07:00</dc:date>
+  <content type="html">Hey everyone! We\'ve been doing a lot of refactoring on rstat.us lately, and I
+wanted to share with you a refactoring that I did. It\'s a real-world example
+of doing the domain models concept that I\'ve ...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=8Exsrf4UWA0:ZsWcQPSg9yg:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=8Exsrf4UWA0:ZsWcQPSg9yg:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=8Exsrf4UWA0:ZsWcQPSg9yg:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=8Exsrf4UWA0:ZsWcQPSg9yg:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=8Exsrf4UWA0:ZsWcQPSg9yg:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/8Exsrf4UWA0" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2011-09-22-extracting-domain-models-a-practical-example</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2011-09-09-better-ruby-presenters</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/bzglLcHFCF0/2011-09-09-better-ruby-presenters" />
+    
+    <title>Better Ruby Presenters</title>
+    <updated>2011-09-08T17:00:00-07:00</updated>
+    <dc:date>2011-09-08T17:00:00-07:00</dc:date>
+  <content type="html">My last blog post caused a bit
+of a stir in some circles. I got a bunch of emails. Apparently, I need to expand
+on a few things. So here we go. Let\'s rap about the Presenter pattern, shall we?No serio...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=bzglLcHFCF0:u77S1JzGD-s:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=bzglLcHFCF0:u77S1JzGD-s:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=bzglLcHFCF0:u77S1JzGD-s:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=bzglLcHFCF0:u77S1JzGD-s:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=bzglLcHFCF0:u77S1JzGD-s:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/bzglLcHFCF0" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2011-09-09-better-ruby-presenters</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2011-09-06-the-secret-to-rails-oo-design</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/i7cLrhJBdjM/2011-09-06-the-secret-to-rails-oo-design" />
+    
+    <title>The Secret to Rails OO Design</title>
+    <updated>2011-09-05T17:00:00-07:00</updated>
+    <dc:date>2011-09-05T17:00:00-07:00</dc:date>
+  <content type="html">UPDATE: I also have a follow-up here.I often tell people that I learned Ruby via Rails. This is pretty much the worst
+way to do it, but I\'d learned so many programming languages by then that it
+didn\'t...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=i7cLrhJBdjM:dgJyIMWzLAM:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=i7cLrhJBdjM:dgJyIMWzLAM:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=i7cLrhJBdjM:dgJyIMWzLAM:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=i7cLrhJBdjM:dgJyIMWzLAM:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=i7cLrhJBdjM:dgJyIMWzLAM:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/i7cLrhJBdjM" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2011-09-06-the-secret-to-rails-oo-design</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2011-09-04-the-self-improvement-pomodoro</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/DSFQ8z16R7I/2011-09-04-the-self-improvement-pomodoro" />
+    
+    <title>The Self-Improvement Pomodoro</title>
+    <updated>2011-09-03T17:00:00-07:00</updated>
+    <dc:date>2011-09-03T17:00:00-07:00</dc:date>
+  <content type="html">By now, the pomodoro technique is pretty
+well-known amongst programmers. I forget where I heard of it first, but
+if you haven\'t, here it is: Break your day up into 30 minute chunks.
+Work for 25 minute...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=DSFQ8z16R7I:1OQWb-l74Rg:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=DSFQ8z16R7I:1OQWb-l74Rg:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=DSFQ8z16R7I:1OQWb-l74Rg:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=DSFQ8z16R7I:1OQWb-l74Rg:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=DSFQ8z16R7I:1OQWb-l74Rg:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/DSFQ8z16R7I" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2011-09-04-the-self-improvement-pomodoro</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2011-08-22-im-making-it-dead-simple-to-contribute-to-ruby-s-documentation</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/4et_uQ3Dvsw/2011-08-22-im-making-it-dead-simple-to-contribute-to-ruby-s-documentation" />
+    
+    <title>I\'m Making It Dead Simple To Contribute To Ruby\'s Documentation</title>
+    <updated>2011-08-21T17:00:00-07:00</updated>
+    <dc:date>2011-08-21T17:00:00-07:00</dc:date>
+  <content type="html">Okay! So, if you\'d read my previous article on
+this, you\'d know how
+easy it is to contribute to Ruby\'s Documentaiton.But Steve, I\'m still kinda scared.Okay, so here we go: I\'m making it even easier on...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=4et_uQ3Dvsw:HUWuxk7--UU:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=4et_uQ3Dvsw:HUWuxk7--UU:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=4et_uQ3Dvsw:HUWuxk7--UU:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=4et_uQ3Dvsw:HUWuxk7--UU:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=4et_uQ3Dvsw:HUWuxk7--UU:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/4et_uQ3Dvsw" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2011-08-22-im-making-it-dead-simple-to-contribute-to-ruby-s-documentation</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2011-08-19-matz-is-nice-so-we-are-nice</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/v_GD58SB3UM/2011-08-19-matz-is-nice-so-we-are-nice" />
+    
+    <title>Matz is Nice So We Are Nice</title>
+    <updated>2011-08-18T17:00:00-07:00</updated>
+    <dc:date>2011-08-18T17:00:00-07:00</dc:date>
+  <content type="html">Rubyists have a saying, or at least, we used to. "Matz is nice so we are
+nice." This has sort of been lost over the years... some people who have
+been around Ruby for a long time still say this, but i...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=v_GD58SB3UM:pwXcnxW8eQc:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=v_GD58SB3UM:pwXcnxW8eQc:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=v_GD58SB3UM:pwXcnxW8eQc:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=v_GD58SB3UM:pwXcnxW8eQc:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=v_GD58SB3UM:pwXcnxW8eQc:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/v_GD58SB3UM" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2011-08-19-matz-is-nice-so-we-are-nice</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2011-08-12-we-forget-that-open-source-is-made-of-people</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/UOymZRsN638/2011-08-12-we-forget-that-open-source-is-made-of-people" />
+    
+    <title>We Forget That Open Source is Made of People</title>
+    <updated>2011-08-11T17:00:00-07:00</updated>
+    <dc:date>2011-08-11T17:00:00-07:00</dc:date>
+  <content type="html">Programmers like to think that software is the purest form of
+meritocracy. We like to consider ourselves scientists; what we do is
+entirely impersonal. I\'m at Lone Star Ruby right now, and the first t...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=UOymZRsN638:nzESf3TaIN4:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=UOymZRsN638:nzESf3TaIN4:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=UOymZRsN638:nzESf3TaIN4:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=UOymZRsN638:nzESf3TaIN4:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=UOymZRsN638:nzESf3TaIN4:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/UOymZRsN638" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2011-08-12-we-forget-that-open-source-is-made-of-people</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2011-08-07-some-people-understand-rest-and-http</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/Oswll9DrNZI/2011-08-07-some-people-understand-rest-and-http" />
+    
+    <title>Some People Understand REST and HTTP</title>
+    <updated>2011-08-06T17:00:00-07:00</updated>
+    <dc:date>2011-08-06T17:00:00-07:00</dc:date>
+  <content type="html">This is a follow-up post to my post here. You probably want to
+read that first.UPDATE: Please note that \'REST is over\'.
+\'Hypermedia API\' is the proper term now.A few words on standards versus pragmati...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=Oswll9DrNZI:BsO6yodAKTc:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=Oswll9DrNZI:BsO6yodAKTc:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=Oswll9DrNZI:BsO6yodAKTc:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=Oswll9DrNZI:BsO6yodAKTc:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=Oswll9DrNZI:BsO6yodAKTc:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/Oswll9DrNZI" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2011-08-07-some-people-understand-rest-and-http</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2011-07-24-twitter-is-to-important-to-be-owned-by-twitter</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/sRJPll7Z_RY/2011-07-24-twitter-is-to-important-to-be-owned-by-twitter" />
+    
+    <title>Twitter is too important to be owned by Twitter</title>
+    <updated>2011-07-23T17:00:00-07:00</updated>
+    <dc:date>2011-07-23T17:00:00-07:00</dc:date>
+  <content type="html">When I spoke on a panel at RTLM NY \'11, I got a little rise out of
+the crowd when I said "Twitter is too important to be owned by Twitter."
+This is still absolutely true, and yesterday was a great exa...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=sRJPll7Z_RY:giXfDZZMjSY:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=sRJPll7Z_RY:giXfDZZMjSY:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=sRJPll7Z_RY:giXfDZZMjSY:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=sRJPll7Z_RY:giXfDZZMjSY:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=sRJPll7Z_RY:giXfDZZMjSY:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/sRJPll7Z_RY" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2011-07-24-twitter-is-to-important-to-be-owned-by-twitter</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2011-07-03-nobody-understands-rest-or-http</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/qZi8zgnKBCE/2011-07-03-nobody-understands-rest-or-http" />
+    
+    <title>Nobody Understands REST or HTTP</title>
+    <updated>2011-07-02T17:00:00-07:00</updated>
+    <dc:date>2011-07-02T17:00:00-07:00</dc:date>
+  <content type="html">HI HN, PLEASE READ THIS!!!Since I\'ve posted this, I\'ve refined a few of my positions on things. Everyone learns and grows, and while I still stand by most of what I said, I specifically don\'t agree th...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=qZi8zgnKBCE:6Hh0TAEg7rg:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=qZi8zgnKBCE:6Hh0TAEg7rg:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=qZi8zgnKBCE:6Hh0TAEg7rg:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=qZi8zgnKBCE:6Hh0TAEg7rg:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=qZi8zgnKBCE:6Hh0TAEg7rg:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/qZi8zgnKBCE" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2011-07-03-nobody-understands-rest-or-http</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2011-05-21-single-text-many-masters</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/GWc9GYnpRms/2011-05-21-single-text-many-masters" />
+    
+    <title>Single text, many masters</title>
+    <updated>2011-05-20T17:00:00-07:00</updated>
+    <dc:date>2011-05-20T17:00:00-07:00</dc:date>
+  <content type="html">Hey everyone. Here\'s a draft of an essay I\'ve been working on. I\'d love
+to hear your feedback.The word \'engineering\' has a deep connection to the word \'trade-offs\' in
+my mind. Most engineering decisio...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=GWc9GYnpRms:drgWGhSOcq8:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=GWc9GYnpRms:drgWGhSOcq8:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=GWc9GYnpRms:drgWGhSOcq8:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=GWc9GYnpRms:drgWGhSOcq8:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=GWc9GYnpRms:drgWGhSOcq8:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/GWc9GYnpRms" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2011-05-21-single-text-many-masters</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2011-05-12-the-next-iteration-of-my-blog</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/BAeU3VF2IVg/2011-05-12-the-next-iteration-of-my-blog" />
+    
+    <title>The next iteration of my blog</title>
+    <updated>2011-05-11T17:00:00-07:00</updated>
+    <dc:date>2011-05-11T17:00:00-07:00</dc:date>
+  <content type="html">Well well well, some things never change. Long ago, I hosted my own
+blog, and here we are again. I\'ve moved everything over to Jekyll, if
+that means anything to you. You can now look at my blog on
+Git...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=BAeU3VF2IVg:vu1RLyL2mxo:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=BAeU3VF2IVg:vu1RLyL2mxo:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=BAeU3VF2IVg:vu1RLyL2mxo:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=BAeU3VF2IVg:vu1RLyL2mxo:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=BAeU3VF2IVg:vu1RLyL2mxo:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/BAeU3VF2IVg" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2011-05-12-the-next-iteration-of-my-blog</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2011-05-10-contributing-to-ruby-s-documentation</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/yrs-02vMElc/2011-05-10-contributing-to-ruby-s-documentation" />
+    
+    <title>Contributing to Ruby\'s Documentation</title>
+    <updated>2011-05-09T17:00:00-07:00</updated>
+    <dc:date>2011-05-09T17:00:00-07:00</dc:date>
+  <content type="html">Update!I\'m now making it even easier than this: Read my new post about how
+I\'ll do this for you. That said, if you want to do it yourself, the following will tell you how.Original ArticleRuby 1.9.3 is...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=yrs-02vMElc:scbuQRClgq4:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=yrs-02vMElc:scbuQRClgq4:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=yrs-02vMElc:scbuQRClgq4:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=yrs-02vMElc:scbuQRClgq4:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=yrs-02vMElc:scbuQRClgq4:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/yrs-02vMElc" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2011-05-10-contributing-to-ruby-s-documentation</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2011-03-30-the-first-week-of-rstat-us-users-press-scaling-oh-my</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/MJCqEpRYeNs/2011-03-30-the-first-week-of-rstat-us-users-press-scaling-oh-my" />
+    
+    <title>The first week of rstat.us: Users, Press, Scaling, oh my!</title>
+    <updated>2011-03-29T17:00:00-07:00</updated>
+    <dc:date>2011-03-29T17:00:00-07:00</dc:date>
+  <content type="html">Hey everyone. A lot of people have been asking me about rstat.us lately,
+so I figured I\'d tell a little bit of the story as it\'s gone down so far.StatsFirst, here\'s some numbers:Users: 4553
+Uniques: 2...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=MJCqEpRYeNs:pqFPhdu_Cyo:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=MJCqEpRYeNs:pqFPhdu_Cyo:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=MJCqEpRYeNs:pqFPhdu_Cyo:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=MJCqEpRYeNs:pqFPhdu_Cyo:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=MJCqEpRYeNs:pqFPhdu_Cyo:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/MJCqEpRYeNs" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2011-03-30-the-first-week-of-rstat-us-users-press-scaling-oh-my</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2011-03-23-announcing-rstat-us</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/bPUVDmY3Ef0/2011-03-23-announcing-rstat-us" />
+    
+    <title>Announcing rstat.us</title>
+    <updated>2011-03-22T17:00:00-07:00</updated>
+    <dc:date>2011-03-22T17:00:00-07:00</dc:date>
+  <content type="html">Whew.If you\'ve been following me on Twitter at all lately, you\'ll know that
+I\'ve been working hard on a new project lately. Tonight, even though it\'s
+late, I\'m finally getting it out there. Please wel...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=bPUVDmY3Ef0:eHhAbZFmeNk:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=bPUVDmY3Ef0:eHhAbZFmeNk:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=bPUVDmY3Ef0:eHhAbZFmeNk:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=bPUVDmY3Ef0:eHhAbZFmeNk:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=bPUVDmY3Ef0:eHhAbZFmeNk:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/bPUVDmY3Ef0" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2011-03-23-announcing-rstat-us</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2011-03-18-did-you-hear-i-m-ruby-mendicant-university-s-first-visiting-teacher</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/PSX0Bt8zaOQ/2011-03-18-did-you-hear-i-m-ruby-mendicant-university-s-first-visiting-teacher" />
+    
+    <title>Did you hear? I\'m Ruby Mendicant University\'s first Visiting Teacher</title>
+    <updated>2011-03-17T17:00:00-07:00</updated>
+    <dc:date>2011-03-17T17:00:00-07:00</dc:date>
+  <content type="html">I\'ve heard Ruby Mendicant University (also known as RMU, not to confuse
+you Robert Morris alums!) described as "the best kept secret of the Ruby 
+community." High praise, indeed. If you haven\'t heard ...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=PSX0Bt8zaOQ:oD289RRHXik:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=PSX0Bt8zaOQ:oD289RRHXik:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=PSX0Bt8zaOQ:oD289RRHXik:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=PSX0Bt8zaOQ:oD289RRHXik:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=PSX0Bt8zaOQ:oD289RRHXik:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/PSX0Bt8zaOQ" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2011-03-18-did-you-hear-i-m-ruby-mendicant-university-s-first-visiting-teacher</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2011-03-03-i-m-quitting-hacker-news</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/52TJ045SJcM/2011-03-03-i-m-quitting-hacker-news" />
+    
+    <title>I\'m quitting Hacker News</title>
+    <updated>2011-03-02T16:00:00-08:00</updated>
+    <dc:date>2011-03-02T16:00:00-08:00</dc:date>
+  <content type="html">I\'ve been thinking about this post for a while.I freaking love Hacker News. It\'s my favorite place on the Internet. It\'s
+incredibly valuable. I have learned so much from my time there. \xc2\xa0With that
+said...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=52TJ045SJcM:lxyC2y_Q3HY:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=52TJ045SJcM:lxyC2y_Q3HY:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=52TJ045SJcM:lxyC2y_Q3HY:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=52TJ045SJcM:lxyC2y_Q3HY:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=52TJ045SJcM:lxyC2y_Q3HY:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/52TJ045SJcM" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2011-03-03-i-m-quitting-hacker-news</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2011-01-22-a-few-notes-on-foucault</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/u0g1mSBCswA/2011-01-22-a-few-notes-on-foucault" />
+    
+    <title>A few Notes on Foucault</title>
+    <updated>2011-01-21T16:00:00-08:00</updated>
+    <dc:date>2011-01-21T16:00:00-08:00</dc:date>
+  <content type="html">I\'ve almost always been in a habit of reading. When I was younger, I spent a
+lot of time in the library. I\'d just grab an entire series of novels, and read
+them all, right in a row. Sometimes I\'d end ...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=u0g1mSBCswA:rZehA9Gh3Uk:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=u0g1mSBCswA:rZehA9Gh3Uk:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=u0g1mSBCswA:rZehA9Gh3Uk:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=u0g1mSBCswA:rZehA9Gh3Uk:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=u0g1mSBCswA:rZehA9Gh3Uk:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/u0g1mSBCswA" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2011-01-22-a-few-notes-on-foucault</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2011-01-02-goals-for-2011</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/qoExwUUQTn4/2011-01-02-goals-for-2011" />
+    
+    <title>Goals for 2011</title>
+    <updated>2011-01-01T16:00:00-08:00</updated>
+    <dc:date>2011-01-01T16:00:00-08:00</dc:date>
+  <content type="html">This year I\'m happy to report that I have much more upbeat plans than last
+year\'s kind of sad post. With that said, here\'s my 2011 goals:I want to work for other people 2 days per week on average for ...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=qoExwUUQTn4:Z27trrcD3PY:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=qoExwUUQTn4:Z27trrcD3PY:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=qoExwUUQTn4:Z27trrcD3PY:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=qoExwUUQTn4:Z27trrcD3PY:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=qoExwUUQTn4:Z27trrcD3PY:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/qoExwUUQTn4" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2011-01-02-goals-for-2011</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2010-12-25-hackety-hack-v1-0</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/KzKLz-nNSrA/2010-12-25-hackety-hack-v1-0" />
+    
+    <title>Hackety Hack v1.0</title>
+    <updated>2010-12-24T16:00:00-08:00</updated>
+    <dc:date>2010-12-24T16:00:00-08:00</dc:date>
+  <content type="html">It\'s been a long journey. I have a lot to say about this, but it\'ll have to
+wait until I\'m not in the middle of nowhere spending some time with Maria\'s
+family. I just wanted to tell you all Merry Chri...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=KzKLz-nNSrA:Mw3Kmmaak90:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=KzKLz-nNSrA:Mw3Kmmaak90:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=KzKLz-nNSrA:Mw3Kmmaak90:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=KzKLz-nNSrA:Mw3Kmmaak90:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=KzKLz-nNSrA:Mw3Kmmaak90:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/KzKLz-nNSrA" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2010-12-25-hackety-hack-v1-0</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2010-11-17-the-hardest-decision-i-ve-ever-made</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/BVRn_Q-FTeM/2010-11-17-the-hardest-decision-i-ve-ever-made" />
+    
+    <title>The hardest decision I\'ve ever made.</title>
+    <updated>2010-11-16T16:00:00-08:00</updated>
+    <dc:date>2010-11-16T16:00:00-08:00</dc:date>
+  <content type="html">I\'ll cut to the chase: I\'ve stepped down as CTO of CloudFab. I don\'t
+want to discuss details, but life is too short to not be doing what
+you want with it. And, after a period of careful thought and
+co...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=BVRn_Q-FTeM:zFaAQdOXM6w:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=BVRn_Q-FTeM:zFaAQdOXM6w:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=BVRn_Q-FTeM:zFaAQdOXM6w:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=BVRn_Q-FTeM:zFaAQdOXM6w:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=BVRn_Q-FTeM:zFaAQdOXM6w:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/BVRn_Q-FTeM" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2010-11-17-the-hardest-decision-i-ve-ever-made</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2010-09-24-trolling-is-a-art</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/YoGN-heBYWE/2010-09-24-trolling-is-a-art" />
+    
+    <title>Trolling is a art</title>
+    <updated>2010-09-23T17:00:00-07:00</updated>
+    <dc:date>2010-09-23T17:00:00-07:00</dc:date>
+  <content type="html">I find it incredibly hard not to be judgmental.I\'m not sure what part of my personality makes this happen, but even
+when I try to curb tearing down other people, I end up doing it
+anyway. I\'m not sure...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=YoGN-heBYWE:ZP33IUXrHL8:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=YoGN-heBYWE:ZP33IUXrHL8:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=YoGN-heBYWE:ZP33IUXrHL8:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=YoGN-heBYWE:ZP33IUXrHL8:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=YoGN-heBYWE:ZP33IUXrHL8:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/YoGN-heBYWE" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2010-09-24-trolling-is-a-art</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2010-09-21-80-of-success-is-showing-up</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/FdbWAwaoftc/2010-09-21-80-of-success-is-showing-up" />
+    
+    <title>80% of success is showing up</title>
+    <updated>2010-09-20T17:00:00-07:00</updated>
+    <dc:date>2010-09-20T17:00:00-07:00</dc:date>
+  <content type="html">It\'s funny how true this quote is.There are three people that I really admire: _why, Zed Shaw, and Yehuda Katz.
+And to simplify my tenses a bit, I\'ll speak of _why in the present tense. What
+do these ...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=FdbWAwaoftc:UbO7RAxwLPw:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=FdbWAwaoftc:UbO7RAxwLPw:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=FdbWAwaoftc:UbO7RAxwLPw:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=FdbWAwaoftc:UbO7RAxwLPw:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=FdbWAwaoftc:UbO7RAxwLPw:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/FdbWAwaoftc" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2010-09-21-80-of-success-is-showing-up</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2010-09-17-trouble-with-diaspora</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/gJFZ18AW6AM/2010-09-17-trouble-with-diaspora" />
+    
+    <title>Trouble with Diaspora</title>
+    <updated>2010-09-16T17:00:00-07:00</updated>
+    <dc:date>2010-09-16T17:00:00-07:00</dc:date>
+  <content type="html">So, Wednesday, Diaspora was released.If you\'re not familiar, a few months ago everyone was up in arms about the
+latest Facebook privacy change. So four college kids started a Kickstarter
+project with ...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=gJFZ18AW6AM:ZJJrgFyijb4:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=gJFZ18AW6AM:ZJJrgFyijb4:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=gJFZ18AW6AM:ZJJrgFyijb4:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=gJFZ18AW6AM:ZJJrgFyijb4:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=gJFZ18AW6AM:ZJJrgFyijb4:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/gJFZ18AW6AM" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2010-09-17-trouble-with-diaspora</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2010-08-19-a-word-about-why-whyday-and-hackety-hack</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/r_foiJU5s0E/2010-08-19-a-word-about-why-whyday-and-hackety-hack" />
+    
+    <title>A word about why, whyday, and Hackety Hack</title>
+    <updated>2010-08-18T17:00:00-07:00</updated>
+    <dc:date>2010-08-18T17:00:00-07:00</dc:date>
+  <content type="html">Today is Whyday. A programmer\'s holiday. Today is the day that we
+don\'t forget that programming isn\'t all Agile and driven by behavior
+and Serious Business. Inside each cubicle, the hacker spirit is t...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=r_foiJU5s0E:yp3Bp7MUXT0:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=r_foiJU5s0E:yp3Bp7MUXT0:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=r_foiJU5s0E:yp3Bp7MUXT0:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=r_foiJU5s0E:yp3Bp7MUXT0:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=r_foiJU5s0E:yp3Bp7MUXT0:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/r_foiJU5s0E" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2010-08-19-a-word-about-why-whyday-and-hackety-hack</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2010-07-24-a-blip-in-time</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/EotgzDOKf9Y/2010-07-24-a-blip-in-time" />
+    
+    <title>A blip in time</title>
+    <updated>2010-07-23T17:00:00-07:00</updated>
+    <dc:date>2010-07-23T17:00:00-07:00</dc:date>
+  <content type="html">Sometimes, insight comes from very unlikely places.I\'m keenly interested in the music industry, and how it will evolve, or
+possibly die. I care deeply about music; it\'s had a profound effect on my lif...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=EotgzDOKf9Y:z8ufObFXTi8:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=EotgzDOKf9Y:z8ufObFXTi8:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=EotgzDOKf9Y:z8ufObFXTi8:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=EotgzDOKf9Y:z8ufObFXTi8:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=EotgzDOKf9Y:z8ufObFXTi8:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/EotgzDOKf9Y" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2010-07-24-a-blip-in-time</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2010-07-17-what-to-know-before-debating-type-systems</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/pXpEUeGiBAc/2010-07-17-what-to-know-before-debating-type-systems" />
+    
+    <title>What To Know Before Debating Type Systems</title>
+    <updated>2010-07-16T17:00:00-07:00</updated>
+    <dc:date>2010-07-16T17:00:00-07:00</dc:date>
+  <content type="html">Recently, it was brought up on Proggit that Chris Smith\'s "What to Know Before
+Debating Type Systems" was no longer online. This is a really great article,
+and in an effort to make sure it survives, I...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=pXpEUeGiBAc:2EvmfRwZWBY:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=pXpEUeGiBAc:2EvmfRwZWBY:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=pXpEUeGiBAc:2EvmfRwZWBY:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=pXpEUeGiBAc:2EvmfRwZWBY:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=pXpEUeGiBAc:2EvmfRwZWBY:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/pXpEUeGiBAc" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2010-07-17-what-to-know-before-debating-type-systems</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2010-06-30-case-study-in-being-excellent-divvy</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/cccrgm4vI-U/2010-06-30-case-study-in-being-excellent-divvy" />
+    
+    <title>Case Study in being excellent: Divvy</title>
+    <updated>2010-06-29T17:00:00-07:00</updated>
+    <dc:date>2010-06-29T17:00:00-07:00</dc:date>
+  <content type="html">The other day I wrote a post about being excellent to each other.
+Today, I\'ve got a great example of that for you: Divvy.What would you do if you received an email like this?![]3Here\'s what happened:!...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=cccrgm4vI-U:dLpf5yrosh8:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=cccrgm4vI-U:dLpf5yrosh8:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=cccrgm4vI-U:dLpf5yrosh8:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=cccrgm4vI-U:dLpf5yrosh8:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=cccrgm4vI-U:dLpf5yrosh8:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/cccrgm4vI-U" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2010-06-30-case-study-in-being-excellent-divvy</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2010-06-08-productivity-waves</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/vOqAh-Or1Y4/2010-06-08-productivity-waves" />
+    
+    <title>Productivity Waves</title>
+    <updated>2010-06-07T17:00:00-07:00</updated>
+    <dc:date>2010-06-07T17:00:00-07:00</dc:date>
+  <content type="html">Right now, I\'m having a bit of a \'darkness before the dawn\' kind of moment. I
+feel like I might soon start to become productive again.It\'s sort of strange, how these things travel in waves. Just a mon...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=vOqAh-Or1Y4:IHK9X-Vicfc:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=vOqAh-Or1Y4:IHK9X-Vicfc:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=vOqAh-Or1Y4:IHK9X-Vicfc:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=vOqAh-Or1Y4:IHK9X-Vicfc:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=vOqAh-Or1Y4:IHK9X-Vicfc:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/vOqAh-Or1Y4" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2010-06-08-productivity-waves</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2010-05-01-you-are-terrified-of-your-own-children-since-they-are-natives-in-a-world-where-you-will-always-be-immigrants</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/D5lzii14zKM/2010-05-01-you-are-terrified-of-your-own-children-since-they-are-natives-in-a-world-where-you-will-always-be-immigrants" />
+    
+    <title>You are terrified of your own children, since they are natives in a world where you will always be immigrants.</title>
+    <updated>2010-04-30T17:00:00-07:00</updated>
+    <dc:date>2010-04-30T17:00:00-07:00</dc:date>
+  <content type="html">I just saw this today. It kind of goes along with my "Move to the Internet"
+post from a few days ago.Enjoy.Date: Fri, 9 Feb 1996 17:16:35 +0100To: barlow@eff.orgFrom: John Perry Barlow &amp;lt;barlow@eff.org...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=D5lzii14zKM:PuRvvyYy7Zk:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=D5lzii14zKM:PuRvvyYy7Zk:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=D5lzii14zKM:PuRvvyYy7Zk:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=D5lzii14zKM:PuRvvyYy7Zk:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=D5lzii14zKM:PuRvvyYy7Zk:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/D5lzii14zKM" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2010-05-01-you-are-terrified-of-your-own-children-since-they-are-natives-in-a-world-where-you-will-always-be-immigrants</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2010-04-27-a-break-with-the-past</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/KsHFYJSV378/2010-04-27-a-break-with-the-past" />
+    
+    <title>A Break with the Past</title>
+    <updated>2010-04-26T17:00:00-07:00</updated>
+    <dc:date>2010-04-26T17:00:00-07:00</dc:date>
+  <content type="html">Pretty soon, Twitter is going to turn off Basic Authentication and switch
+entirely to OAuth. People are upset. It\'s natural. If apps aren\'t updated,
+they\'ll stop working, entirely. This could be bad.B...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=KsHFYJSV378:8-XUZEBDZok:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=KsHFYJSV378:8-XUZEBDZok:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=KsHFYJSV378:8-XUZEBDZok:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=KsHFYJSV378:8-XUZEBDZok:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=KsHFYJSV378:8-XUZEBDZok:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/KsHFYJSV378" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2010-04-27-a-break-with-the-past</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2010-04-24-living-in-the-cloud</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/eETg_q7BDwM/2010-04-24-living-in-the-cloud" />
+    
+    <title>Living in the Cloud</title>
+    <updated>2010-04-23T17:00:00-07:00</updated>
+    <dc:date>2010-04-23T17:00:00-07:00</dc:date>
+  <content type="html">I\'ve been joking for a while that I\'d like to "move to the Internet."
+Generally I cite my familiarity and love with online culture as opposed to
+American culture. I don\'t really care what\'s going on i...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=eETg_q7BDwM:WI9CXeebMxg:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=eETg_q7BDwM:WI9CXeebMxg:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=eETg_q7BDwM:WI9CXeebMxg:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=eETg_q7BDwM:WI9CXeebMxg:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=eETg_q7BDwM:WI9CXeebMxg:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/eETg_q7BDwM" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2010-04-24-living-in-the-cloud</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2010-03-10-book-review-rework</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/21EOhU4ixAg/2010-03-10-book-review-rework" />
+    
+    <title>Book Review: Rework</title>
+    <updated>2010-03-09T16:00:00-08:00</updated>
+    <dc:date>2010-03-09T16:00:00-08:00</dc:date>
+  <content type="html">I\'ve been waiting for this book for a while. "Rework" is the new book by Jason
+Fried and David Heinemeier Hansson from 37signals. It hit stores on Tuesday.
+Here\'s a (non-affiliate) link to Rework on A...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=21EOhU4ixAg:dh1EsKIJVd8:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=21EOhU4ixAg:dh1EsKIJVd8:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=21EOhU4ixAg:dh1EsKIJVd8:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=21EOhU4ixAg:dh1EsKIJVd8:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=21EOhU4ixAg:dh1EsKIJVd8:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/21EOhU4ixAg" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2010-03-10-book-review-rework</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2010-03-08-create-a-more-compelling-experience-for-your-users-through-game-mechanics</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/QnN8nohUAAE/2010-03-08-create-a-more-compelling-experience-for-your-users-through-game-mechanics" />
+    
+    <title>Create a more compelling experience for your users through game mechanics</title>
+    <updated>2010-03-07T16:00:00-08:00</updated>
+    <dc:date>2010-03-07T16:00:00-08:00</dc:date>
+  <content type="html">Ever wonder why some websites are so addictive? Certain sites always keep you
+going back, time after time after time. Well, I can\'t speak for all of them,
+but there\'s a subtle reason that some sites d...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=QnN8nohUAAE:0Wp3JXSUtbg:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=QnN8nohUAAE:0Wp3JXSUtbg:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=QnN8nohUAAE:0Wp3JXSUtbg:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=QnN8nohUAAE:0Wp3JXSUtbg:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=QnN8nohUAAE:0Wp3JXSUtbg:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/QnN8nohUAAE" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2010-03-08-create-a-more-compelling-experience-for-your-users-through-game-mechanics</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2010-03-05-writing-a-su-feature-with-authlogic</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/hQWchpRtS3c/2010-03-05-writing-a-su-feature-with-authlogic" />
+    
+    <title>Writing a "su" feature with Authlogic</title>
+    <updated>2010-03-04T16:00:00-08:00</updated>
+    <dc:date>2010-03-04T16:00:00-08:00</dc:date>
+  <content type="html">Sometimes, when responding to a support request, it\'s nice to see what your
+users see. At the same time, you don\'t want to ask your users for their
+passwords, out of respect for their privacy. So what...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=hQWchpRtS3c:5Kq1AL2yw0g:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=hQWchpRtS3c:5Kq1AL2yw0g:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=hQWchpRtS3c:5Kq1AL2yw0g:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=hQWchpRtS3c:5Kq1AL2yw0g:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=hQWchpRtS3c:5Kq1AL2yw0g:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/hQWchpRtS3c" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2010-03-05-writing-a-su-feature-with-authlogic</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2010-03-03-why-bother-creating</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/qFfVrLRVT7g/2010-03-03-why-bother-creating" />
+    
+    <title>Why bother creating?</title>
+    <updated>2010-03-02T16:00:00-08:00</updated>
+    <dc:date>2010-03-02T16:00:00-08:00</dc:date>
+  <content type="html">Kanye West posted something interesting about the nature of creativity today.
+I\'m going to make a copy of it here, because I find the presentation also
+interesting. Here\'s his post, for reference.![]2...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=qFfVrLRVT7g:7F-U1hx0s84:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=qFfVrLRVT7g:7F-U1hx0s84:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=qFfVrLRVT7g:7F-U1hx0s84:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=qFfVrLRVT7g:7F-U1hx0s84:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=qFfVrLRVT7g:7F-U1hx0s84:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/qFfVrLRVT7g" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2010-03-03-why-bother-creating</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2010-03-01-reddit-drama-an-interesting-look-at-community-values</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/gkMotzGXKto/2010-03-01-reddit-drama-an-interesting-look-at-community-values" />
+    
+    <title>Reddit drama: an interesting look at community values</title>
+    <updated>2010-02-28T16:00:00-08:00</updated>
+    <dc:date>2010-02-28T16:00:00-08:00</dc:date>
+  <content type="html">I bet social psychologists are having a field day with the Internet. I know
+nothing about the field, so I don\'t know if there are thousands of papers
+about it already written or not, but there should ...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=gkMotzGXKto:YIf_4tZJ1CA:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=gkMotzGXKto:YIf_4tZJ1CA:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=gkMotzGXKto:YIf_4tZJ1CA:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=gkMotzGXKto:YIf_4tZJ1CA:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=gkMotzGXKto:YIf_4tZJ1CA:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/gkMotzGXKto" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2010-03-01-reddit-drama-an-interesting-look-at-community-values</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2009-12-31-the-hackety-mainfesto</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/3MhUduK24Os/2009-12-31-the-hackety-mainfesto" />
+    
+    <title>The Hackety Mainfesto</title>
+    <updated>2009-12-30T16:00:00-08:00</updated>
+    <dc:date>2009-12-30T16:00:00-08:00</dc:date>
+  <content type="html">For those of you that don\'t know, I\'ve taken over a project by someone named
+_why. He dropped off of the face of the Internet back in March, and the
+community has picked up his works. Because I\'ll be ...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=3MhUduK24Os:uzCZjzAfxVk:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=3MhUduK24Os:uzCZjzAfxVk:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=3MhUduK24Os:uzCZjzAfxVk:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=3MhUduK24Os:uzCZjzAfxVk:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=3MhUduK24Os:uzCZjzAfxVk:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/3MhUduK24Os" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2009-12-31-the-hackety-mainfesto</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2009-12-28-the-little-coder-s-predicament</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/5voh2tK-y9E/2009-12-28-the-little-coder-s-predicament" />
+    
+    <title>The Little Coder\'s Predicament</title>
+    <updated>2009-12-27T16:00:00-08:00</updated>
+    <dc:date>2009-12-27T16:00:00-08:00</dc:date>
+  <content type="html">For those of you that don\'t know, I\'ve taken over a project by someone named
+_why. He dropped off of the face of the Internet back in March, and the
+community has picked up his works. Because I\'ll be ...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=5voh2tK-y9E:m9zwcJZHDaM:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=5voh2tK-y9E:m9zwcJZHDaM:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=5voh2tK-y9E:m9zwcJZHDaM:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=5voh2tK-y9E:m9zwcJZHDaM:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=5voh2tK-y9E:m9zwcJZHDaM:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/5voh2tK-y9E" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2009-12-28-the-little-coder-s-predicament</feedburner:origLink></entry>
+  <entry>
+    <id>http://blog.steveklabnik.com/posts/2009-12-02-about-crows</id>
+    <link href="http://feedproxy.google.com/~r/SteveKlabnik/~3/aOYX5TC8Phg/2009-12-02-about-crows" />
+    
+    <title>About Crows</title>
+    <updated>2009-12-01T16:00:00-08:00</updated>
+    <dc:date>2009-12-01T16:00:00-08:00</dc:date>
+  <content type="html">A short time ago, the G20 came right here to Pittsburgh. With an event of such
+worldwide importance happening in our backyards, several people decided to
+document it via social media. The Mattress Fac...&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=aOYX5TC8Phg:No1ctUEO9Bc:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=aOYX5TC8Phg:No1ctUEO9Bc:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?i=aOYX5TC8Phg:No1ctUEO9Bc:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=aOYX5TC8Phg:No1ctUEO9Bc:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/SteveKlabnik?a=aOYX5TC8Phg:No1ctUEO9Bc:l6gmwiTKsz0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/SteveKlabnik?d=l6gmwiTKsz0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/SteveKlabnik/~4/aOYX5TC8Phg" height="1" width="1"/&gt;</content><feedburner:origLink>http://blog.steveklabnik.com/posts/2009-12-02-about-crows</feedburner:origLink></entry>
+  <dc:date>2013-04-06T17:00:00-07:00</dc:date>
+</feed>

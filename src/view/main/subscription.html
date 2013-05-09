@@ -1,0 +1,17 @@
+{% extends "main/allitems.html" %}
+
+{% block allitems_style %}{% endblock %}
+
+{% block subscriptions_section %}
+
+  {% if subscriptions %}
+  
+    {% for subscription in subscriptions %}
+    <div class="subsection {% if subscription.name == selected %} selected {% endif %}">
+      <a href="/main/subscription/{{ subscription.encode_name }}">{{ subscription.name }} </a><br/>
+    </div>
+    {% endfor %}
+
+  {% endif %}
+
+{% endblock %}

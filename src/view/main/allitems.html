@@ -1,0 +1,37 @@
+{% extends "main/base.html" %}
+
+{% block toptoolbar %}
+<button>next</button><button>previous</button><button>mark all as read</button>
+<span class="rightside" onclick="toggleView(this)">view: collapsed</span>
+{% endblock %}
+
+{% block allitems_style %}selected{% endblock %}
+
+{% block maincontenttext %}
+
+  {% if feed_items %}
+  
+    {% for item in feed_items %}
+      <div class="entry collapsed {% if item.read %}read{% endif %}" onclick="expandEntry(this, event)" feedid="{{ item.id }}">
+        
+        <span class="feedtitle"><span class="favorite">*</span>{{ item.subscription_name }}</span>
+        <span class="itemtitle">{{ item.item_name }}</span>
+        <a href="{{ item.link }}" class="itemtitleexpanded">{{ item.item_name }}</a>
+        
+        <span class="pubdate">{{ item.item_time|date:"b d Y" }}
+          <a class="nodec" href="{{ item.link }}"><span class="theLink">&gt;</span></a>
+        </span>
+        
+        <span class="collapseicon" onclick="collapseEntry(this, event)">-</span>
+        <h3 class="author">by {{ item.author }}</h3>
+
+        {{ item.content }}
+
+        <div class="entryfooter"><a href="#">like</a> <a href="#">email</a> <a href="#">mark as unread</a></div>
+
+      </div>
+    {% endfor %}
+  
+  {% endif %}
+
+{% endblock %}

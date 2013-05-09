@@ -1,0 +1,2 @@
+-module(feed_item, [Id, SubscriptionName::string(), ItemName::string(), Content::string(), Author, Link, ItemTime, User, Read::boolean()]).
+-compile(export_all).

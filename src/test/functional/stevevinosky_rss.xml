@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><feed
+  xmlns="http://www.w3.org/2005/Atom"
+  xmlns:thr="http://purl.org/syndication/thread/1.0"
+  xml:lang="en-US"
+  xml:base="http://steve.vinoski.net/blog/wp-atom.php"
+   >
+  <title type="text">Steve Vinoski's Blog</title>
+  <subtitle type="text">Ask forgiveness, not permission.</subtitle>
+
+  <updated>2013-03-11T13:45:31Z</updated>
+
+  <link rel="alternate" type="text/html" href="http://steve.vinoski.net/blog" />
+  <id>http://steve.vinoski.net/blog/feed/atom/</id>
+  <link rel="self" type="application/atom+xml" href="http://steve.vinoski.net/blog/feed/atom/" />
+
+  <generator uri="http://wordpress.org/" version="3.5.1">WordPress</generator>
+    <entry>
+      <author>
+        <name>steve</name>
+        <uri>http://steve.vinoski.net/</uri>
+      </author>
+      <title type="html"><![CDATA[CUFP Call for Talk Proposals]]></title>
+      <link rel="alternate" type="text/html" href="http://steve.vinoski.net/blog/2013/03/11/cufp-call-for-talk-proposals/" />
+      <id>http://steve.vinoski.net/blog/?p=1151</id>
+      <updated>2013-03-11T13:45:31Z</updated>
+      <published>2013-03-11T13:45:31Z</published>
+      <category scheme="http://steve.vinoski.net/blog" term="call for proposals" />
+      <category scheme="http://steve.vinoski.net/blog" term="conferences" />
+      <category scheme="http://steve.vinoski.net/blog" term="functional programming" />    
+      <summary type="html"><![CDATA[The 2013 Commercial Users of Functional Programming (CUFP) call for presentations is open. If you&#8217;re a practitioner using functional programming languages to build novel or interesting systems, please consider submitting a talk proposal. The CUFP workshop is part of ICFP 2013, and the CUFP talks will be held in Boston on Sep. 24, 2013.]]></summary>
+      <content type="html" xml:base="http://steve.vinoski.net/blog/2013/03/11/cufp-call-for-talk-proposals/"><![CDATA[<p>The <a href="http://cufp.org/2013cfp">2013 Commercial Users of Functional Programming (CUFP) call for presentations</a> is open. If you&#8217;re a practitioner using functional programming languages to build novel or interesting systems, please consider submitting a talk proposal.</p>
+      <p>The CUFP workshop is part of <a href="http://icfpconference.org/icfp2013/">ICFP 2013</a>, and the CUFP talks will be held in Boston on Sep. 24, 2013.</p>
+      ]]></content>
+      <link rel="replies" type="text/html" href="http://steve.vinoski.net/blog/2013/03/11/cufp-call-for-talk-proposals/#comments" thr:count="0"/>
+      <link rel="replies" type="application/atom+xml" href="http://steve.vinoski.net/blog/2013/03/11/cufp-call-for-talk-proposals/feed/atom/" thr:count="0"/>
+      <thr:total>0</thr:total>
+    </entry>
+    
+    <entry>
+    <author>
+      <name>steve</name>
+            <uri>http://steve.vinoski.net/</uri>
+          </author>
+    <title type="html"><![CDATA[2013 Erlang Workshop Call For Papers]]></title>
+    <link rel="alternate" type="text/html" href="http://steve.vinoski.net/blog/2013/02/20/2013-erlang-workshop-call-for-papers/" />
+    <id>http://steve.vinoski.net/blog/?p=1134</id>
+    <updated>2013-02-20T17:10:04Z</updated>
+    <published>2013-02-20T17:10:04Z</published>
+    <category scheme="http://steve.vinoski.net/blog" term="call for papers" /><category scheme="http://steve.vinoski.net/blog" term="conferences" /><category scheme="http://steve.vinoski.net/blog" term="erlang" /><category scheme="http://steve.vinoski.net/blog" term="functional programming" /><category scheme="http://steve.vinoski.net/blog" term="conference" />   <summary type="html"><![CDATA[The Twelfth ACM SIGPLAN Erlang Workshop will take place on September 28, 2013, in Boston, Massachusetts, USA. See the call for papers for more details. It&#8217;s a satellite event of the 18th ACM SIGPLAN International Conference on Functional Programming (ICFP), September 25–27, 2013. http://www.icfpconference.org/icfp2013/. The PC is chaired by Laura M. Castro, and I&#8217;m serving [...]]]></summary>
+    <content type="html" xml:base="http://steve.vinoski.net/blog/2013/02/20/2013-erlang-workshop-call-for-papers/"><![CDATA[<p>The Twelfth ACM SIGPLAN Erlang Workshop will take place on September 28, 2013, in Boston, Massachusetts, USA. See the <a href="http://www.erlang.org/workshop/2013/">call for papers</a> for more details.</p>
+<p>It&#8217;s a satellite event of the 18th ACM SIGPLAN International Conference on Functional Programming (ICFP), September 25–27, 2013. <a href="http://www.icfpconference.org/icfp2013/">http://www.icfpconference.org/icfp2013/</a>.</p>
+<p>The PC is chaired by <a href="http://about.me/laura.castro">Laura M. Castro</a>, and I&#8217;m serving as the workshop chair and as part of the program committee. We&#8217;re looking forward to receiving many excellent paper submissions from the ever-growing Erlang community.</p>
+]]></content>
+    <link rel="replies" type="text/html" href="http://steve.vinoski.net/blog/2013/02/20/2013-erlang-workshop-call-for-papers/#comments" thr:count="0"/>
+    <link rel="replies" type="application/atom+xml" href="http://steve.vinoski.net/blog/2013/02/20/2013-erlang-workshop-call-for-papers/feed/atom/" thr:count="0"/>
+    <thr:total>0</thr:total>
+  </entry>
+    <entry>
+    <author>
+      <name>steve</name>
+            <uri>http://steve.vinoski.net/</uri>
+          </author>
+    <title type="html"><![CDATA[Final &#8220;Functional Web&#8221; Column: the Nitrogen Web Framework]]></title>
+    <link rel="alternate" type="text/html" href="http://steve.vinoski.net/blog/2012/12/20/final-functional-web-column-the-nitrogen-web-framework/" />
+    <id>http://steve.vinoski.net/blog/?p=1119</id>
+    <updated>2012-12-20T15:47:09Z</updated>
+    <published>2012-12-20T15:47:09Z</published>
+    <category scheme="http://steve.vinoski.net/blog" term="column" /><category scheme="http://steve.vinoski.net/blog" term="erlang" /><category scheme="http://steve.vinoski.net/blog" term="framework" /><category scheme="http://steve.vinoski.net/blog" term="HTTP" /><category scheme="http://steve.vinoski.net/blog" term="web" />   <summary type="html"><![CDATA[The November/December 2012 issue of IEEE Internet Computing magazine contains my final &#8220;Functional Web&#8221; column covering the Nitrogen web framework. As with all my previous columns, this column is available here in PDF form. My first column for IC appeared in March 2002, nearly 11 years ago. Back then my column, called &#8220;Toward Integration,&#8221; focused [...]]]></summary>
+    <content type="html" xml:base="http://steve.vinoski.net/blog/2012/12/20/final-functional-web-column-the-nitrogen-web-framework/"><![CDATA[<p>The <a href="http://www.computer.org/csdl/mags/ic/2012/06/index.html">November/December 2012 issue of IEEE Internet Computing magazine</a> contains my <a href="http://www.computer.org/csdl/mags/ic/2012/06/mic2012060087-abs.html">final &#8220;Functional Web&#8221; column</a> covering the <a href="http://nitrogenproject.com">Nitrogen web framework</a>. As with all my previous columns, this <a href="/pdf/IC-Nitrogen_Web_Framework.pdf">column is available here</a> in PDF form.</p>
+<p>My <a href="/pdf/IEEE-Where_is_Middleware.pdf">first column for IC</a> appeared in March 2002, nearly 11 years ago. Back then my column, called &#8220;Toward Integration,&#8221; focused around enterprise middleware. My old friend <a href="http://g.oswego.edu">Doug Lea</a>, who was on the IC editorial board at the time, suggested that I write it, and who in their right mind would turn down Doug Lea? In March 2009 I stopped that column and began writing the &#8220;Functional Web&#8221; column, focusing on the use of functional programming languages and techniques for web development. Prior to writing for IC, I was a columnist for the <em>C++ Report</em> magazine, starting in January 1995, and then later continuing that column over in the <em>C/C++ Users Journal</em>. That column focused on <a href="/blog/old-object-interconnection-columns/">distributed object computing</a>, and I stopped writing it in 2005.</p>
+<p>That&#8217;s a total of 18 years as a columnist, which is a lengthy duration for a side gig done on my own time (and for IC, done on a purely volunteer basis). My common goal for all the columns was to write for practitioners like me &mdash; to try to cover topics, approaches, and ideas that other software developers could immediately apply in their own work. I also saw column writing as a way to try to pay back all the authors from whom I had learned so much over the years.</p>
+<p>But 18 years is enough, for now anyway. While I might return to publishing in the future, for now I just want to focus on technology and software development.</p>
+<p>Thanks to all my readers for your feedback and encouragement over the years. You definitely made it all worthwhile.</p>
+]]></content>
+    <link rel="replies" type="text/html" href="http://steve.vinoski.net/blog/2012/12/20/final-functional-web-column-the-nitrogen-web-framework/#comments" thr:count="0"/>
+    <link rel="replies" type="application/atom+xml" href="http://steve.vinoski.net/blog/2012/12/20/final-functional-web-column-the-nitrogen-web-framework/feed/atom/" thr:count="0"/>
+    <thr:total>0</thr:total>
+  </entry>
+    <entry>
+    <author>
+      <name>steve</name>
+            <uri>http://steve.vinoski.net/</uri>
+          </author>
+    <title type="html"><![CDATA[Concurrency and Message Passing in Erlang]]></title>
+    <link rel="alternate" type="text/html" href="http://steve.vinoski.net/blog/2012/11/05/concurrency-and-message-passing-in-erlang/" />
+    <id>http://steve.vinoski.net/blog/?p=1087</id>
+    <updated>2012-11-05T16:57:48Z</updated>
+    <published>2012-11-05T16:57:48Z</published>
+    <category scheme="http://steve.vinoski.net/blog" term="concurrency" /><category scheme="http://steve.vinoski.net/blog" term="erlang" /><category scheme="http://steve.vinoski.net/blog" term="languages" /><category scheme="http://steve.vinoski.net/blog" term="message passing" /><category scheme="http://steve.vinoski.net/blog" term="performance" />   <summary type="html"><![CDATA[In July 2011 I received an email asking if I would write an article about Erlang for the IEEE Computers in Science and Engineering (CiSE) magazine. The email said they had first invited Joe Armstrong but Joe had recommended me instead &#8212; how could I refuse a request like that? :) It took awhile, but [...]]]></summary>
+    <content type="html" xml:base="http://steve.vinoski.net/blog/2012/11/05/concurrency-and-message-passing-in-erlang/"><![CDATA[<p>In July 2011 I received an email asking if I would write an article about Erlang for the <a href="http://www.computer.org/cise">IEEE Computers in Science and Engineering (CiSE) magazine</a>. The email said they had first invited Joe Armstrong but Joe had recommended me instead &mdash; how could I refuse a request like that? :)</p>
+<p>It took awhile, but my resulting article <em>&#8220;Concurrency and Message Passing in Erlang&#8221;</em> is now published in the Nov/Dec 2012 issue of CiSE. Here&#8217;s the abstract:</p>
+<blockquote><p><em>Developers use the open source Erlang programming language in domains such as telecommunications, database systems, and the Web due to its superior support for concurrency and reliability. Erlang applications comprise numerous processes&mdash;lightweight user-space threads&mdash;that communicate via message passing. This article focuses on Erlang&#8217;s concurrency support and details an example 1D Poisson solver program.</em></p></blockquote>
+<p>Due to IEEE copyright rules I&#8217;m allowed to post only the <a href="/pdf/CISE-Vinoski-Concurrency-and-Message-Passing-in-Erlang.pdf">final draft</a> (PDF) sent to the magazine&#8217;s layout folks, but that&#8217;s OK since its text and figures are identical to the final published version. I haven&#8217;t yet received my hard copy of the magazine, but it looks like an interesting issue; it&#8217;s a <a href="http://www.computer.org/csdl/mags/cs/2012/06/index.html">special one covering concurrency in modern programming languages</a>, and it also contains articles about Haskell and Clojure. The <a href="http://www.computer.org/csdl/mags/cs/2012/06/mcs2012060008.html">guest editors&#8217; introduction</a> explains the issue in more detail.</p>
+<p>If you&#8217;re interested, you can purchase the full final article from the IEEE <a href="http://www.computer.org/csdl/mags/cs/2012/06/mcs2012060024-abs.html">here</a>. And now for some obligatory legalese: <em>My article linked above is © 2012 IEEE. Personal use of this material is permitted. Permission from IEEE must be obtained for all other uses, in any current or future media, including reprinting/republishing this material for advertising or promotional purposes, creating new collective works, for resale or redistribution to servers or lists, or reuse of any copyrighted component of this work in other works. This material is presented to ensure timely dissemination of scholarly and technical work. Copyright and all rights therein are retained by authors or by other copyright holders. All persons copying this information are expected to adhere to the terms and constraints invoked by each author’s copyright. In most cases, these works may not be reposted without the explicit permission of the copyright holder.</em></p>
+]]></content>
+    <link rel="replies" type="text/html" href="http://steve.vinoski.net/blog/2012/11/05/concurrency-and-message-passing-in-erlang/#comments" thr:count="0"/>
+    <link rel="replies" type="application/atom+xml" href="http://steve.vinoski.net/blog/2012/11/05/concurrency-and-message-passing-in-erlang/feed/atom/" thr:count="0"/>
+    <thr:total>0</thr:total>
+  </entry>
+    <entry>
+    <author>
+      <name>steve</name>
+            <uri>http://steve.vinoski.net/</uri>
+          </author>
+    <title type="html"><![CDATA[New Column: Server-Sent Events with Yaws]]></title>
+    <link rel="alternate" type="text/html" href="http://steve.vinoski.net/blog/2012/10/08/new-column-server-sent-events-with-yaws/" />
+    <id>http://steve.vinoski.net/blog/?p=1079</id>
+    <updated>2012-10-08T17:35:08Z</updated>
+    <published>2012-10-08T17:35:08Z</published>
+    <category scheme="http://steve.vinoski.net/blog" term="column" /><category scheme="http://steve.vinoski.net/blog" term="erlang" /><category scheme="http://steve.vinoski.net/blog" term="events" /><category scheme="http://steve.vinoski.net/blog" term="notifications" /><category scheme="http://steve.vinoski.net/blog" term="web" /><category scheme="http://steve.vinoski.net/blog" term="yaws" /><category scheme="http://steve.vinoski.net/blog" term="polling" /><category scheme="http://steve.vinoski.net/blog" term="server-sent-events" />   <summary type="html"><![CDATA[My latest Internet Computing column, Server-Sent Events with Yaws (PDF), is now available. It discusses the fact that developers are increasingly building Web applications that rely on notifications from the server, such as updates from social networks, alerts from application monitors, or information from sensor networks. But given that HTTP is a request-response protocol, such [...]]]></summary>
+    <content type="html" xml:base="http://steve.vinoski.net/blog/2012/10/08/new-column-server-sent-events-with-yaws/"><![CDATA[<p>My latest Internet Computing column, <a href="http://steve.vinoski.net/pdf/IC-SSE_with_Yaws.pdf">Server-Sent Events with Yaws</a> (PDF), is now available. It discusses the fact that developers are increasingly building Web applications that rely on notifications from the server, such as updates from social networks, alerts from application monitors, or information from sensor networks. But given that HTTP is a request-response protocol, such notifications can be challenging, giving rise to techniques such as long polling and to entirely new protocols such as <a href="http://tools.ietf.org/html/rfc6455">WebSocket</a>. These challenges can be especially significant for mobile applications due to intermittent client connectivity and device battery-life issues. This column explores how the <a href="http://yaws.hyber.org/">Yaws Web server</a>, written in the <a href="http://www.erlang.org/">Erlang programming language</a>, supports the <a href="http://www.w3.org/TR/eventsource/">W3C Server-Sent Events</a> notification approach.</p>
+]]></content>
+    <link rel="replies" type="text/html" href="http://steve.vinoski.net/blog/2012/10/08/new-column-server-sent-events-with-yaws/#comments" thr:count="0"/>
+    <link rel="replies" type="application/atom+xml" href="http://steve.vinoski.net/blog/2012/10/08/new-column-server-sent-events-with-yaws/feed/atom/" thr:count="0"/>
+    <thr:total>0</thr:total>
+  </entry>
+  </feed>

@@ -1,0 +1,508 @@
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+<channel>
+<title>Code as Craft</title>
+<atom:link href="http://codeascraft.etsy.com/feed/" rel="self" type="application/rss+xml"/>
+<link>http://codeascraft.etsy.com</link>
+<description>The Engineering Blog from Etsy</description>
+<lastBuildDate>Wed, 03 Apr 2013 00:57:25 +0000</lastBuildDate>
+<language>en</language>
+<sy:updatePeriod>hourly</sy:updatePeriod>
+<sy:updateFrequency>1</sy:updateFrequency>
+<generator>http://wordpress.com/</generator>
+<cloud domain="codeascraft.etsy.com" port="80" path="/?rsscloud=notify" registerProcedure="" protocol="http-post"/>
+<image>
+<url>
+http://1.gravatar.com/blavatar/b137a7ea326a4fb36bf330a38c37d963?s=96&amp;d=http%3A%2F%2Fs2.wp.com%2Fi%2Fbuttonw-com.png
+</url>
+<title>Code as Craft</title>
+<link>http://codeascraft.etsy.com</link>
+</image>
+<atom:link rel="search" type="application/opensearchdescription+xml" href="http://codeascraft.etsy.com/osd.xml" title="Code as Craft"/>
+<atom:link rel="hub" href="http://codeascraft.etsy.com/?pushpress=hub"/>
+  <item>
+    <title>Re-Exploring New Technologies: The Turbo Encabulator</title>
+    <link>http://codeascraft.etsy.com/2013/04/01/re-exploring-new-technologies-the-turbo-encabulator/</link>
+    <comments>http://codeascraft.etsy.com/2013/04/01/re-exploring-new-technologies-the-turbo-encabulator/#comments</comments>
+    <pubDate>Mon, 01 Apr 2013 16:30:43 +0000</pubDate>
+    <dc:creator>jallspaw</dc:creator>
+    <category><![CDATA[ engineering ]]></category>
+    <category><![CDATA[ infrastructure ]]></category>
+    <category><![CDATA[ operations ]]></category>
+    <category><![CDATA[ philosophy ]]></category>
+    <category><![CDATA[ video ]]></category>
+    <guid isPermaLink="false">http://codeascraft.etsy.com/?p=3191</guid>
+    <description>
+      <![CDATA[
+      One of the things that we like to do here at Etsy is to push the envelope. Pushing the envelope means reaching deep into unknown technologies and approaches, and to experiment in areas that we are not familiar with. It's in this vein that we'd like to share some early and unfiltered work: The Turbo [...]<img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=codeascraft.etsy.com&#038;blog=16220466&#038;post=3191&#038;subd=etsycodeascraft&#038;ref=&#038;feed=1" width="1" height="1" />
+      ]]>
+    </description>
+    <content:encoded>
+      <![CDATA[
+      <p>One of the things that we like to do here at Etsy is to push the envelope.</p> <p>Pushing the envelope means reaching deep into unknown technologies and approaches, and to experiment in areas that we are not familiar with. It's in this vein that we'd like to share some early and unfiltered work: The Turbo Encabulator.</p> <p>Each member of the TE team has stretched their cognitive abilities into new realms, and we're pretty happy with the results thus far. We know that in many ways, engineering is about solidifying a solution well before the problem statement can be fully described within a socio-technical environment.</p> <p>Of course, we also acknowledge that the notion of socio-emotional technocracy needs to fit within this paradigm. This brings us to some questions:</p> <ul> <li>What heterogenius surface areas can we explore as prototypes for availability matching?</li> <li>Under what conditions will our biases influence positively the results of anarcho-syndacalist architectures?</li> <li>Where can we look for indications that our Mean-Time-To-Innocence (MTTI) is improving?</li> </ul> <p>Understandably, these challenges are unilateral in their nature and we've made a large investment in creating an erinaceous atmosphere in order to produce results.</p> <p>One of these results is the Turbo Encabulator. As you can imagine, sinusoidal repleneration threw us for a loop. <img src='http://s0.wp.com/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /><br /> An internal tech talk can be seen below:</p> <div class='embed-vimeo' style='text-align:center;'><iframe src='http://player.vimeo.com/video/63087035' width='500' height='281' frameborder='0'></iframe></div> <br /> <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/etsycodeascraft.wordpress.com/3191/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/etsycodeascraft.wordpress.com/3191/" /></a> <img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=codeascraft.etsy.com&#038;blog=16220466&#038;post=3191&#038;subd=etsycodeascraft&#038;ref=&#038;feed=1" width="1" height="1" />
+      ]]>
+    </content:encoded>
+    <wfw:commentRss>http://codeascraft.etsy.com/2013/04/01/re-exploring-new-technologies-the-turbo-encabulator/feed/</wfw:commentRss>
+    <slash:comments>2</slash:comments>
+    <media:content url="http://1.gravatar.com/avatar/d203c4b40e3a19c1213a9b9994b11556?s=96&amp;d=identicon&amp;r=G" medium="image">
+      <media:title type="html">jallspaw</media:title>
+    </media:content>
+  </item>
+
+  <item>
+    <title>There and Back Again: Migrating Geolocation Data to GeoNames</title>
+<link>
+http://codeascraft.etsy.com/2013/03/26/there-and-back-again-migrating-geolocation-data-to-geonames/
+</link>
+<comments>
+http://codeascraft.etsy.com/2013/03/26/there-and-back-again-migrating-geolocation-data-to-geonames/#comments
+</comments>
+<pubDate>Tue, 26 Mar 2013 16:36:04 +0000</pubDate>
+<dc:creator>John Marc</dc:creator>
+<category>
+<![CDATA[ data ]]>
+</category>
+<category>
+<![CDATA[ databases ]]>
+</category>
+<category>
+<![CDATA[ engineering ]]>
+</category>
+<category>
+<![CDATA[ internationalization ]]>
+</category>
+<category>
+<![CDATA[ etsy ]]>
+</category>
+<category>
+<![CDATA[ GeoNames ]]>
+</category>
+<category>
+<![CDATA[ localization ]]>
+</category>
+<category>
+<![CDATA[ translation ]]>
+</category>
+<guid isPermaLink="false">http://codeascraft.etsy.com/?p=3043</guid>
+<description>
+<![CDATA[
+People are passionate about where they live. At Etsy we need to keep track of lots of different locations, such as buyers’ billing and shipping addresses and sellers’ shop locations. As Etsy continues to expand internationally we wanted to provide better localization and translations for our location place names. We determined that the best way [...]<img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=codeascraft.etsy.com&#038;blog=16220466&#038;post=3043&#038;subd=etsycodeascraft&#038;ref=&#038;feed=1" width="1" height="1" />
+]]>
+</description>
+<content:encoded>
+<![CDATA[
+<p>People are passionate about where they live. At Etsy we need to keep track of lots of different locations, such as buyers’ billing and shipping addresses and sellers’ shop locations. As Etsy continues to expand internationally we wanted to provide better localization and translations for our
+]]>
+<![CDATA[
+location place names. We determined that the best way to effect this change was to move from using a closed location API provider to internal services backed by the open <a href="http://geonames.org">GeoNames</a> data set.</p> <p>Before we could start using GeoNames as our data source we had to map all our existing user locations onto the GeoNames data. There is no established method for creating this mapping so we looked at the data we had and figured out a method. For our existing user locations we had city, region, country, country code, latitude and longitude in a format like this:</p> <pre>tokyo    tokyo prefecture japan    jp 35.670 139.740
+ luxembourg city luxemburg        luxembourg       lu   49.609 6.129
+ newport england united kingdom   gb   50.700 -1.295
+ earth    texas    united states    us   34.277 -102.508</pre> <p>To execute our mapping we created a PHP script that was able to leverage the much broader amount of data GeoNames provides us and quickly determine if old and new locations matched up. This script is now available on <a href="https://github.com/etsy/geonames">Etsy’s github page</a>. The script relies on a MySQL DB backend that contains the <a href="http://download.geonames.org/export/dump/readme.txt">standard data tables distributed by GeoNames</a> with indexes on place names, country codes, and the latitude and longitude columns.</p> <p dir="ltr">For each row in our source data we attempt a few different strategies to try to find a match to the GeoNames data.</p> <p>Our first step is to see if there are any exact text matches to the place name we have in the GeoNames data set. If there is one or more exact matches we sort them by distance from the source latitude and longitude and if the nearest place is less than 20km away we call it a match. 20km is a rather large radius and we could easily run through with much lower limits, but we found that since we sorted by distance already a large radius gave us more positive matches when our data sets disagreed on where the center of large cities should be.</p> <p dir="ltr">If we don’t find an exact text match we look again twice more, once with wildcards around the place name in our source data and once searching the “alternatenames” column in the GeoNames data set instead of the “name” column. This helps us find locations whose names may have changed or have alternate spellings. Results are sorted by distance and again we keep the closest if it falls within our threshold.</p> <p dir="ltr">If we still have not found a match we take a substring of the first several letters of the name and do a wildcard search for that. (The length of the substring depends on the length of the source name and is generally about 35%.) This helps eliminate problems resulting from inconsistent inclusion of things like ‘City’, ‘Township’ and ‘Borough’ from place names in our source data.</p> <p dir="ltr">For this project it was important that we found a match for every location and so we added a final “match at all costs” step.  If none of the previous steps have succeeded we use the source location’s latitude and longitude and get a list of all locations in the source country that are within a few tenths of a degree.  We then sort the results and pick the closest.  This was necessary for less than 1% of our data and allowed us to continue providing local search services even when we were unable to match a city exactly. This was a very exploratory, iterative process as we discovered what worked and what did not, and where our existing data was incomplete or inaccurate. From tuning the radius of the search areas, to dropping all the region data outside of the US (we found that it was contributing a lot of false positive matches, and the results were better without it), we revised and refined the logic until it gave us satisfactory results.</p> <p dir="ltr">After we established a mapping we added a new field to store each seller’s “GeoNameID” in our DB. Where previously we stored all the fields listed above now we need only the GeoNameID.  We do still store the old data format as well which has allowed us to make an easy and transparent transition from using the old data to the new data.  With access to the full breadth of data provided by GeoNames we have been able to speed our Local Search feature.  We now also localize spellings of place names for our international users, so someone searching in German can search near Köln while someone searching in English can look for Cologne.</p> <p dir="ltr">I will be giving a talk on how we handle search and localized place name auto-suggest at <a href="http://lucenerevolution.org/">Lucene/Solr revolution</a> in San Diego in May and we’ll be publishing more Code as Craft blog posts on geolocation services in the coming months here as well.</p> <p dir="ltr"><em>You can follow John Marc on Twitter <a href="https://twitter.com/thejohnmarc">@thejohnmarc</a></em></p> <br /> <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/etsycodeascraft.wordpress.com/3043/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/etsycodeascraft.wordpress.com/3043/" /></a> <img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=codeascraft.etsy.com&#038;blog=16220466&#038;post=3043&#038;subd=etsycodeascraft&#038;ref=&#038;feed=1" width="1" height="1" />
+]]>
+</content:encoded>
+<wfw:commentRss>
+http://codeascraft.etsy.com/2013/03/26/there-and-back-again-migrating-geolocation-data-to-geonames/feed/
+</wfw:commentRss>
+<slash:comments>0</slash:comments>
+<media:content url="http://1.gravatar.com/avatar/a1438e263f8882f03da1138a0992ff62?s=96&amp;d=identicon&amp;r=G" medium="image">
+<media:title type="html">melanarchy</media:title>
+</media:content>
+</item>
+<item>
+<title>
+Data Corruption To Go: The Perils Of sql_mode = NULL
+</title>
+<link>
+http://codeascraft.etsy.com/2013/03/19/the-perils-of-sql_mode/
+</link>
+<comments>
+http://codeascraft.etsy.com/2013/03/19/the-perils-of-sql_mode/#comments
+</comments>
+<pubDate>Tue, 19 Mar 2013 18:03:48 +0000</pubDate>
+<dc:creator>Keyur Govande</dc:creator>
+<category>
+<![CDATA[ databases ]]>
+</category>
+<category>
+<![CDATA[ engineering ]]>
+</category>
+<category>
+<![CDATA[ operations ]]>
+</category>
+<guid isPermaLink="false">http://codeascraft.etsy.com/?p=3106</guid>
+<description>
+<![CDATA[
+A little while back, we hit an extremely embarrassing issue: 32-bit signed integer overflow on some primary keys. In our architecture, an unsigned 64-bit key is generated by a global ticket server, but the sharded tables’ schemas did not use BIGINT UNSIGNED as the column data-type. Inserts into the affected tables started failing en masse [...]<img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=codeascraft.etsy.com&#038;blog=16220466&#038;post=3106&#038;subd=etsycodeascraft&#038;ref=&#038;feed=1" width="1" height="1" />
+]]>
+</description>
+<content:encoded>
+<![CDATA[
+<p dir="ltr">A little while back, we hit an extremely embarrassing issue: 32-bit signed integer overflow on some primary keys.</p> <p dir="ltr">In our architecture, an unsigned 64-bit key is generated by a global <a title="Etsy's Shard Architecture" href="http://www.slideshare.net/jgoulah/the-etsy-s
+]]>
+<![CDATA[
+hard-architecture-starts-with-s-and-ends-with-hard" target="_blank">ticket server</a>, but the sharded tables’ schemas did not use <code>BIGINT UNSIGNED</code> as the column data-type. Inserts into the affected tables started failing <em>en masse</em> with "duplicate key&#8221; errors on key
+]]>
+<![CDATA[
+2147483647.</p> <p dir="ltr">We quickly realized the issue and <code>ALTER</code>ed the impacted tables, but the MySQL behavior of silently truncating all values larger than 2147483647 with the only fail-safe being the primary key constraint was worrying. Any columns that lacked a similar constrain
+]]>
+<![CDATA[
+t would be experiencing silent data corruption.</p> <p dir="ltr">Some digging led us to the MySQL variable <code><a title="MySQL Manual sql_mode" href="http://dev.mysql.com/doc/refman/5.5/en/server-sql-mode.html">sql_mode</a></code>.</p> <h2>What is sql_mode anyway?</h2> <p dir="ltr">By default MySQ
+]]>
+<![CDATA[
+L is very accepting of bad data and bad queries. At best, it may emit a <code>WARNING</code>, but these are almost always ignored by client libraries such as PHP's PDO.</p> <p><code>sql_mode</code> is a run-time setting for MySQL and enabling it makes the database much more vocal by changing most <code>WARNINGs</code> to <code>ERRORs</code>. This helps prevent silent data corruption on write, and unexpected results on read. Here are a few examples of issues it helped fix within our stack and the settings we used:</p> <h3>PROBLEM: Missing default values, data-type and data-length mismatches</h3> <p style="padding-left:30px;"><code> CREATE TABLE `sql_test`<br /> &nbsp;&nbsp;&nbsp;&nbsp;`id` <strong>TINYINT UNSIGNED</strong> NOT NULL PRIMARY KEY,<br /> &nbsp;&nbsp;&nbsp;&nbsp;`value` <strong>VARCHAR(3)</strong> NOT NULL,<br /> &nbsp;&nbsp;&nbsp;&nbsp;`column_not_null` VARCHAR(1) <strong>NOT NULL</strong><br /> ) Engine = InnoDB;</code></p> <p dir="ltr">Consider the following inserts:</p> <ol> <li><code>INSERT INTO sql_test (id, value, column_not_null) VALUES (<strong>10000</strong>, 'z', 'y');</code></li> <li><code>INSERT INTO sql_test (id, value, column_not_null) VALUES (1, <strong>'abcde'</strong>, 'x');</code></li> <li><code>INSERT INTO sql_test (<strong>id, value</strong>) VALUES (2, 'qwerty');</code></li> </ol> <p>Here's what the table would look like when <code>sql_mode</code> is disabled:</p> <p dir="ltr" style="padding-left:30px;"><code> +-----+-------+-----------------+<br /> | id  | value | column_not_null |<br /> +-----+-------+-----------------+<br /> |   1 | abc   | x               |<br /> |   2 | qwe   |                 |<br /> | 255 | z     | y               |<br /> +-----+-------+-----------------+<br /> </code></p> <p dir="ltr">Massively different from the expected values!</p> <p dir="ltr">When <code>sql_mode='STRICT_ALL_TABLES'</code> is set though, each of those inserts will fail hard so that you can recover and handle the problem in your application.</p> <ol> <li><code>ERROR 1264 (22003): Out of range value for column 'id' at row 1</code></li> <li><code>ERROR 1406 (22001): Data too long for column 'value' at row 1</code></li> <li><code>ERROR 1364 (HY000): Field 'column_not_null' doesn't have a default value</code></li> </ol> <h3>PROBLEM: Character-set issues</h3> <p dir="ltr" style="padding-left:30px;"><code> CREATE TABLE `charset_test` (<br /> &nbsp;&nbsp;&nbsp;&nbsp;`message` <strong>VARCHAR(3000)</strong> NOT NULL -- NB: this could also be `message` <strong>TEXT</strong> NOT NULL<br /> ) Engine = InnoDB <strong>DEFAULT CHARSET=UTF8</strong>;<br /> </code></p> <p dir="ltr">Inserting a <a href="http://www.i18nguy.com/unicode-plane1-utf8.html">supplementary UTF-8 character</a> string like <a href="http://etsycodeascraft.files.wordpress.com/2013/03/utf8_supplementary.png"><img alt="UTF8 supplementary character example" src="http://etsycodeascraft.files.wordpress.com/2013/03/utf8_supplementary.png?w=45&#038;h=19" width="45" height="19" /></a> would seem to work, but on a subsequent SELECT, the returned string would be quite different: <a href="http://etsycodeascraft.files.wordpress.com/2013/03/utf8_supplementary-fail.png"><img alt="UTF8 Supplementary Fail" src="http://etsycodeascraft.files.wordpress.com/2013/03/utf8_supplementary-fail.png?w=40&#038;h=20" width="40" height="20" /></a></p> <p dir="ltr">This is because MySQL's UTF8 implementation can only accommodate characters up to 3 bytes in length, but Unicode characters could be up to 4 bytes long. The data stored in the message column is subtly truncated and corrupted.</p> <p dir="ltr">With the stricter <code>sql_mode='STRICT_ALL_TABLES'</code>, inserts containing 4-byte characters will fail hard with: <code>ERROR 1366 (HY000): Incorrect string value</code></p> <p dir="ltr">Note that <code>sql_mode</code> setting here is only an alarm-bell, it is not fixing the underlying issue. The real solution is twofold:</p> <ol> <li> <p dir="ltr">Change the character-set of the connection to MySQL to <code>UTF8MB4</code>. If using PHP’s PDO, pass it in via the connection <a title="PHP PDO" href="http://www.php.net/manual/en/pdo.construct.php">DSN</a>. Or when running queries by hand, make sure to execute <code>SET NAMES utf8mb4</code> before executing anything.</p> </li> <li> <p dir="ltr">Modify the column and the table definitions to <code>UTF8MB4</code>:<br /> <code>ALTER TABLE `charset_test`<br /> &nbsp;&nbsp;&nbsp;&nbsp;DEFAULT CHARSET utf8mb4,<br /> &nbsp;&nbsp;&nbsp;&nbsp;MODIFY `message` VARCHAR(3000) CHARACTER SET utf8mb4 NOT NULL;<br /> </code></p> </li> </ol> <p dir="ltr">One caveat to note when using the <code>UTF8MB4</code> charset: the rule-of-thumb for an indexed <code>VARCHAR</code> column being at most 255 characters is no longer valid. MySQL has a length limit of 767 bytes for the index prefix and it has to accommodate the worst case. Thus when using the 3-byte <code>UTF8</code> character set, 255 characters fit in, but when using 4-byte <code>UTF8MB4</code> only 191 characters fit.</p> <p dir="ltr">If we absolutely need 255 characters indexed (for example if the column holds email addresses), a workaround is to SHA-1 hash the value, and store and index that column instead.</p> <h3>PROBLEM: Unsigned int decrements</h3> <p dir="ltr" style="padding-left:30px;"><code> CREATE TABLE `decrement_test` (<br /> &nbsp;&nbsp;&nbsp;&nbsp;`id` int(11) NOT NULL,<br /> &nbsp;&nbsp;&nbsp;&nbsp;`value` int(11) unsigned NOT NULL,<br /> &nbsp;&nbsp;&nbsp;&nbsp;PRIMARY KEY (`id`)<br /> ) ENGINE=InnoDB DEFAULT CHARSET=utf8</code></p> <p dir="ltr" style="padding-left:30px;"><code>INSERT INTO decrement_test(id, value)<br /> &nbsp;&nbsp;&nbsp;&nbsp;VALUES(1, 20) ON DUPLICATE KEY UPDATE<br /> &nbsp;&nbsp;&nbsp;&nbsp;value = value + VALUES(value);</code></p> <p dir="ltr" style="padding-left:30px;"><code>SELECT * FROM decrement_test;<br /> +----+-------+<br /> | id | value |<br /> +----+-------+<br /> | 1  | 20    |<br /> +----+-------+<br /> </code></p> <p dir="ltr" style="padding-left:30px;"><code>INSERT INTO decrement_test(id, value)<br /> &nbsp;&nbsp;&nbsp;&nbsp;VALUES(1, <strong>-1</strong>) ON DUPLICATE KEY UPDATE<br /> &nbsp;&nbsp;&nbsp;&nbsp;value = value + VALUES(value);</code></p> <p dir="ltr">If you were expecting the value to now be 19, you would be wrong:</p> <p dir="ltr" style="padding-left:30px;"><code>SELECT * FROM decrement_test;<br /> +----+-------+<br /> | id | value |<br /> +----+-------+<br /> | 1  | 20    |<br /> +----+-------+<br /> </code></p> <p dir="ltr">When <code>sql_mode='STRICT_ALL_TABLES'</code> is enabled, the decrement <code>INSERT</code> statement will fail with: <code>ERROR 1264 (22003): Out of range value for column 'value' at row 1</code></p> <p dir="ltr">Note that in order to do atomic decrements as shown above, the column data type would need to be signed-integer rather than unsigned-integer.</p> <h3>PROBLEM: Incorrect group-by</h3> <p dir="ltr" style="padding-left:30px;"><code>CREATE TABLE `group_by_test`<br /> &nbsp;&nbsp;&nbsp;&nbsp;`id` INT NOT NULL PRIMARY KEY,<br /> &nbsp;&nbsp;&nbsp;&nbsp;`name` VARCHAR(30) NOT NULL,<br /> &nbsp;&nbsp;&nbsp;&nbsp;`status` INT NOT NULL,<br /> &nbsp;&nbsp;&nbsp;&nbsp;`region` INT NOT NULL<br /> ) Engine = InnoDB DEFAULT CHARSET = UTF8MB4;</code></p> <p dir="ltr" style="padding-left:30px;"><code>INSERT INTO group_by_test(id, name, status, region) VALUES (1, 'etsy', 10, 100);<br /> INSERT INTO group_by_test(id, name, status, region) VALUES (2, 'ebay', 12, 100);<br /> INSERT INTO group_by_test(id, name, status, region) VALUES (3, 'amazon', 13, 150);<br /> INSERT INTO group_by_test(id, name, status, region) VALUES (4, 'fab', 10, 100);<br /> </code></p> <p dir="ltr" style="padding-left:30px;"><code>SELECT COUNT(1), <strong>status, name</strong> FROM group_by_test GROUP BY <strong>status</strong>;<br /> +----------+--------+--------+<br /> | COUNT(1) | status | name   |<br /> +----------+--------+--------+<br /> |   2      | 10     | etsy   |<br /> |   1      | 12     | ebay   |<br /> |   1      | 13     | amazon |<br /> +----------+--------+--------+<br /> </code></p> <p dir="ltr">The `name` column isn't in the <code>GROUP BY</code> clause, but is in the SELECT and MySQL pulls the first matching value and puts it into the result set. The output in the `name` column depends on relative order of rows in the table and may not be repeatable and this is almost never desirable.</p> <p dir="ltr">By setting <code>sql_mode='ONLY_FULL_GROUP_BY'</code>, we can prevent such unreliable SQL from executing. The query would instead fail with: <code>ERROR 1055 (42000): 'etsy.group_by_test.name' isn't in GROUP BY</code></p> <h2>Just throw the switch and test in Production?</h2> <p dir="ltr">Unfortunately our application was continually executing some variations of the bad queries shown above, especially the bad <code>GROUP BY</code> and bad <code>DEFAULT/NOT NULL</code>, and we couldn’t just enable the mode in Production without causing a lot of disruption.</p> <p dir="ltr">We had to find the bad queries and table definitions first. In order to do that, we set up a test database with the Production schema on it and enabled the strict <code>sql_mode='ONLY_FULL_GROUP_BY,STRICT_ALL_TABLES'</code> on it.</p> <p dir="ltr">We slurped all queries from our Production DBs using a local <code>tcpdump</code> and <code>netcat</code>’ed them over to the test database:</p> <p dir="ltr" style="padding-left:30px;"><code><strong>prodb-shard&gt;</strong> sudo /usr/sbin/tcpdump -i eth0 \<br /> &nbsp;&nbsp;"port 3306 and tcp[1] &amp; 7 == 2 and tcp[3] &amp; 7 == 2" \<br /> &nbsp;&nbsp;-s 65535 -x -n -q -tttt | \<br /> &nbsp;&nbsp;nc testdb.etsy.com 20000</code></p> <p dir="ltr">On the test box, we used the combination of Percona Toolkit’s <a title="pt-query-digest Manual" href="http://www.percona.com/doc/percona-toolkit/2.1/pt-query-digest.html">pt-query-digest</a> and a <a title="MySQL Query Multiplexer" href="https://gist.github.com/keyurdg/5189836">custom Go script</a> to execute these queries (NB: Percona <a title="Percona Playback" href="http://www.percona.com/doc/percona-playback/index.html">Playback</a> did not exist at the time). Our Production servers execute ~4000 queries/sec (~30000 packets/sec in and out) and while pt-query-digest has a built-in execute mode, it cannot keep up with the volume and the tcpdump capture would drop packets. The Go script helped multiplex this query volume and keep packet loss low (~1%).</p> <p dir="ltr" style="padding-left:30px;"><code><strong>testdb&gt;</strong> nc -l 20000 | pt-query-digest --type tcpdump \<br /> &nbsp;&nbsp;--no-report --print | grep -v "SET NAMES utf8" | \<br /> &nbsp;&nbsp;go run shard_executor.go -db-user=username \<br /> &nbsp;&nbsp;-db-password=password -db-host=localhost \<br /> &nbsp;&nbsp;-db-charset=utf8mb4 -log "/var/tmp/shard.log" \<br /> &nbsp;&nbsp;-db-name=etsy_shard -threads=8</code></p> <p dir="ltr">Note that pt-query-digest leaks a small amount of memory continually and will need to be restarted every so often.</p> <p dir="ltr">All errors were logged to disk and we now had visibility into exactly what needed fixing:</p> <p dir="ltr" style="padding-left:30px;"><code><strong>testdb&gt;</strong> cut -c 21- /var/tmp/shard.log | grep "^Error" | \<br /> &nbsp;&nbsp;sort | uniq</code></p> <p dir="ltr">Along with fixing bad queries, we also needed to modify a large number of tables to change the character-set for <code>VARCHAR</code> and <code>TEXT</code> columns from <code>UTF8</code> to <code>UTF8MB4</code> in order to accommodate 4-byte UTF-8 characters. We generated the <code>ALTERs</code> with this <a title="PHP UTF8MB4 Alter generator" href="https://gist.github.com/keyurdg/5189805">one-off script</a> and <a title="Schemanator" href="http://codeascraft.etsy.com/2013/01/11/schemanator-love-child-of-deployinator-and-schema-changes/">Schemanator</a> allowed us to execute all of these without any downtime!</p> <p dir="ltr">Note that the script does not generate <code>ALTER</code> statements for indexed VARCHAR/TEXT columns longer than 191 characters for reasons explained above. In our case, we worked around it by reducing the column lengths where feasible, and using the hashing method otherwise.</p> <p dir="ltr">A few weeks of bug squashing and schema changes later, our databases and applications were finally ready to accept <code>sql_mode= 'ONLY_FULL_GROUP_BY,STRICT_ALL_TABLES'</code>.</p> <h2>CHECK YOUR FLAGS!</h2> <p dir="ltr">We strongly encourage everyone running MySQL to review the various <a title="MySQL Manual sql_mode" href="http://dev.mysql.com/doc/refman/5.5/en/server-sql-mode.html"><code>sql_mode</code></a> flags and choose the ones that make the most sense for their set up.</p> <p dir="ltr"><code>'ONLY_FULL_GROUP_BY,STRICT_ALL_TABLES'</code> is the absolute minimum we’d recommend.</p> <p dir="ltr">We don’t use any of MySQL’s DATE/TIME data-types nor any Engine other than InnoDB in our schemas, but if you do, we strongly suggest also using <code>'NO_ZERO_IN_DATE,NO_ZERO_DATE,NO_ENGINE_SUBSTITUTION'</code></p> <h2>References and resources</h2> <p dir="ltr"> <ul> <li><a title="Etsy Shard Architecture" href="http://www.slideshare.net/jgoulah/the-etsy-shard-architecture-starts-with-s-and-ends-with-hard">Etsy’s sharded database architecture</a></li> <li>MySQL <a title="MySQL Manual sql_mode" href="http://dev.mysql.com/doc/refman/5.5/en/server-sql-mode.html"><code>sql_mode</code></a></li> <li>Percona toolkit’s <a title="pt-query-digest Manual" href="http://www.percona.com/doc/percona-toolkit/2.1/pt-query-digest.html"><code>pt-query-digest</code></a></li> <li><code>pt-query-digest</code>&#8216;s <a href="https://bugs.launchpad.net/percona-toolkit/+bug/1029178">memory leak bug</a>. Although it is marked as Fixed, but it still reproducible with version 2.1.9</li> <li>The Go <a href="https://gist.github.com/keyurdg/5189836">query multiplexer</a></li> <li>UTF-8 to UTF8MB4 <code>VARCHAR</code> and <code>TEXT ALTER <a href="https://gist.github.com/keyurdg/5189805">generator</a></code></li> </ul> <p dir="ltr"><em>You can follow Keyur on Twitter at <a href="http://twitter.com/keyurdg">@keyurdg</a></em></p> <br /> <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/etsycodeascraft.wordpress.com/3106/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/etsycodeascraft.wordpress.com/3106/" /></a> <img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=codeascraft.etsy.com&#038;blog=16220466&#038;post=3106&#038;subd=etsycodeascraft&#038;ref=&#038;feed=1" width="1" height="1" />
+]]>
+</content:encoded>
+<wfw:commentRss>
+http://codeascraft.etsy.com/2013/03/19/the-perils-of-sql_mode/feed/
+</wfw:commentRss>
+<slash:comments>7</slash:comments>
+<media:content url="http://1.gravatar.com/avatar/47a98302678479b93f8e18f2c136f199?s=96&amp;d=identicon&amp;r=G" medium="image">
+<media:title type="html">keyurdg</media:title>
+</media:content>
+<media:content url="http://etsycodeascraft.files.wordpress.com/2013/03/utf8_supplementary.png" medium="image">
+<media:title type="html">UTF8 supplementary character example</media:title>
+</media:content>
+<media:content url="http://etsycodeascraft.files.wordpress.com/2013/03/utf8_supplementary-fail.png" medium="image">
+<media:title type="html">UTF8 Supplementary Fail</media:title>
+</media:content>
+</item>
+<item>
+<title>Java: Not Even Once</title>
+<link>
+http://codeascraft.etsy.com/2013/03/18/java-not-even-once/
+</link>
+<comments>
+http://codeascraft.etsy.com/2013/03/18/java-not-even-once/#comments
+</comments>
+<pubDate>Mon, 18 Mar 2013 17:18:25 +0000</pubDate>
+<dc:creator>avleenetsy</dc:creator>
+<category>
+<![CDATA[ infrastructure ]]>
+</category>
+<category>
+<![CDATA[ operations ]]>
+</category>
+<category>
+<![CDATA[ security ]]>
+</category>
+<guid isPermaLink="false">http://codeascraft.etsy.com/?p=3071</guid>
+<description>
+<![CDATA[
+Note: This post was co-written by Avleen Vig (@avleen) and Zane Lackey (@zanelackey). In mid-January of this year we started an initiative to remove Java browser plugins from all employee systems at Etsy, as we feel this is a best practice to be striving towards. To that end, we wanted to discuss the challenges we [...]<img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=codeascraft.etsy.com&#038;blog=16220466&#038;post=3071&#038;subd=etsycodeascraft&#038;ref=&#038;feed=1" width="1" height="1" />
+]]>
+</description>
+<content:encoded>
+<![CDATA[
+<p><i>Note: This post was co-written by Avleen Vig (<a title="Avleen Vig's twitter" href="http://twitter.com/avleen" target="_blank">@avleen</a>) and Zane Lackey (<a title="Zane Lackey's twitter" href="http://twitter.com/zanelackey" target="_blank">@zanelackey</a>)</i>.</p> <p>In mid-January of this
+]]>
+<![CDATA[
+year we started an initiative to remove Java browser plugins from all employee systems at Etsy, as we feel this is a best practice to be striving towards. To that end, we wanted to discuss the challenges we encountered when removing Java browser plugins in the hope that it will help other organizat
+]]>
+<![CDATA[
+ions with the removal process.</p> <p>The first question we needed to answer before removing Java was "Who actually needs Java in their browser?&#8221; Most organizations face the unfortunate reality that some number of internal systems use Java applets, and that there are groups which use these systems on a daily or weekly basis. In our case, our operations team needed Java to be able to access a group of internal network appliances, such as IPMI console interfaces. Once we identified these requirements, we disabled Java browser plugins across the rest of the organization and set about trying to engineer a safer way for the team to access these network appliances.</p> <p>Initially, we looked at three approaches:</p> <ol> <li>Installing the Java plugin in a dedicated browser/browser profile and asking the team to use it to only access the network appliances.</li> <li>Writing a wrapper script to copy the Java plugin into the plugins directory, launch a dedicated browser, then remove the Java plugin when the browser closes.</li> <li>Using <a title="nssecurity" href="https://code.google.com/p/nssecurity/" target="_blank">nssecurity</a> to whitelist the hosts that could instantiate Java in the browser.</li> </ol> <p>However, all of these approaches didn't fulfill our design goals that the approach be safe by default, be easy to maintain, and ideally wouldn't require the Java browser plugin on the teams laptops at all.</p> <p>We realized the only way to approach the situation that met our requirements would be to have Java installed in a dedicated, controlled, and isolated environment.</p> <p>This model is similar to a bastion host, or "jump box&#8221;. We opted to use NoMachine as the remote desktop protocol because of the increased performance and usability over low latency links. We have operations engineers located in multiple countries and we also occasionally need to use 3G/4G mobile services to diagnose problems, so this was critically important.</p> <p>The installation method we followed for CentOS 6 and FreeNX was:</p> <ol> <li>Install the required packages. All of these come from the standard CentOS repos: <pre>yum install -y jre freenx gnome-desktop gnome-session \
+ gnome-panel nautilus firefox fre</pre> <p>(After installation, be sure to replace the provided SSH keys: <a title="Using Custom SSH Keys" href="https://help.ubuntu.com/community/FreeNX#Using_custom_SSH_keys" target="_blank">https://help.ubuntu.com/community/FreeNX#Using_custom_SSH_keys</a>)</li> <li>Create a symlink from the Java browser plugin, to the plugins directory used by Firefox:<br /> <code>ln -s /usr/java/latest/lib/amd64/libnpjp2.so \<br /> /usr/lib64/mozilla/plugins/libnpjp2.so</code></li> <li>Now create <pre>/etc/nxserver/node.conf</pre> <p>with these contents:<br /> <code>ENABLE_PASSDB_AUTHENTICATION="1"<br /> NX_LOG_LEVEL=7<br /> NX_LOGFILE=/var/log/nx/nxserver.log<br /> SESSION_LOG_CLEAN=0<br /> COMMAND_MD5SUM="md5sum"</code></li> </ol> <p>FreeNX is now configured!</p> <p>Each of your users who wants to use the new system needs to do the following steps once to add their user to the NX authentication database:</p> <p>(NOTE: These steps below follow the Ubuntu FreeNX instructions of using a shared account/SSH key for access to the jump system. In this circumstance the risk was accepted as the network appliances that are the end target also use a shared account, so no additional risk was introduced. Obviously different circumstances will have different security requirements.)</p> <ol> <li>Copy <code>/etc/nxserver/client.id_dsa.key</code> to your local machine and save it as <code>~/.ssh/nx_dsa</code></li> <li>On the jump host, run <code>sudo nxserver --adduser &lt;username&gt;</code><br /> This adds your account to the nxserver database.  Note: at this step it will also add a key to your <code>.ssh/authorized_keys2</code> file, if you manage this in your configuration management system it will get overwritten, so you should add the key there.</li> <li>On the server again, run <code>sudo nxserver --passwd &lt;username&gt;</code><br /> This sets your password in the nxserver database</li> <li>Download the "NoMachine Player v4&#8243; from: <a href="http://www.nomachine.com/preview/download-package.php?Prod_Id=13">http://www.nomachine.com/preview/download-package.php</a></li> <li>Start the player, click "New connection&#8221;. <ol> <li>Name: <code>jumpbox</code></li> <li>Host: <code>jump.your.domain</code></li> <li>Select: Use the NoMachine login, then click the <code>...</code> button</li> <li>Check Use an alternate key and point it to <code>~/&lt;username&gt;/.ssh/nx_dsa</code></li> <li>Press the <code>X</code> twice and then click the <code>jumpbox</code> connection you see.</li> <li>Enter your login details.</li> <li>Click <code>Create a new session</code></li> <li>Click <code>Create a new GNOME virtual desktop</code></li> <li>You should get a gnome desktop, with a firefox icon.</li> </ol> </li> </ol> <p>Using the jump system approach, we're now able to firewall off these hosts from Internet browsing, we can re-image them on a frequent basis, and we have a very small number of hosts that need to receive Java updates. This approach also allows us to configure our endpoint management software to nuke Java from orbit if the browser plugin ever shows up on employee systems. While we generally abhor single points of failure in our infrastructure, we felt comfortable in this case because the use of configuration management meant that the environment could be quickly rebuilt if needed. Finally, this approach could also be used to isolate other inherently risky technologies when they are still required by certain groups.</p> <p>In closing, we genuinely hope this helps other organizations facing similar challenges on the road to removing Java browser plugins from the enterprise.</p> <br /> <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/etsycodeascraft.wordpress.com/3071/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/etsycodeascraft.wordpress.com/3071/" /></a> <img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=codeascraft.etsy.com&#038;blog=16220466&#038;post=3071&#038;subd=etsycodeascraft&#038;ref=&#038;feed=1" width="1" height="1" />
+]]>
+</content:encoded>
+<wfw:commentRss>
+http://codeascraft.etsy.com/2013/03/18/java-not-even-once/feed/
+</wfw:commentRss>
+<slash:comments>7</slash:comments>
+<media:content url="http://0.gravatar.com/avatar/67cb1db413ac8e2d47a1536b9fb88e48?s=96&amp;d=identicon&amp;r=G" medium="image">
+<media:title type="html">avleenetsy</media:title>
+</media:content>
+</item>
+<item>
+<title>
+Schemanator: Love Child of Deployinator and Schema Changes
+</title>
+<link>
+http://codeascraft.etsy.com/2013/01/11/schemanator-love-child-of-deployinator-and-schema-changes/
+</link>
+<comments>
+http://codeascraft.etsy.com/2013/01/11/schemanator-love-child-of-deployinator-and-schema-changes/#comments
+</comments>
+<pubDate>Fri, 11 Jan 2013 20:56:36 +0000</pubDate>
+<dc:creator>Jeff Kolber</dc:creator>
+<category>
+<![CDATA[ databases ]]>
+</category>
+<category>
+<![CDATA[ operations ]]>
+</category>
+<category>
+<![CDATA[ automation ]]>
+</category>
+<category>
+<![CDATA[ etsy ]]>
+</category>
+<category>
+<![CDATA[ mysql operations ]]>
+</category>
+<category>
+<![CDATA[ schema changes ]]>
+</category>
+<guid isPermaLink="false">http://codeascraft.etsy.com/?p=3020</guid>
+<description>
+<![CDATA[
+We've previously written about our sharded master-master pair database architecture and how that and the Etsy ORM allows us to perform schema changes while keeping the site up. That we can do this at all is really awesome but to actually do this is still hard, risky and time-consuming. We run the site on half of our database [...]<img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=codeascraft.etsy.com&#038;blog=16220466&#038;post=3020&#038;subd=etsycodeascraft&#038;ref=&#038;feed=1" width="1" height="1" />
+]]>
+</description>
+<content:encoded>
+<![CDATA[
+<p>We've previously written about our <a href="http://www.slideshare.net/jgoulah/the-etsy-shard-architecture-starts-with-s-and-ends-with-hard" target="_blank">sharded master-master pair database architecture</a> and how that and the Etsy ORM allows us to <a href="http://codeascraft.etsy.com
+]]>
+<![CDATA[
+/2012/04/20/two-sides-for-salvation/">perform schema changes while keeping the site up</a>. That we can do this at all is really awesome but to actually do this is still hard, risky and time-consuming. We run the site on half of our database servers while we make schema changes to the other half. Th
+]]>
+<![CDATA[
+en we switch sides and do it again. It's many steps on many machines and it's happening while 100+ developers are pushing code. Let's take a closer look at how we pull this off and the automation we've developed around this process.</p> <p>I want to pause to acknowledge that
+]]>
+<![CDATA[
+being able to run the site on half of our database servers is in itself the result not only of good design in the ORM but of good ongoing capacity planning in making sure we can carry a full load on half the servers.</p> <p>To understand Schemanator let's first take a look at how we did schema
+]]>
+<![CDATA[
+changes "by hand&#8221;. To complete a schema change we need to change the ORM's configuration a total of 4 times &#8211; first to take one half of the databases out of production so we can apply change to them and then to put them back. Then we take the other half out and apply changes and finally put them back. At Etsy we can deploy relatively quickly &#8211; generally less than 20 minutes from commit to live &#8212; and we have an even more streamlined process for updating just the application configuration &#8212; a "config push&#8221; as we call it. The challenge with this comes from the fact that at any point during a day, people are waiting their turn to deploy code in our <a href="http://codeascraft.etsy.com/2011/04/20/divide-and-concur/">push queue</a>. To do our schema change, we'll need to wait through the push queue 4 times. Not hard, but not amenable to getting things done quickly.</p> <p>Once we've done the first config push to pull out half the DBs, we're ready to apply the schema changes to the set of dormant servers. For this we'd use some shell-fu in a screen or tmux session to run commands on all the databases at once. When those changes were done, we'd get back in the push queue to put the updated DBs back in production, watch that it's stable and then take the other side out. Then go back to the terminal, connect to all the other databases and run the changes on them. When that's done, it's back to the push queue to return the ORM to its full configuration. Along the way we'd have to deal with Nagios, run checksums on the new schemas on each host, and monitor DB status and site errors. And at the end we should end up with something we can call a log of the changes we made.</p> <p>We did versions of that process for a while. It worked but no one is perfect and we did have an <a href="http://etsystatus.com/2012/03/08/site-outage-thu-mar-8/">outage</a> stemming from errors made while doing schema changes. This incident helped crystalize the "<a href="http://codeascraft.etsy.com/2010/05/20/quantum-of-deployment/">quantum of deployment</a> concept as applied to schema changes&#8221; for us. We asked ourselves "What's the smallest number of steps, with the smallest number of people and the smallest amount of ceremony required to get new schemas running on our servers?&#8221; With an answer to that, we knew we could, and had to, put a button on it.</p> <p>Thus was born Schemanator.</p> <h3><a href="https://github.etsycorp.com/jkolber/blogposts/blob/master/schemanator/schemanator.md#from-continuous-deployment-to-concurrent-deployment" name="from-continuous-deployment-to-concurrent-deployment"></a>From Continuous Deployment to Concurrent Deployment</h3> <p>From the description of the schema change process above it's clear that one of the pain points is having to wait in the push queue to deploy configuration changes. In order to be truly awesome, Schemanator would have to provide an avenue for the operator to bypass the push queue altogether. In practical terms, not having to wait in the queue shaves at least an hour off the whole process. This part of Schemanator is the first part we wanted to address since it delivered the most overall time savings in the shortest time.</p> <p>To help understand how we made this part work here's a bit more about our ORM setup. On each request, the configuration file is read in. Part of that configuration is the set of DSNs for all available database servers. We store these in a hash keyed by the shard number and side like this:</p> <pre><code>$server_config["database"] = array(
+ 'etsy_shard_001_A' =&gt; 'mysql:host=dbshard01.etsy.com;port=3306;
+ dbname=etsy_shard;user=etsy',
+ 'etsy_shard_001_B' =&gt; 'mysql:host=dbshard02.etsy.com;port=3306;
+ dbname=etsy_shard;user=etsy',
+ 'etsy_shard_002_A' =&gt; 'mysql:host=dbshard03.etsy.com;port=3306;
+ dbname=etsy_shard;user=etsy',
+ 'etsy_shard_002_B' =&gt; 'mysql:host=dbshard04.etsy.com;port=3306;
+ dbname=etsy_shard;user=etsy',
+ ...
+ );
+ </code></pre> <p>Before Schemanator, we would literally just comment out the lines with the DSNs we didn't want the ORM to use. We didn't want to automate commenting out lines of code in our config file, and even if we did, doing so would have still left us having to wait in the push queue. So we made a slight change to the ORM setup routine. When the ORM sets up, it now also checks if a special file &#8212; a &#8220;disabled connections&#8221; file exists. If it does, it's read in as a list of DSNs to ignore. Those servers are skipped when the ORM sets up and the application ends up not using them. Since the config is read at the begining of the web request and PHP is shared nothing, once the disabled connections file is in place, all subsequent requests on that server will respect it.</p> <p>By carefully deploying just that one special disabled connections file into the live docroot we get the changes we need to the ORM&#8230;and we can do this while people are pushing code changes to the site. Specifically, we updated our general deploy to exclude the disabled connections file to eliminate possible race conditions on deploy and we set up <a title="deployinator" href="https://github.com/etsy/deployinator" target="_blank">Deployinator</a> to allow us to deploy the disabled connections file on its own.</p> <p>But there was a problem. Like many php sites we use APC for opcode caching. Part of each deploy included gracefully restarting Apache to clear the opcode cache. Dropping the one file in is all well and good but we'd still have to clear it from APC. After considering some options, we chose to turn on <a href="http://www.php.net/manual/en/apc.configuration.php#ini.apc.stat">apc.stat</a>. This tells APC to stat each file before returning the cached opcodes. If the file is newer than the cached opcodes then re-read the file and update the cache. We run our docroot from a RAM disk so the extra stats aren't a problem. With apc.stat on we could drop in our disabled connections file and the next request will start using it. No restarts required. We did need to increase the size of our APC cache to allow this. We were able to stop doing restarts on each deploy and since most deploys only change a small subset of our codebase, we saw an improvement in our cache-hit ratio. With this process in hand, and after much testing, we were able to allow the disabled connections file to be deployed concurrently with our regular deploys.</p> <p>We call this part of Schemanator &#8220;Side Splitter&#8221;. It provides a Web GUI for selecting which DB servers to disable and a button to deploy that configuration. Pushing the button writes and deploys the disabled connections file. There are also a number of sanity checks to make sure we don't do things like pull out both sides of the same shard.  We use this not just as part of schema changes, but also when we need to pull DBs out for maintenance.</p> <div id="attachment_3021" class="wp-caption aligncenter" style="width: 310px"><a href="http://etsycodeascraft.files.wordpress.com/2013/01/screen_shot_2012-11-09_at_12-34-49_pm-20121109-173708.jpeg"><img class="size-medium wp-image-3021 " alt="Schemanator UI" src="http://etsycodeascraft.files.wordpress.com/2013/01/screen_shot_2012-11-09_at_12-34-49_pm-20121109-173708.jpeg?w=300&#038;h=261" width="300" height="261" /></a><p class="wp-caption-text">UI For selecting which sides of which shards to disable.</p></div> <h3>Ch-ch-changes</h3> <p>Next we needed a process for applying the schema changes to the databases. A number of the choices we had to make here were strongly influenced by our environment. Etsy is in PHP and we use Gearman for asynchronous jobs so using anything but PHP/Gearman for Schemanator would have meant re-inventing many wheels.</p> <p>There are many things that could possibly go wrong while running schema changes. We tried to anticipate as many of these as we could: the operator's internet connection could die mid-process, the application could keep connecting to disabled databases, gearman workers could die mid-job, the DDL statements might fail on a subset of servers, etc., etc. We knew that we couldn't anticipate everything and that we certainly couldn't write code to recover from any possible error. With that awareness &#8211; that something unexpected would eventually happen during schema changes &#8211; we designed Schemanator to allow the operator to pause or stop the process along the way. Each sub-task pauses and shows the operator an appropriate set of graphs and monitors to allow them to evaluate if it's safe to proceed. This increases our liklihood of detecting trouble and gives us a way to bail out of the process, if that is the best course of action.</p> <p>Central to Schemanator is the concept of the &#8220;changeset&#8221; &#8211; a data structure where we store everything about the schema change: the SQL, who created it, test results, checksums, and more. The changeset acts as both a recipe for Schemanator to apply the changes and a record of the work done.</p> <p>The early parts of the Schemanator workflow center around defining and testing the changeset. To test a changeset, a gearman job loads up the current schema with no data and applies the changes there. If there are errors the changeset will be marked as failing and the errors reported back. We also generate the checksums we'll look for later when we apply the changes in production.</p> <p>We recently added a test that inspects the post-change schema to make sure that we're keeping to our SQL standards. For example, we make sure all tables are InnoDB with UTF-8 as the default character set, that we we don't add any AUTO INCREMENT fields, which would be trouble in our Master-Master setup. We recently had an issue where some tables had a foreign key field as INT(11) but the related table had the field as BIGINT. This caused errors when trying to store the BIGINT in the INT(11) field. To catch this going forward, Schemanator now checks that our keys are all BIGINTs. Once the changeset passes all the tests, it can be run.</p> <p>When Schemanator runs a changeset, the first thing it does is to tell Nagios not alert for the servers we're about to update. We use<a href="https://github.com/xb95/nagios-api" target="_blank"> xb95&#8242;s nagios-api</a> which allows Schemanator to set and cancel downtime. Schemanator's &#8220;Preflight Check&#8221; screen shows the current status of the DB cluster and also checks Nagios to see if any of the DB servers have alerts or warnings. This gives an at-a-glance view to know if it's OK to proceed.</p> <div id="attachment_3022" class="wp-caption aligncenter" style="width: 310px"><a href="http://etsycodeascraft.files.wordpress.com/2013/01/screen_shot_2012-11-09_at_1-29-38_pm-20121109-173733.jpeg"><img class="size-medium wp-image-3022 " alt="Schemanator: Preflight Checks " src="http://etsycodeascraft.files.wordpress.com/2013/01/screen_shot_2012-11-09_at_1-29-38_pm-20121109-173733.jpeg?w=300&#038;h=256" width="300" height="256" /></a><p class="wp-caption-text">Schemanator: Preflight Checks</p></div> <p>Once things look OK, the operator can click the button to &#8220;Do it: Pull those sides out&#8221;. Schemanator will deploy the first of the 4 disabled connections configs. When that config is live, Schemanator drops you back on a page full of graphs where you can confirm that traffic has moved off of the pulled servers and is being adequately handled by the remaining servers. Once that is stable the operator clicks a button to apply the SQL to dormant servers. This is handled by a set of Gearman jobs &#8211; one job per database &#8211; that connect to the DBs and apply the updates. Schemanator monitors each job and polls the MySQL Process List on the DBs so the operator has good view of what's happening on each server. Any errors or checksum mismatches bubble up in the UI so the operator can decide how to deal with them.</p> <div id="attachment_3023" class="wp-caption aligncenter" style="width: 310px"><a href="http://etsycodeascraft.files.wordpress.com/2013/01/screen_shot_2012-11-09_at_1-46-48_pm-20121109-173639.jpeg"><img class=" wp-image-3023 " alt="The progress of an alter running on a remote DB" src="http://etsycodeascraft.files.wordpress.com/2013/01/screen_shot_2012-11-09_at_1-46-48_pm-20121109-173639.jpeg?w=300&#038;h=184" width="300" height="184" /></a><p class="wp-caption-text">Schemanator: Showing the progress of an alter running on a remote DB and the process list from that DB with our alter highlighted in yellow</p></div> <p>When all the workers are done, Schemanator prompts the user that it's ready to move on. From here it's a matter of repeating these steps with the right variations until the changes have been applied to all the databases. Schemanator handles setting and canceling Nagios downtime, checksumming any tables that were updated and logging everything.</p> <p>We've been using Schemanator to help with schema changes for a few months now and it's achieved most of the goals we'd hope for: increased the speed and confidence we can do schema change, increased reliability that we don't forget any of the many steps involved, and freed up people from having to devote often a full day to schema changes. We generally make schema changes only once a week, but with Schemanator, if we have to do them spur of the moment, that's no longer out of the question. While Schemanator doesn't do everything, we feel it's the appropriate level of automation for a sensitive operation like schema changes.</p> <br /> <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/etsycodeascraft.wordpress.com/3020/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/etsycodeascraft.wordpress.com/3020/" /></a> <img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=codeascraft.etsy.com&#038;blog=16220466&#038;post=3020&#038;subd=etsycodeascraft&#038;ref=&#038;feed=1" width="1" height="1" />
+]]>
+</content:encoded>
+<wfw:commentRss>
+http://codeascraft.etsy.com/2013/01/11/schemanator-love-child-of-deployinator-and-schema-changes/feed/
+</wfw:commentRss>
+<slash:comments>14</slash:comments>
+<media:content url="http://2.gravatar.com/avatar/e4dff935be0a2a9fde27ecbf755a2323?s=96&amp;d=identicon&amp;r=G" medium="image">
+<media:title type="html">jkolber</media:title>
+</media:content>
+<media:content url="http://etsycodeascraft.files.wordpress.com/2013/01/screen_shot_2012-11-09_at_12-34-49_pm-20121109-173708.jpeg?w=300" medium="image">
+<media:title type="html">Schemanator UI</media:title>
+</media:content>
+<media:content url="http://etsycodeascraft.files.wordpress.com/2013/01/screen_shot_2012-11-09_at_1-29-38_pm-20121109-173733.jpeg?w=300" medium="image">
+<media:title type="html">Schemanator: Preflight Checks</media:title>
+</media:content>
+<media:content url="http://etsycodeascraft.files.wordpress.com/2013/01/screen_shot_2012-11-09_at_1-46-48_pm-20121109-173639.jpeg?w=300" medium="image">
+<media:title type="html">The progress of an alter running on a remote DB</media:title>
+</media:content>
+</item>
+<item>
+<title>mctop – a tool for analyzing memcache get traffic</title>
+<link>
+http://codeascraft.etsy.com/2012/12/13/mctop-a-tool-for-analyzing-memcache-get-traffic/
+</link>
+<comments>
+http://codeascraft.etsy.com/2012/12/13/mctop-a-tool-for-analyzing-memcache-get-traffic/#comments
+</comments>
+<pubDate>Thu, 13 Dec 2012 21:00:01 +0000</pubDate>
+<dc:creator>Marcus Barczak</dc:creator>
+<category>
+<![CDATA[ infrastructure ]]>
+</category>
+<category>
+<![CDATA[ operations ]]>
+</category>
+<category>
+<![CDATA[ memcache open-source engineering operations ]]>
+</category>
+<guid isPermaLink="false">http://codeascraft.etsy.com/?p=2753</guid>
+<description>
+<![CDATA[
+Here at Etsy we (ab)use our memcache infrastructure pretty heavily as a caching layer between our applications and our database tiers. We functionally partition our memcache instances into small pools and overall it works fabulously well. We have however suffered occasionally from what we call &#8220;hot keys&#8221;. What is a &#8220;Hot&#8221; key? A &#8220;hot key&#8221; is a [...]<img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=codeascraft.etsy.com&#038;blog=16220466&#038;post=2753&#038;subd=etsycodeascraft&#038;ref=&#038;feed=1" width="1" height="1" />
+]]>
+</description>
+<content:encoded>
+<![CDATA[
+<p>Here at Etsy we (ab)use our memcache infrastructure pretty heavily as a caching layer between our applications and our database tiers. We functionally partition our memcache instances into small pools and overall it works fabulously well. We have however suffered occasionally from what we call
+]]>
+<![CDATA[
+&#8220;hot keys&#8221;.</p> <h2>What is a &#8220;Hot&#8221; key?</h2> <p>A &#8220;hot key&#8221; is a single key hashed to an individual memcache instance with a<br /> very high get rate, often being called once for every page view. For the most part network bandwidth across all memcache instances within a pool is relatively balanced. These hot keys, however, contribute a significant additional amount of egress network traffic and have the potential to saturate the available network bandwidth of the interface.</p> <p><a href="http://etsycodeascraft.files.wordpress.com/2012/12/memcached01.jpg"><img class="size-full wp-image aligncenter" id="i-2787" alt="Image" src="http://etsycodeascraft.files.wordpress.com/2012/12/memcached01.jpg?w=433" /></a></p> <p>The graph above is an example of a recent hot key issue. The graph y-axis represents bytes per second inbound and outbound of memcached01&#8242;s network interface.</p> <p>As we hit peak traffic, memcached01&#8242;s network interface was completely saturated at approximately 960Mbps (it's a 1Gbps NIC). This has a particularly nasty impact to get latency:</p> <p><a href="http://etsycodeascraft.files.wordpress.com/2012/12/mc01-latency.png"><img class="size-full wp-image aligncenter" id="i-2799" alt="Image" src="http://etsycodeascraft.files.wordpress.com/2012/12/mc01-latency.png?w=433" /></a></p> <p>As we began to push past 800Mbps outbound, 90th percentile get request latency jumped from 5ms to 35ms. Once the NIC was saturated latency spiked to over 200ms.</p> <h2>Diagnosing the Issue</h2> <p>This wasn't the first time a hot key had been responsible for unsually high network bandwidth utilization so this was our first line of investigation. Comparatively memcached01&#8242;s bandwidth utilization was significantly higher than the other servers in the pool.</p> <p>Diagnosing which key was causing problems was a slow process, our troubleshooting process took the following steps:</p> <ol> <li>Take a brief 60 second packet capture of the egress network traffic from memcached01</li> <li>Using the tshark (wireshark's awesome command line cousin) extract the key and response size from the memcache VALUE responses in captured packet data.</li> <li>Post process the tshark output to aggregate counts, estimate requests per second and calculate the estimated bandwidth per key.</li> <li>Sort that list by bandwidth then further investigate that key.</li> </ol> <p>Once the potentially offending key is found we'd repeat this process from a couple of client machines to validate this as the offending key. Once the key was confirmed engineers would look at alternate approaches to handling the data contained in the key.</p> <p>In this particular case, we were able to disable some backend code that was utilizing that key with no user facing impact and relieve the network pressure.</p> <p>Overal this diagnostic process is quite manual and time intensive. 60 seconds of packet capture at 900Mbps generates close to 6GB of packet data for tshark to process, and if this process needs to be repeated on multiple machines the pain is also multiplied.</p> <h2>Welcome mctop!</h2> <p>Given this wasn't a new issue for us I decided to have a crack at building a small tool to allow us to interactively inspect in-real time, the request rate and estimated bandwidth use by key. The end result is the tool &#8220;mctop&#8221; we're open sourcing today.</p> <p>Inspired by &#8220;top&#8221;, mctop passively sniffs the network traffic passing in and out of a server's network interface and tracks the responses to memcache get commands. The output is presented on the terminal and allows sorting by total calls, requests/sec and bandwidth. This gives us an instantaneous view of our memcache get traffic.</p> <p><a href="http://etsycodeascraft.files.wordpress.com/2012/12/mctop.jpg"><img class="size-full wp-image aligncenter" id="i-2850" alt="Image" src="http://etsycodeascraft.files.wordpress.com/2012/12/mctop.jpg?w=490" /></a></p> <p>mctop is now available as a <a title="gem" href="https://rubygems.org/gems/mctop">gem</a> on rubygems.org and the source is available over at <a title="github" href="https://github.com/etsy/mctop/">github</a>.</p> <p>Patches welcome, we hope you find it useful!</p> <br /> <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/etsycodeascraft.wordpress.com/2753/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/etsycodeascraft.wordpress.com/2753/" /></a> <img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=codeascraft.etsy.com&#038;blog=16220466&#038;post=2753&#038;subd=etsycodeascraft&#038;ref=&#038;feed=1" width="1" height="1" />
+]]>
+</content:encoded>
+<wfw:commentRss>
+http://codeascraft.etsy.com/2012/12/13/mctop-a-tool-for-analyzing-memcache-get-traffic/feed/
+</wfw:commentRss>
+<slash:comments>8</slash:comments>
+<media:content url="http://0.gravatar.com/avatar/9a4443ac89b49c0971c7051990c847c7?s=96&amp;d=identicon&amp;r=G" medium="image">
+<media:title type="html">ickymettle</media:title>
+</media:content>
+<media:content url="http://etsycodeascraft.files.wordpress.com/2012/12/memcached01.jpg?w=433" medium="image">
+<media:title type="html">Image</media:title>
+</media:content>
+<media:content url="http://etsycodeascraft.files.wordpress.com/2012/12/mc01-latency.png?w=433" medium="image">
+<media:title type="html">Image</media:title>
+</media:content>
+<media:content url="http://etsycodeascraft.files.wordpress.com/2012/12/mctop.jpg?w=490" medium="image">
+<media:title type="html">Image</media:title>
+</media:content>
+</item>
+<item>
+<title>Measuring Front-end Performance With Real Users</title>
+<link>
+http://codeascraft.etsy.com/2012/11/29/measuring-front-end-performance-with-real-users/
+</link>
+<comments>
+http://codeascraft.etsy.com/2012/11/29/measuring-front-end-performance-with-real-users/#comments
+</comments>
+<pubDate>Thu, 29 Nov 2012 18:17:41 +0000</pubDate>
+<dc:creator>Jonathan Klein</dc:creator>
+<category>
+<![CDATA[ performance ]]>
+</category>
+<guid isPermaLink="false">http://codeascraft.etsy.com/?p=2685</guid>
+<description>
+<![CDATA[
+When we published our last performance update, we got a comment about the lack of RUM data for front-end performance from Steve Souders.  Steve followed up his comment with a blog post, stating that real users typically experience load times that are twice as slow as your synthetic measurements.  We wanted to test this theory, [...]<img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=codeascraft.etsy.com&#038;blog=16220466&#038;post=2685&#038;subd=etsycodeascraft&#038;ref=&#038;feed=1" width="1" height="1" />
+]]>
+</description>
+<content:encoded>
+<![CDATA[
+<p>When we published our last <a title="performance update" href="http://codeascraft.etsy.com/2012/11/09/october-2012-site-performance-report/">performance update</a>, we got a <a href="http://codeascraft.etsy.com/2012/11/09/october-2012-site-performance-report/#comment-15096">comment</a> about the
+]]>
+<![CDATA[
+lack of RUM data for front-end performance from Steve Souders.  Steve followed up his comment with a <a href="http://www.stevesouders.com/">blog post</a>, stating that real users typically experience load times that are twice as slow as your synthetic measurements.  We wanted to test this theory,
+]]>
+<![CDATA[
+and share some of our full page load time data from real users as well. To gather our real user data we turned to two sources: <a href="http://lognormal.com/">LogNormal</a> and the <a href="http://analytics.blogspot.com/2012/03/measure-your-websites-performance-with.html">Google Analytics Site Speed Report</a>.  Before we put up the data, there are a few caveats to make:</p> <ul> <li>For the day in question (11/14/12) we are providing data for the top three browsers that our customers use, all of which support the <a href="http://calendar.perfplanet.com/2011/a-practical-guide-to-the-navigation-timing-api/">Navigation Timing API</a>.  This gives us the most accurate RUM data we can get, but introduces a small bias.  This sample encompassed 43% of our customers on this day.</li> <li>This isn’t completely apples to apples, since Google Analytics (GA) uses average load time by default and WebPagetest/LogNormal use median load time.  The problem with averages has been <a href="http://www.youtube.com/watch?v=coNDCIMH8bk">well</a> <a href="http://37signals.com/svn/posts/1836-the-problem-with-averages">documented</a>, so it’s a shame that GA still gives us averages only.  To get rough median numbers from GA we used the technique described in <a href="http://www.michaelwhitaker.com/blog/2011/11/21/site-speed-median/">this post</a>.  This results in the range that you will see on the chart below.</li> <li>The WebPagetest numbers are for logged out users, and we don't have signed in vs signed out data from LogNormal or Google Analytics on that day, so those numbers cover all users (both logged-in and logged-out).  We expect numbers for logged-out users to be slightly faster, since there is less logic to do on the backend and there are some missing UI elements on the front-end in some cases.</li> <li>The WebPagetest 50/50 numbers are calculated by taking the average of the empty cache and full cache WebPagetest measurements (more on that below).</li> </ul> <p>With those points out of the way, here is the data:<b id="internal-source-marker_0.28392136516049504"></b></p> <p><a href="http://etsycodeascraft.files.wordpress.com/2012/11/browser-performance-charts-jklein-final-fix-01.png"><img class="aligncenter size-full wp-image-2736" alt="" src="http://etsycodeascraft.files.wordpress.com/2012/11/browser-performance-charts-jklein-final-fix-01.png?w=531&#038;h=1138" height="1138" width="531" /></a></p> <p>So what’s going on here?  Our RUM data is faster than our synthetic data in all cases, and in all cases except for one (Shop pages in Chrome 23) our two RUM sources agree. Let's see if we can explain the difference in our findings from Steve's.  According to Google Analytics, 72% of our visitors are repeat visitors, which probably means that their cache is at least partly full.  Since <a href="http://www.stevesouders.com/blog/2012/10/11/cache-is-king/">cache is king</a> when it comes to performance, this gives real users a huge advantage performance wise over a synthetic test with an empty cache.  In addition, around 60% of our visits are from signed-in users, who likely visit a lot of the same URLs (their shop page, profile page, their listings) which means that their cache hit rate will be even higher.  We tried to account for this with the WebPagetest 50/50 numbers, but it's possible that the hit rate of our customers is higher than that (this is on our list of things to test).  Also, the WebPagetest requests were using a DSL connection (1.5 Mbps/384 Kbps, with 50ms round trip latency), and our users tend to have significantly more bandwidth than that:</p> <p style="text-align:left;"><b id="internal-source-marker_0.28392136516049504"> <img class="aligncenter" style="border:1px solid black;" alt="" src="https://lh6.googleusercontent.com/iR6cU-PUXAJbsmDJ58yGfIQi_P1HLDF15PaaycOV2ebjf-HnSp_iIVo3xrSab39ELUzNPbNBr38be8YG4vYzKwyOYTGeCQUQ9DL6URLxK_RvvgqPQc4k" height="322px;" width="443px;" /></b></p> <p>It's encouraging to see that LogNormal and Google Analytics agree so closely, although GA provides a wide range of possible medians, so we can't be 100% confident about assessment.  The one anomaly there is Shop pages in Chrome 23, and we don't have a great explanation for this discrepancy.  Sample size is fairly similar (GA has 38K samples to LogNormal's 60K), and the numbers for logged-in vs. logged-out numbers are the same in LogNormal, so it's not related to that.  The histogram in LogNormal looks pretty clean, and the margin of error is only 56ms.  GA and LogNormal <em>do</em> use separate sampling mechanisms, so there could be a bias in one of them that causes this difference.  Luckily it isn't large enough to worry too much about. It’s worth pointing out that when we start looking at higher percentiles in our real user monitoring things start to degrade pretty quickly.  The 95th percentile load time as reported in LogNormal for Chrome 23 is 8.9 seconds &#8211; not exactly fast (in Google Analytics the 95th percentile falls into the 7-9 seconds bucket).  Once you get out this far you are essentially monitoring the performance of last mile internet connectivity, which is typically well beyond your control (unless you can <a href="http://googlefiberblog.blogspot.com/">build fiber to your customers' doorsteps</a>).</p> <p style="text-align:left;">Overall we are showing different results than what Steve predicted, but we think this can be largely explained by our huge percentage of repeat visitors, and by the fact that we are using a DSL connection for our synthetic tests.  The takeaway message here is that having more data is always a good thing, and it's important to look at both synthetic and RUM data when monitoring performance.  We will be sure to post both sets of data in our next update.</p> <br /> <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/etsycodeascraft.wordpress.com/2685/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/etsycodeascraft.wordpress.com/2685/" /></a> <img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=codeascraft.etsy.com&#038;blog=16220466&#038;post=2685&#038;subd=etsycodeascraft&#038;ref=&#038;feed=1" width="1" height="1" />
+]]>
+</content:encoded>
+<wfw:commentRss>
+http://codeascraft.etsy.com/2012/11/29/measuring-front-end-performance-with-real-users/feed/
+</wfw:commentRss>
+<slash:comments>6</slash:comments>
+<media:content url="http://1.gravatar.com/avatar/72f8175ac13e367bb500dd4da1f1aa32?s=96&amp;d=identicon&amp;r=G" medium="image">
+<media:title type="html">jkleinvt</media:title>
+</media:content>
+<media:content url="http://etsycodeascraft.files.wordpress.com/2012/11/browser-performance-charts-jklein-final-fix-01.png" medium="image"/>
+<media:content url="https://lh6.googleusercontent.com/iR6cU-PUXAJbsmDJ58yGfIQi_P1HLDF15PaaycOV2ebjf-HnSp_iIVo3xrSab39ELUzNPbNBr38be8YG4vYzKwyOYTGeCQUQ9DL6URLxK_RvvgqPQc4k" medium="image"/>
+</item>
+<item>
+<title>October 2012 Site Performance Report</title>
+<link>
+http://codeascraft.etsy.com/2012/11/09/october-2012-site-performance-report/
+</link>
+<comments>
+http://codeascraft.etsy.com/2012/11/09/october-2012-site-performance-report/#comments
+</comments>
+<pubDate>Fri, 09 Nov 2012 15:23:46 +0000</pubDate>
+<dc:creator>Jonathan Klein</dc:creator>
+<category>
+<![CDATA[ performance ]]>
+</category>
+<guid isPermaLink="false">http://codeascraft.etsy.com/?p=2647</guid>
+<description>
+<![CDATA[
+It’s been about four months since our last performance report, and we wanted to provide an update on where things stand as we go into the holiday season and our busiest time of the year.  Overall the news is very good! Server Side Performance Here are the median and 95th percentile load times for core [...]<img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=codeascraft.etsy.com&#038;blog=16220466&#038;post=2647&#038;subd=etsycodeascraft&#038;ref=&#038;feed=1" width="1" height="1" />
+]]>
+</description>
+<content:encoded>
+<![CDATA[
+<p>It’s been about four months since our <a href="http://codeascraft.etsy.com/2012/07/12/june-2012-site-performance-report/">last performance report</a>, and we wanted to provide an update on where things stand as we go into the holiday season and our busiest time of the year.  Overall the news i
+]]>
+<![CDATA[
+s very good!</p> <p><strong>Server Side Performance</strong></p> <p>Here are the median and 95th percentile load times for core pages, Wednesday 10/24/12:</p> <p><a href="http://etsycodeascraft.files.wordpress.com/2012/11/server-side-performance-chart-v3.png"><img class="aligncenter size-full wp-image-2675" title="Server Side Performance Chart" alt="" src="http://etsycodeascraft.files.wordpress.com/2012/11/server-side-performance-chart-v3.png?w=531&#038;h=577" height="577" width="531" /></a></p> <p>As you can see, load times declined significantly across all pages.  A portion of this improvement is due to ongoing efforts we are making in Engineering to improve performance in our application code.  The majority of this dip, however, resulted from upgrading all of our webservers to new machines using <a href="http://en.wikipedia.org/wiki/Sandy_Bridge_(microarchitecture)">Sandy Bridge</a> processors.  With Sandy Bridge we saw not only a significant drop in load time across the board, but also a dramatic increase in the amount of traffic that a given server can handle before performance degrades.  You can clearly see when the cutover happened in the graph below:</p> <p style="text-align:left;"><a href="http://etsycodeascraft.files.wordpress.com/2012/11/sandybridge-performance-improvement1.png"><img class="aligncenter wp-image-2655" title="Sandy Bridge Rollout" alt="" src="http://etsycodeascraft.files.wordpress.com/2012/11/sandybridge-performance-improvement1.png?w=510&#038;h=377" height="377" width="510" /></a><span style="text-align:left;">This improvement is a great example of how operational changes can have a dramatic impact on performance.  We tend to focus heavily on making software changes to reduce load time, but it is important to remember that sometimes vertically scaling your infrastructure and buying faster hardware is the quickest and most effective way to speed up your site.  It’s a good reminder that when working on performance projects you should be willing to make changes in any layer of the stack.</span></p> <p><strong>Front-end Performance</strong></p> <p>Since our last update we have a more scientific way of measuring front-end performance, using a <a href="https://sites.google.com/a/webpagetest.org/docs/private-instances">hosted version of WebPagetest</a>.  This enables us to run many synthetic tests a day, and slice the data however we want.  Here are the latest numbers, gathered with IE8 from Virginia over a DSL connection as a signed in Etsy user:</p> <p><a href="http://etsycodeascraft.files.wordpress.com/2012/11/frontend-performance-chart-v3.png"><img class="aligncenter size-full wp-image-2676" title="Front-end Performance Chart" alt="" src="http://etsycodeascraft.files.wordpress.com/2012/11/frontend-performance-chart-v3.png?w=531&#038;h=577" height="577" width="531" /></a></p> <p>These are median numbers across all of the runs on 10/24/12, and we run tests every 30 minutes.  Most of the pages are slower as compared to the last update, and we believe that this is due to using our hosted version of WebPagetest and aggregating many tests instead of looking at single tests on the public instance.  By design, our new method of measurement should be more stable over the long term, so our next update should give a more realistic view of trends over time.</p> <p>You might be surprised that we are using synthetic tests for this front-end report instead of Real User Monitoring <a href="http://en.wikipedia.org/wiki/Real_user_monitoring">(RUM)</a> data.  RUM is a big part of performance monitoring at Etsy, but when we are looking at trends in front-end performance over time, synthetic testing allows us to eliminate much of the network variability that is inherent in real user data.  This helps us tie performance regressions to specific code changes, and get a more stable view of performance overall.  We believe that this approach highlights elements of page load time that developers can impact, instead of things like <a href="http://en.wikipedia.org/wiki/Content_delivery_network">CDN</a> performance and last mile connectivity which are beyond our control.</p> <p><strong>New Baseline Performance Measurements</strong></p> <p>Another new thing we created is an extremely basic page that allows us to track the lower limit on load time for Etsy.com.  This page just includes our standard header and footer, with no additional code or assets.  We generate some artificial load on this page and monitor its performance.  This page represents the overhead of our application framework, which includes things like our application configuration (<a href="http://code.flickr.com/2009/12/02/flipping-out/">config flag system</a>), translation architecture, security filtering and input sanitization, ORM, and our templating layer.  Having visibility into these numbers is important, since improving them impacts every page on the site.  Here is the current data on that page:</p> <p><a href="http://etsycodeascraft.files.wordpress.com/2012/11/baseline.png"><img class="aligncenter size-full wp-image-2666" title="baseline" alt="" src="http://etsycodeascraft.files.wordpress.com/2012/11/baseline.png?w=531&#038;h=306" height="306" width="531" /></a>Over the next few months we hope to bring these numbers down while at the same time bringing the performance of the rest of the site closer to our baseline.</p> <br /> <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/etsycodeascraft.wordpress.com/2647/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/etsycodeascraft.wordpress.com/2647/" /></a> <img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=codeascraft.etsy.com&#038;blog=16220466&#038;post=2647&#038;subd=etsycodeascraft&#038;ref=&#038;feed=1" width="1" height="1" />
+]]>
+</content:encoded>
+<wfw:commentRss>
+http://codeascraft.etsy.com/2012/11/09/october-2012-site-performance-report/feed/
+</wfw:commentRss>
+<slash:comments>24</slash:comments>
+<media:content url="http://1.gravatar.com/avatar/72f8175ac13e367bb500dd4da1f1aa32?s=96&amp;d=identicon&amp;r=G" medium="image">
+<media:title type="html">jkleinvt</media:title>
+</media:content>
+<media:content url="http://etsycodeascraft.files.wordpress.com/2012/11/server-side-performance-chart-v3.png" medium="image">
+<media:title type="html">Server Side Performance Chart</media:title>
+</media:content>
+<media:content url="http://etsycodeascraft.files.wordpress.com/2012/11/sandybridge-performance-improvement1.png" medium="image">
+<media:title type="html">Sandy Bridge Rollout</media:title>
+</media:content>
+<media:content url="http://etsycodeascraft.files.wordpress.com/2012/11/frontend-performance-chart-v3.png" medium="image">
+<media:title type="html">Front-end Performance Chart</media:title>
+</media:content>
+<media:content url="http://etsycodeascraft.files.wordpress.com/2012/11/baseline.png" medium="image">
+<media:title type="html">baseline</media:title>
+</media:content>
+</item>
+<item>
+<title>Scaling User Security</title>
+<link>
+http://codeascraft.etsy.com/2012/10/09/scaling-user-security/
+</link>
+<comments>
+http://codeascraft.etsy.com/2012/10/09/scaling-user-security/#comments
+</comments>
+<pubDate>Tue, 09 Oct 2012 20:14:00 +0000</pubDate>
+<dc:creator>Zane Lackey</dc:creator>
+<category>
+<![CDATA[ engineering ]]>
+</category>
+<category>
+<![CDATA[ security ]]>
+</category>
+<guid isPermaLink="false">http://codeascraft.etsy.com/?p=2604</guid>
+<description>
+<![CDATA[
+Summer is ending New security features Sweeping in like Fall The Etsy Security Team is extremely happy to announce the simultaneous release of three important security features: Two factor authentication, full site SSL support, and viewable login history data. We believe that these protections are industry best practice, and we're excited to offer them proactively [...]<img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=codeascraft.etsy.com&#038;blog=16220466&#038;post=2604&#038;subd=etsycodeascraft&#038;ref=&#038;feed=1" width="1" height="1" />
+]]>
+</description>
+<content:encoded>
+<![CDATA[
+<p><em>Summer is ending</em><br /> <em>New security features</em><br /> <em>Sweeping in like Fall</em></p> <p>The Etsy Security Team is extremely happy to announce the simultaneous release of three important security features: Two factor authentication, full site SSL support, and viewable login hist
+]]>
+<![CDATA[
+ory data. We believe that these protections are industry best practice, and we're excited to offer them proactively to our members on an opt-in basis as a further commitment to account safety. A high level overview of the features is available <a href="http://www.etsy.com/blog/news/2012/safety
+]]>
+<![CDATA[
+-and-privacy-first/">here</a>, while on Code as Craft we wanted to talk a bit more about the engineering that went into the SSL and two factor authentication features.<br /> </br></p> <h2>Rolling out Full Site SSL</h2> <p>When we initially discussed making the site fully accessible over SSL, we thought it might be a simple change given our architecture at the time. During this time period we relied on our load balancers to both terminate SSL and maintain the logic as to which pages were forced to HTTPS, which were forced to HTTP, and which could be either. To test out our “simple change” hypothesis we set up a test where we attempted to make the site fully SSL by disabling our load balancer rules that forced some pages down to HTTP. After this triggered a thrilling explosion in the error logs, we realized things weren’t going to be quite that easy.</p> <p>The first step was to make our codebase HTTPS friendly. This meant cleaning up a significant number of hard coded “http://” links, and making all our URL generating functions HTTPS aware. In some cases this meant taking advantage of <a href="http://stackoverflow.com/questions/3583103/network-path-reference-uri-scheme-relative-urls">scheme relative URLs</a>. We also needed to verify that all of our image storage locations, and our various CDNs could all play nicely with SSL.</p> <p>Next up was moving the logic for enforcing whether a URL could be HTTP, HTTPS, or both from the load balancer to the application itself. With the logic on the load balancer, adding or changing a rule went like this:</p> <ol> <li>Engineer makes a ticket for ops</li> <li>Ops logs into the load balancer admin interface</li> <li>Ops needs to update the rule in three places (our development, preprod, and prod environments)</li> <li>Ops lets engineer know rule was updated, hopes all is well</li> <li>In case of rollback, ops has to go back into admin interface, find the rule (the admin interface did not sort them in any meaningful way), change the rule back, and hope for the best</li> </ol> <p>In this flow, changes have to be tracked through a change ticket system not source control and there is no way for other engineers to see what has been updated. Why is application logic in our load balancers anyway? Wat?</p> <p>To address these issues, we moved all HTTPS vs HTTP logic into the web server via a combination of .htaccess rules and hooks in our controller code. This new approach provided us with far greater granularity on how to apply rules to specific URLs. Now we can specify how URLs are handled for groups of users (sellers, admins, etc) or even individual users instead of using load balancer rules in an all-or-nothing global fashion. Finally, the move meant all of this code now lives in git which enables transparency across the organization.</p> <h3>HSTS</h3> <p><a href="http://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security">HSTS</a> is a new header the instructs browsers to only connect to a specific domain over HTTPS in order to provide a defense against certain man-in-the-middle attacks. As part of our rollout we are making use of this header when a user opts in to full site SSL. Initially we are setting a low timeout value for HSTS during rollout to ensure things operate smoothly, and we’ll be increasing this value via a <a href="http://codeascraft.etsy.com/2011/02/04/how-does-etsy-manage-development-and-operations/">config push</a> over time as we’re confident there will be no issues.</p> <h3>Why not use full site SSL for all members and visitors?</h3> <p>First and foremost, rolling out SSL as the default for all site traffic is something we're actively working on and feel is the best practice to be striving towards. As with any large scale change in site-wide traffic, capacity and performance are significant concerns. Our goal with making this functionality available on an opt-in basis at first is to provide it to those members who use riskier shared network mediums such as public WiFi. Going forward, we’re analyzing metrics around CDN performance (especially for our international members), page performance times of SSL vs non-SSL, and overall load balancer SSL capacity. When we’re confident in the performance and capacity figures, we’re excited to continue moving towards defaulting to full site SSL for all members and visitors.<br /> </br></p> <h2>Two factor authentication</h2> <p>Our main focus during the course of our two factor authentication project (aside from security) was how to develop and apply metrics to create the best user experience possible over the long term. Specifically, the questions we wanted to be able to answer about the voice call/SMS delivery providers we selected were:</p> <ul> <li>&#8220;Does provider A deliver codes faster than provider B?&#8221;</li> <li>&#8220;Does provider A deliver codes more reliably than provider B?&#8221;</li> <li>&#8220;Can we easily swap out provider A for provider C? or D? or F?&#8221;</li> </ul> <h3>Provider abstraction</h3> <p>From the beginning we decided that we did not want to be tied to a single provider, so abstraction was critical. We went about achieving this in two ways:</p> <ol> <li>Only relying on the provider for transmission of the code to a member. All code generation and verification is performed in our application, and the providers are simply used as “dumb” delivery mechanisms.</li> <li>Abstracting our code to keep it as generic and provider-agnostic as possible. This makes it easy to swap providers around and plug in new ones whenever we wish.</li> </ol> <h3>Metrics and performance testing</h3> <p>There are two main provider metrics we analyze when it comes to signins with 2FA:</p> <ol> <li>Time from code generation to signin (aka: How long did the provider take to deliver the code?)</li> <li>Number of times a code is requested to be resent (aka: Was the provider reliable in delivering the code?)</li> </ol> <p>These metrics allow us to analyze a providers’ quality over time, and allow us to make informed choices such as which provider we should use for members in specific geographical locations.</p> <p>In order to collect this data from multiple providers, we make heavy use of <a href="http://codeascraft.etsy.com/2012/06/21/building-websites-with-science/">A/B testing</a>. This approach lets us easily balance the usage of providers A and B one week, and B and C the next. Finally, from a SPOF and resiliency point of view this architecture also makes it painless to fail over to another provider if one goes down.</p> <p>In closing, we hope you’ll give these new features a shot by visiting your <a href="https://www.etsy.com/your/account/security">Security Settings</a> page, and we’re excited to continue building proactive security mechanisms for our members.</p> <p></br><br /> This post was co-written by Kyle Barry and Zane Lackey on behalf of the Etsy Security Team.</p> <br /> <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/etsycodeascraft.wordpress.com/2604/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/etsycodeascraft.wordpress.com/2604/" /></a> <img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=codeascraft.etsy.com&#038;blog=16220466&#038;post=2604&#038;subd=etsycodeascraft&#038;ref=&#038;feed=1" width="1" height="1" />
+]]>
+</content:encoded>
+<wfw:commentRss>
+http://codeascraft.etsy.com/2012/10/09/scaling-user-security/feed/
+</wfw:commentRss>
+<slash:comments>5</slash:comments>
+<media:content url="http://1.gravatar.com/avatar/a68ab4e195bdcf3e6db0bb788fb66a6b?s=96&amp;d=identicon&amp;r=G" medium="image">
+<media:title type="html">zanelackey</media:title>
+</media:content>
+</item>
+<item>
+<title>Announcing the Etsy Security Bug Bounty Program</title>
+<link>
+http://codeascraft.etsy.com/2012/09/11/announcing-the-etsy-security-bug-bounty-program/
+</link>
+<comments>
+http://codeascraft.etsy.com/2012/09/11/announcing-the-etsy-security-bug-bounty-program/#comments
+</comments>
+<pubDate>Tue, 11 Sep 2012 17:41:22 +0000</pubDate>
+<dc:creator>Zane Lackey</dc:creator>
+<category>
+<![CDATA[ security ]]>
+</category>
+<guid isPermaLink="false">http://codeascraft.etsy.com/?p=2586</guid>
+<description>
+<![CDATA[
+On April 17 of this year we launched our responsible disclosure page (http://www.etsy.com/help/article/2463). At the time, our goal was to provide security researchers with a direct point of contact if they had identified a vulnerability in our site, API, or mobile application. Thus far we've received excellent reports from researchers, as well as some exciting [...]<img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=codeascraft.etsy.com&#038;blog=16220466&#038;post=2586&#038;subd=etsycodeascraft&#038;ref=&#038;feed=1" width="1" height="1" />
+]]>
+</description>
+<content:encoded>
+<![CDATA[
+<p>On April 17 of this year we launched our responsible disclosure page (<a href="http://www.etsy.com/help/article/2463">http://www.etsy.com/help/article/2463</a>). At the time, our goal was to provide security researchers with a direct point of contact if they had identified a vulnerability in our
+]]>
+<![CDATA[
+site, API, or mobile application. Thus far we've received excellent reports from researchers, as well as some exciting offers from Nigerian princes.</p> <p>Today, we'd like to take this a step further and announce the launch our security bug bounty program. Our goal is to reward security researchers who follow responsible disclosure principles and proactively reach out to us if they've identified a vulnerability which would impact the safety of our marketplace or members. We believe that this is industry best practice. Our bounty program will pay a minimum of $500 for qualifying vulnerabilities, subject to a few conditions and with qualification determined by the Etsy Security Team. This bounty will be increased at our discretion for distinctly creative or severe security bugs. To give it the proper Etsy feel, we'll also be throwing in some handmade thank-you's such as an Etsy Security Team T-shirt. Additionally, we'll be retroactively applying the bounty to vulnerabilities that have been reported to us since the launch of our responsible disclosure page earlier this year.</p> <p>You can find the full information on the new program here: <a href="http://www.etsy.com/help/article/2463">http://www.etsy.com/help/article/2463</a></p> <br /> <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/etsycodeascraft.wordpress.com/2586/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/etsycodeascraft.wordpress.com/2586/" /></a> <img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=codeascraft.etsy.com&#038;blog=16220466&#038;post=2586&#038;subd=etsycodeascraft&#038;ref=&#038;feed=1" width="1" height="1" />
+]]>
+</content:encoded>
+<wfw:commentRss>
+http://codeascraft.etsy.com/2012/09/11/announcing-the-etsy-security-bug-bounty-program/feed/
+</wfw:commentRss>
+<slash:comments>12</slash:comments>
+<media:content url="http://1.gravatar.com/avatar/a68ab4e195bdcf3e6db0bb788fb66a6b?s=96&amp;d=identicon&amp;r=G" medium="image">
+<media:title type="html">zanelackey</media:title>
+</media:content>
+</item>
+</channel>
+</rss>

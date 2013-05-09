@@ -1,0 +1,77 @@
+<html>
+  
+  <head>
+    <title>rss.trackerd.com</title>
+
+    <link href="/static/css/rsstrackerd.css" media="screen" rel="stylesheet" type="text/css">
+
+    <script type="text/javascript" src="/static/js/addins.js"></script>
+    <script type="text/javascript" src="/static/js/rsstrackerd.js"></script>
+  </head>
+
+  <body>
+    <div class="header">
+      <span class="logo"><strong>rss.trackerd</strong></span>
+      
+      <ul class="accountinfo">
+        <li><a href="/feeds/import" data-pjax="">Settings</a></li>
+        <li class="divider-vertical"></li>
+        <li class="">
+          <a href="/main/logout" class="dropdown" data-toggle="dropdown">logout</a>
+        </li>
+      </ul>      
+    </div>
+    
+    <div class="mainbodycontent">
+      
+      <div class="sidecontrols">
+      
+        <div class="section {% block home_style %}{% endblock %}"><a href="/">Home</a></div>
+
+        <div class="section {% block allitems_style %}{% endblock %}"><a href="/main/allitems">All Items</a></div>
+
+        <div class="section {% block favorites_style %}{% endblock %}">Favorites</div>
+
+        <div class="section">Subscriptions</div>
+
+        {% block subscriptions_section %}
+
+        {% if subscriptions %}
+          {% for subscription in subscriptions %}
+          <div class="subsection">
+            <a href="/main/subscription/{{ subscription.encode_name }}">{{ subscription.name }} </a><br/>
+          </div>
+          {% endfor %}
+        
+        {% endif %}
+
+        {% endblock %}
+      
+      </div>
+
+
+      <div class="maincontent">
+          <div class="toptoolbar">
+            {% block toptoolbar %}
+            xx base default contents xx
+            {% endblock %}
+          </div>
+
+        
+        <div class="maincontenttext">
+            {% block maincontenttext %}
+            xx base default contents xx
+            {% endblock %}
+        </div>
+        
+      </div>
+      
+
+      <div class="adspace">
+        &nbsp;
+      </div>
+
+    </div>
+
+  </body>
+</html>

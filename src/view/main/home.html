@@ -1,0 +1,21 @@
+{% extends "main/base.html" %}
+
+{% block toptoolbar %}
+&nbsp;  <!-- There's nothing in the toolbar area on the home page -->
+{% endblock %}
+
+{% block home_style %}selected{% endblock %}
+
+{% block maincontenttext %}
+  <h2>Welcome {{ user.email }}. 
+    {% if subscr_count > 0 %}
+        You have <a href="/main/allitems">{{ unread_count }}</a> unread items. </h2>
+    {% else %}
+        </h2> <br/>
+        You don't have any subscriptions yet.
+        <a href="import/import">Import</a> your google reader subscriptions. <br/>
+    {% endif %}
+
+  <br/><br/><a href="#">Configure</a> your account.<br/>
+
+{% endblock %}
